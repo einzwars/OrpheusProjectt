@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class CheckPointObject : MonoBehaviour
 {
-    public StageManager stageManager;
+    StageManager stageManager;
     Animator checkAni;
 
     void Start()
     {
-        checkAni = GetComponent<Animator>();
+        stageManager = GameObject.Find("StageManager").GetComponent<StageManager>();
+        checkAni = gameObject.GetComponent<Animator>();
     }
     void Update()
     {
-        if(stageManager.checkSave)
-        {
-            checkAni.SetTrigger("CheckTrigger");
-        }
+    }
+    public void AniIn()
+    {
+        checkAni.SetTrigger("CheckTrigger");
     }
 }

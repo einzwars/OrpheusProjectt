@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class DamageDirector : MonoBehaviour
 {
-    public StageManager stageManager;
+    StageManager stageManager;
+
+    private void Start()
+    {
+        stageManager = GameObject.Find("StageManager").GetComponent<StageManager>();        
+    }
 
     public void OnDameged(Vector2 targetPos)
     {

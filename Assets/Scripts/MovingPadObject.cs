@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MovingPadObject : MonoBehaviour
 {
-    public PlayerController player;    
+    public PlayerController player;
+    public StageManager stageManager;
     public bool playerIn;
     public bool change;
     public float centerPositionX;
@@ -12,11 +13,13 @@ public class MovingPadObject : MonoBehaviour
     public float goalPosition;
     public float moveLeach = 5;
     public float reactionLeach = 5;
+    public float movingSpeed = 0.01f;    
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.Find("Player").GetComponent<PlayerController>();
+        stageManager = GameObject.Find("StageManager").GetComponent<StageManager>();
         centerPositionX = gameObject.transform.position.x;
         centerPositionY = gameObject.transform.position.y;
         goalPosition = centerPositionX + moveLeach;
@@ -24,26 +27,25 @@ public class MovingPadObject : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        float nowPosition = gameObject.transform.position.x;
-        float playerPosition = player.transform.position.x;        
-        if(playerPosition < (centerPositionX + reactionLeach) && playerPosition > (centerPositionX - reactionLeach))
+    {        
+        float nowPosition = gameObject.transform.position.x;            
+        if(stageManager.playerPos.position.x < (centerPositionX + reactionLeach) && stageManager.playerPos.position.x > (centerPositionX - reactionLeach))
         {
             if (change == false)
             {
-                gameObject.transform.Translate(0.01f, 0, 0);                
+                gameObject.transform.Translate(movingSpeed, 0, 0);                
                 if(playerIn == true)
                 {                    
-                    player.gameObject.transform.Translate(0.01f, 0, 0);
+                    player.gameObject.transform.Translate(movingSpeed, 0, 0);
                 }
                 
             }
             else if (change == true)
             {
-                gameObject.transform.Translate(-0.01f, 0, 0);
+                gameObject.transform.Translate(-movingSpeed, 0, 0);
                 if (playerIn == true)
                 {
-                    player.gameObject.transform.Translate(-0.01f, 0, 0);
+                    player.gameObject.transform.Translate(-movingSpeed, 0, 0);
                 }
             }
             if (nowPosition > goalPosition)

@@ -8,7 +8,7 @@ using UnityEngine.UIElements;
 
 public class CameraController : MonoBehaviour{
     
-    public Transform playerPos;  // 플레이어의 포지션 값
+    Transform playerPos;  // 플레이어의 포지션 값
     public float speed;          // 카메라의 적용할 스피드
     public Vector2 center;       // 카메라의 최대 거리를 측정할 중심점
     public Vector2 size;         // 카메라의 최대 거리를 측정할 부피
@@ -18,8 +18,9 @@ public class CameraController : MonoBehaviour{
 
     void Start()
     {
+        playerPos = GameObject.Find("Player").GetComponent<Transform>();
         height = Camera.main.orthographicSize;          // 카메라가 비추는 세로 높이 계산
-        width = height * Screen.width / Screen.height;  // 카메라가 비추는 가로 길이 계산
+        width = height * Screen.width / Screen.height;  // 카메라가 비추는 가로 길이 계산        
     }
 
     private void OnDrawGizmos()

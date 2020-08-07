@@ -16,11 +16,16 @@ TagManager:
   - MonMoveRange
   - Death
   - JumpPad
-  - SpeedUp
   - Fall
   - Check
   - Quarter
-  - SpeedDown
+  - Wait
+  - RockIn
+  - RockOut
+  - Next
+  - Cave
+  - RightBoost
+  - LeftBoost
   layers:
   - Default
   - TransparentFX
@@ -50,7 +55,7 @@ TagManager:
   - MonHitBoxCollider
   - 
   - MonMoveRange
-  - MonAttGenPoint
+  - 
   - 
   - 
   - 

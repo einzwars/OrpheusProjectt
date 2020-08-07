@@ -8,7 +8,10 @@ public class MoveManager : MonoBehaviour
 
     EventSystem eventSystem;
     PlayerController player;
-    
+    private void Start()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
     public void Init()
     {
         eventSystem = GameObject.Find("EventSystem").GetComponent<EventSystem>();

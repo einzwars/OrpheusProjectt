@@ -10,10 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 9068395503788755988}
   - component: {fileID: 2791386034721171627}
-  - component: {fileID: 1164182607117867860}
+  - component: {fileID: -7221688911811917980}
+  - component: {fileID: -8651030382380398598}
   m_Layer: 0
   m_Name: Sign
-  m_TagString: Untagged
+  m_TagString: Wait
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1164182607117867860
+--- !u!61 &-7221688911811917980
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,19 +93,52 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.125, y: 1.25}
+    oldSize: {x: 0.28125, y: 0.3125}
     newSize: {x: 1.125, y: 1.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.125, y: 1.25}
+  m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
+--- !u!114 &-8651030382380398598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6133801443571059783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4a6712abb814ae4a8f3e666f5bb2334, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  stageManager: {fileID: 0}
+  waitText: {fileID: 0}
+  waitIndex: 0
+  waitList:
+  - "\uD50C\uB808\uC774\uC5B4\uB294 \uC0C1, \uD558, \uC88C, \uC6B0 \uD0A4\uB97C \uC774\uC6A9\uD558\uC5EC
+    \uC6C0\uC9C1\uC785\uB2C8\uB2E4."
+  - "\uC810\uD504 \uD0A4\uB97C \uB204\uB974\uBA74 \uCE90\uB9AD\uD130\uAC00 \uC810\uD504\uD569\uB2C8\uB2E4"
+  - "\uBD89\uC740 \uBE14\uB7ED\uC740 \uC7A5\uC2DC\uAC04 \uBA38\uBB34\uB974\uBA74
+    \uC704\uD5D8\uD569\uB2C8\uB2E4"
+  - "\uD478\uB978 \uBE14\uB7ED \uC704\uC5D0\uC11C\uB294 \uD50C\uB808\uC774\uC5B4\uC758
+    \uC18D\uB3C4\uAC00 \uC99D\uAC00\uD569\uB2C8\uB2E4"
+  - "\uC810\uD504 \uBC1C\uD310\uC5D0 \uC624\uB97C \uC2DC \uD50C\uB808\uC774\uC5B4\uAC00
+    \uB192\uAC8C \uB6F0\uC5B4\uC624\uB974\uAC8C \uB429\uB2C8\uB2E4"
+  - "\uACF5\uACA9 \uBC84\uD2BC\uC744 \uC774\uC6A9\uD558\uC5EC \uBAAC\uC2A4\uD130\uB97C
+    \uACF5\uACA9\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4"
+  - "\uB2E4\uC591\uD55C \uC544\uC774\uD15C\uC740 \uD50C\uB808\uC774\uB97C \uB354\uC6B1
+    \uC774\uB86D\uAC8C \uD569\uB2C8\uB2E4"
+  - 
+  - 
+  - 

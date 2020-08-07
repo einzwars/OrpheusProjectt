@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameDirector : MonoBehaviour
 {
-    public PlayerController player;
+    PlayerController player;
     Rigidbody2D playerRigid2D;  // Rigidbody2D 컴포넌트를 참조하기 위한 변수    
 
 

@@ -4,19 +4,60 @@ using UnityEngine;
 
 public class StageManager : MonoBehaviour
 {
-    public PlayerController player;    
-    public NextObject nextObject;
-    public QuarterObject quarterObject;
+    public PlayerController player;
+    public Transform playerPos;
+    public NextObject nextObject;    
     public JumpPadObject jumpPadObject;
     public DamageDirector damageDirector;
     public FallObject fallObject;
     public CheckPointObject checkPointObject;
-    public bool jumpCheck;      // 점프대를 진행했는지 확인하는 변수
-    public bool checkSave;      // 세이브포인트 진입을 확인하는 변수
-    public float jumpPadFirst;  // 최초 점프값
+    public WaitObject waitObject;    
+    public RollingRockSpan rollingRockSpan;
+    public DarkSmogObject darkSmogObject;
+    public bool checkSave;      // 세이브포인트 진입을 확인하는 변수    
     public bool fallPadTimerOn = false;     // 타이머 발생 여부 계산용 변수
-
-
+    public bool waitIn = false;     // 표지판 안의 들어갔음을 확인하는 변수
+    
+    void Start()
+    {        
+        player = GameObject.Find("Player").GetComponent<PlayerController>();
+        playerPos = GameObject.Find("Player").transform;
+        damageDirector = GameObject.Find("DamageDirector").GetComponent<DamageDirector>();
+        nextObject = GameObject.Find("NextStage").GetComponent<NextObject>();
+        jumpPadObject = GameObject.Find("JumpPad").GetComponent<JumpPadObject>();
+        fallObject = GameObject.Find("FallObject").GetComponent<FallObject>();
+        checkPointObject = GameObject.Find("CheckPoint").GetComponent<CheckPointObject>();
+        waitObject = GameObject.Find("Sign").GetComponent<WaitObject>();
+    }
+    private void Update()
+    {   
+        darkSmogObject = GameObject.Find("CaveCanvus").GetComponent<DarkSmogObject>();
+        rollingRockSpan = GameObject.Find("RollingStoneSpan").GetComponent<RollingRockSpan>();
+        if (player.hitObject == "RightBoost" && player.moveDir > 0)
+        {
+            player.maxSpeed = 6.0f;
+        }
+        if (player.hitObject == "RightBoost" && player.moveDir < 0)
+        {
+            player.maxSpeed = 2.0f;
+        }
+        if (player.hitObject == "RightBoostOut")
+        {
+            player.maxSpeed = 4.0f;
+        }
+        if (player.hitObject == "LeftBoost" && player.moveDir < 0)
+        {
+            player.maxSpeed = 6.0f;
+        }
+        if (player.hitObject == "LeftBoost" && player.moveDir > 0)
+        {
+            player.maxSpeed = 2.0f;
+        }
+        if (player.hitObject == "LeftBoostOut")
+        {
+            player.maxSpeed = 4.0f;
+        }
+    }
     public void activeObject()
     {
         Debug.Log(player.hitObject);
@@ -26,35 +67,15 @@ public class StageManager : MonoBehaviour
             {
                 nextObject.NextStage();
             }
-            if (player.quarterPoint == 1)
-            {
-                nextObject.OtherStage();
-            }
         }
         if (player.hitObject == "Quarter")
         {
-            quarterObject.QuaterPointUp();          
+            player.quarterPoint = +1;
+            Destroy(player.takeObject);
         }
         if (player.hitObject == "JumpPad")
         {
-            jumpCheck = true;                           // 점프 확인 변수를 트루로 변경
-            jumpPadFirst = player.transform.position.y; // 캐릭터의 현재 y값을 기록한다
-        }
-        if (player.hitObject == "SpeedUp")
-        {
-            player.maxSpeed = 10.0f;
-        }
-        if (player.hitObject == "SpeedUpOut")
-        {
-            player.maxSpeed = 5.0f;
-        }
-        if (player.hitObject == "SpeedDown")
-        {
-            player.maxSpeed = 2.5f;
-        }
-        if (player.hitObject == "SpeedDownOut")
-        {
-            player.maxSpeed = 5.0f;
+            jumpPadObject.Jump();            
         }
         if (player.hitObject == "Peak" || player.hitObject == "Death")
         {
@@ -66,18 +87,42 @@ public class StageManager : MonoBehaviour
         }
         if (player.hitObject == "FallOut")
         {
+            Debug.Log("아웃 진입");
             fallObject.timer = 0;
             fallPadTimerOn = false;
         }
         if (player.hitObject == "Check")
         {
-            checkSave = true;
+            checkPointObject.AniIn();
+        }
+        if (player.hitObject == "Wait")
+        {
+            if(player.name == "FirstSign")
+            Debug.Log("진입");
+            waitIn = true;
+        }
+        if (player.hitObject == "WaitOut")
+        {
+            waitIn = false;
+            waitObject.waitText.gameObject.SetActive(false);
+        }
+        if (player.hitObject == "RockIn")
+        {
+            rollingRockSpan.RockSpan();
+        }
+        if (player.hitObject == "RockOut")
+        {
+            rollingRockSpan.RockDestroy();
+        }
+        if (player.hitObject == "Cave")
+        {
+            Debug.Log("인 진입");
+            darkSmogObject.InsideCace();
+        }
+        if (player.hitObject == "CaveOut")
+        {
+            Debug.Log("인 진입");
+            darkSmogObject.OutsideCace();
         }
     }
-
-
-
-
-
-
 }
