@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3788385048396430251}
   - component: {fileID: 4123978026878415276}
   - component: {fileID: 3512150992087468427}
+  - component: {fileID: 3924822615620985014}
   m_Layer: 20
   m_Name: MonFireBullet
   m_TagString: Monster
@@ -141,3 +142,15 @@ CircleCollider2D:
   m_Offset: {x: -0.02187252, y: 0}
   serializedVersion: 2
   m_Radius: 0.043961525
+--- !u!114 &3924822615620985014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3788385048396430248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbce720b21c3f7047806cf6a75c70305, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

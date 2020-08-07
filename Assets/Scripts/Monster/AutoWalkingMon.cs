@@ -10,7 +10,7 @@ public class AutoWalkingMon : Monster
     {
         monsterHP = 3;
 
-        monsterSpeed = 2f;
+        monsterSpeed = 1f;
         moveVelocity = Vector3.right;
     }
 

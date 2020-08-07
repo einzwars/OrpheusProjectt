@@ -42,17 +42,21 @@ public class Monster : MonoBehaviour
     public Vector3 moveVelocity; // 초기 움직임 방향
     public Vector3 rayDir; // Ray 쏘는 방향
 
+    public SpriteRenderer sr;
+
 
     protected void Awake()
     {
         rb2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        sr = gameObject.GetComponent<SpriteRenderer>();
 
         StartCoroutine(ResetCollider());
         StartCoroutine(CalcAttDelay());
         StartCoroutine(CalcHitAniDelay());
 
     }
+
 
     IEnumerator ResetCollider()
     {
@@ -166,11 +170,27 @@ public class Monster : MonoBehaviour
     {
         if(canAtt)
         {
-            GameObject MonAtt = Instantiate(Bullet, genPoint.position, transform.rotation);
-            MonAtt.GetComponent<Rigidbody2D>().velocity = transform.right * -transform.localScale.x * 10f;
-            MonAtt.transform.localScale = new Vector2(transform.localScale.x, 1f);
+
+            if (sr.flipX)    // true면 원래의 반대방향 보고 있는 것
+            {
+                GameObject MonAtt = Instantiate(Bullet, genPoint.position, transform.rotation);
+
+                MonAtt.GetComponent<Rigidbody2D>().velocity = transform.right * -transform.localScale.x * 10f;
+                MonAtt.transform.localScale = new Vector2(transform.localScale.x, 1f);
+
+                Destroy(MonAtt, 2);
+
+            }
+            else if(!sr.flipX)
+            {
+                GameObject MonAtt = Instantiate(Bullet, genPoint.position, transform.rotation);
+
+                MonAtt.GetComponent<Rigidbody2D>().velocity = transform.right * transform.localScale.x * 10f;
+                MonAtt.transform.localScale = new Vector2(transform.localScale.x, 1f);
+                Destroy(MonAtt, 2);
+
+            }
             canAtt = false;
-            animator.SetTrigger("Attack");
         }
     }
 
