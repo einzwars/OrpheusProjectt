@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 1325796936551939437}
   - component: {fileID: 1325796936551939434}
   - component: {fileID: 1325796936551939435}
-  m_Layer: 21
+  m_Layer: 20
   m_Name: MonAttack
-  m_TagString: MonAtt
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
