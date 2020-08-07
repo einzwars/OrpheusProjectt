@@ -9,8 +9,6 @@ public class AutoWalkingMon2 : Monster
     void Start()
     {
         monsterHP = 3;
-
-        monsterSpeed = 2f;
         moveVelocity = Vector3.right;
     }
 

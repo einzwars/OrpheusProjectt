@@ -39023,21 +39023,6 @@ MonoBehaviour:
   inputLeft: 0
   inputRight: 0
   inputJump: 0
-  fireballPrefab: {fileID: 7679241366489747042, guid: a35fcec1ceee6234393bd0ba536958f9,
-    type: 3}
-  blueballPrefab: {fileID: 1942256237751133771, guid: 3f018fa2cb02b2442911cd9385cb0998,
-    type: 3}
-  notePrefab: {fileID: 6712877314508088658, guid: a50e729755b6e4b4db53daf0a76c3bb5,
-    type: 3}
-  threeBallPrefab: {fileID: 7679241366489747042, guid: a35fcec1ceee6234393bd0ba536958f9,
-    type: 3}
-  pomulPrefab: {fileID: 1942256237751133771, guid: 3f018fa2cb02b2442911cd9385cb0998,
-    type: 3}
-  fireballAtk: 0
-  blueballAtk: 0
-  basicAtk: 0
-  threeBall: 0
-  pomul: 0
   life: 5
   maxLife: 5
   hearts:
@@ -39052,7 +39037,7 @@ MonoBehaviour:
     type: 3}
   takeObject: {fileID: 0}
   gameDirector: {fileID: 46504048}
-  stageManager: {fileID: 0}
+  stageManager: {fileID: 734677216}
   damageDirector: {fileID: 1963416596}
   playerPos: {fileID: 722894026}
   playerCol: {fileID: 722894021}
@@ -39062,6 +39047,7 @@ MonoBehaviour:
   rb: {fileID: 0}
   sr: {fileID: 0}
   anim: {fileID: 0}
+  itemManager: {fileID: 0}
 --- !u!61 &722894021 stripped
 BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 2714144672190730436, guid: d4a8730807396d947953a8ea093035e1,
@@ -56831,12 +56817,12 @@ PrefabInstance:
     - target: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.25
+      value: -0.71
       objectReference: {fileID: 0}
     - target: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.68
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
         type: 3}

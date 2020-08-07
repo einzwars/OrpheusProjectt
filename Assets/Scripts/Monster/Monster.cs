@@ -75,11 +75,11 @@ public class Monster : MonoBehaviour
             if (!canAtt)
             {
 
+                animator.SetTrigger("Idle");
+
                 monsterAttTimer -= Time.deltaTime;
                 if (monsterAttTimer <= 0)
                 {
-                    animator.SetTrigger("Idle");
-
                     monsterAttTimer = monsterAttCoolTime;
                     canAtt = true;
                 }
@@ -107,7 +107,6 @@ public class Monster : MonoBehaviour
         monsterMoveFlag = Random.Range(0, 3);
         Debug.Log(monsterMoveFlag);
         yield return new WaitForSeconds(2f); // 함수가 돌고 5초가 지나면 탈출
-
         StartCoroutine("KeepingMove");
 
     }
@@ -143,7 +142,6 @@ public class Monster : MonoBehaviour
             animator.SetTrigger("Hit");
             hitAniPlay = true;
         }
-
     }
 
 
@@ -157,7 +155,7 @@ public class Monster : MonoBehaviour
 
     public void MonsterDeath()
     {
-        if(monsterHP == 1)
+        if(monsterHP <= 0 )
         {
             Destroy(this.gameObject);
             Debug.Log("주금");

@@ -23,6 +23,17 @@ public class AttackMon : Monster
         
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.CompareTag("Attack"))
+        {
+            TakeDamage();
+            animator.SetTrigger("Hit");
+            hitAniPlay = true;
+        }
+    }
+
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -35,7 +46,9 @@ public class AttackMon : Monster
         {
             Fire();
         }
-        
+
+        MonsterDeath();
+
     }
 
     public void Move()

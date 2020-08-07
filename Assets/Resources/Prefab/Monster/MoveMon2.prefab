@@ -58,7 +58,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8375301634268496065}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.866, y: 0.966, z: 54.46875}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children:
@@ -191,7 +191,7 @@ MonoBehaviour:
   monsterAtt: 0
   monsterAttSpeed: 0
   monsterDef: 0
-  monsterSpeed: 0
+  monsterSpeed: 1
   monsterJumpPower: 0
   monsterAttCoolTime: 0
   monsterAttTimer: 0
