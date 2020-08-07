@@ -35,7 +35,7 @@ public class WaitObject : MonoBehaviour
             {
                 if (stageManager.playerPos.position.y < (centerPositionY + reactionLeach) && stageManager.playerPos.position.y > (centerPositionY - reactionLeach))
                 {
-                    waitText.transform.position = new Vector3(centerPositionX, centerPositionY + 1, 0);
+                    waitText.transform.position = new Vector3(centerPositionX, centerPositionY + 0.4f, 0);
                     waitText.text = waitList[waitIndex];
                     waitText.gameObject.SetActive(true);                    
                 }

@@ -7,8 +7,8 @@ public class RaberObject : MonoBehaviour
     PlayerController player;
     StageManager stageManager;    
     public int raberIndex;
-    float centerPositionX;
-    float centerPositionY;
+    public float centerPositionX;
+    public float centerPositionY;
     float reactionLeach = 1f;
     public bool[] raberList;
 

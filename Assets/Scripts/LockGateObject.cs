@@ -9,12 +9,12 @@ public class LockGateObject : MonoBehaviour
     float centerPositionX;
     float centerPositionY;
     float goalPositionY;
-    public float moveLeach = 5;
+    public float moveLeach = 5;    
     
     // Start is called before the first frame update
     void Start()
     {
-        raberObject = GameObject.Find("Raber").GetComponent<RaberObject>();        
+        raberObject = GameObject.Find("Raber"+lockIndex.ToString()).GetComponent<RaberObject>();        
         centerPositionX = gameObject.transform.position.x;
         centerPositionY = gameObject.transform.position.y;
         goalPositionY = centerPositionY + moveLeach;
@@ -29,14 +29,14 @@ public class LockGateObject : MonoBehaviour
         {
             if(nowPositionY < goalPositionY)
             {
-                gameObject.transform.Translate(0, 0.1f, 0);
+                this.gameObject.transform.Translate(0, 100f, 0);
             }            
         }
         if (raberObject.raberList[lockIndex] == false)
         {
             if (nowPositionY > centerPositionY)
             {
-                gameObject.transform.Translate(0, -0.1f, 0);
+                this.gameObject.transform.Translate(0, -100f, 0);
             }
         }
     }

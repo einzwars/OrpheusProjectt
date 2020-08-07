@@ -200,9 +200,9 @@ MonoBehaviour:
   centerPositionX: 0
   centerPositionY: 0
   goalPosition: 0
-  moveLeach: 1.5
+  moveLeach: 1
   reactionLeach: 5
-  movingSpeed: 0.01
+  movingSpeed: 0.02
 --- !u!19719996 &7367093394131350366
 TilemapCollider2D:
   m_ObjectHideFlags: 0
