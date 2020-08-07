@@ -6,7 +6,6 @@ using UnityEngine.EventSystems;
 public class MoveManager : MonoBehaviour
 {
 
-    EventSystem eventSystem;
     PlayerController player;
     private void Start()
     {
@@ -14,7 +13,6 @@ public class MoveManager : MonoBehaviour
     }
     public void Init()
     {
-        eventSystem = GameObject.Find("EventSystem").GetComponent<EventSystem>();
         player = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 

@@ -30,6 +30,53 @@ Transform:
   m_Father: {fileID: 5672841808113165528}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7418976352162288257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5909722327709971086}
+  - component: {fileID: 4824982835760039759}
+  m_Layer: 25
+  m_Name: HitBoxCollider
+  m_TagString: MonHitBoxCollider
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5909722327709971086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7418976352162288257}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5672841808113165528}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &4824982835760039759
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7418976352162288257}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.03638792, y: -0.0069381}
+  m_Size: {x: 0.30082226, y: 0.46996856}
+  m_Direction: 0
 --- !u!1 &8667143113741628391
 GameObject:
   m_ObjectHideFlags: 0
@@ -45,9 +92,9 @@ GameObject:
   - component: {fileID: 2648926519528950125}
   - component: {fileID: 485081648287288566}
   - component: {fileID: -5471240455502856509}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: MoveMon3
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64,6 +111,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4816617414162054744}
+  - {fileID: 5909722327709971086}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -169,7 +217,7 @@ MonoBehaviour:
   monsterMoveFlag: 0
   rb2D: {fileID: 0}
   monsterAttCollider: {fileID: 0}
-  hitBoxCollider: {fileID: 0}
+  hitBoxCollider: {fileID: 7418976352162288257}
   animator: {fileID: 0}
   Bullet: {fileID: 0}
   layerMask:

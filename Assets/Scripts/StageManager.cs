@@ -31,8 +31,7 @@ public class StageManager : MonoBehaviour
     }
     private void Update()
     {   
-        darkSmogObject = GameObject.Find("CaveCanvus").GetComponent<DarkSmogObject>();
-        rollingRockSpan = GameObject.Find("RollingStoneSpan").GetComponent<RollingRockSpan>();
+        
         if (player.hitObject == "RightBoost" && player.moveDir > 0)
         {
             player.maxSpeed = 6.0f;
@@ -63,14 +62,11 @@ public class StageManager : MonoBehaviour
         Debug.Log(player.hitObject);
         if(player.hitObject == "Next")
         {
-            if (player.quarterPoint < 1)
-            {
-                nextObject.NextStage();
-            }
+            nextObject.NextStage();
         }
-        if (player.hitObject == "Quarter")
+        if (player.hitObject == "Quarter")  // 스테이지별 분기 아이템 태그? 수정 필요
         {
-            player.quarterPoint = +1;
+            DataController.Instance.gameData.stageOneItemValue += 1;
             Destroy(player.takeObject);
         }
         if (player.hitObject == "JumpPad")

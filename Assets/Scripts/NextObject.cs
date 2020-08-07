@@ -12,23 +12,12 @@ public class NextObject : MonoBehaviour
     private void Start()
     {
         player = GameObject.Find("Player").GetComponent<PlayerController>();
-        startPosition = GameObject.Find("StartPositionObject").GetComponent<Transform>();
+        // startPosition = GameObject.Find("StartPositionObject").GetComponent<Transform>();
     }
 
     public void NextStage()  // 1번 분기일 때 스테이지를 이동하는 변수
     {
         player.transform.position = startPosition.transform.position;
-        SceneManager.LoadScene("Stage" + loadSceneNum);
+        SceneManager.LoadScene("StageSelectScene");
     }
-
-
-
-
-
-
-
-
-
-
-
 }

@@ -18,7 +18,7 @@ public class GameDirector : MonoBehaviour
 
     public void PlayerReposition()  // 플레이어를 스테이지 출발지로 이동시키는 메소드
     {
-        player.transform.position = new Vector3(0, 0, 0);  // 플레이어의 위치를 출발지로 이동
+        player.transform.position = player.playerPos;  // 플레이어의 위치를 출발지로 이동
         VelocityZero();                             // 플레이어 벨로시티 값 초기화
     }
 

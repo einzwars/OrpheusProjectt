@@ -46,10 +46,9 @@ public class PlayerController : MonoBehaviour
     public GameDirector gameDirector;      // 디렉터 대입
     public StageManager stageManager;      // 스테이지 매니저 대입
     public DamageDirector damageDirector;      // 데미지 디렉터 대입
-    public Transform playerPos;            // 플레이어 포지션 대입
+    public Vector3 playerPos;            // 플레이어 포지션 대입
     public Collider2D playerCol; // Collider2D 컴포넌트를 참조하기 위한 변수
     public string hitObject;  // 플레이어가 맞닿은 오브젝트
-    public int quarterPoint;       // 분기 포인트
     public Vector2 enemyPosition;
 
 
@@ -62,12 +61,14 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        playerPos = new Vector3(-8f, -2.92f, 0);
+        gameObject.transform.position = playerPos;
+        savePoint = playerPos;
         rb = GetComponent<Rigidbody2D>();
         playerCollider = GetComponents<BoxCollider2D>();
-        sr = GetComponent<SpriteRenderer>();
-        anim = GetComponent<Animator>();
+        sr = gameObject.GetComponent<SpriteRenderer>();
+        anim = gameObject.GetComponent<Animator>();
         itemManager = GameObject.Find("ItemManager").GetComponent<ItemManager>();
-        savePoint = new Vector3(1, -8.04f, 1);
         stageManager = GameObject.Find("StageManager").GetComponent<StageManager>();
 
         MoveManager moveBtn = GameObject.Find("MoveManager").GetComponent<MoveManager>();
@@ -349,7 +350,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        // itemManager.ItemApply(collision);
+        itemManager.ItemApply(collision);
 
         takeObject = collision.gameObject;
         hitObject = collision.gameObject.tag;
