@@ -26,19 +26,42 @@ public class FlyAttMon : Monster
     // Update is called once per frame
     void FixedUpdate()
     {
-        Vector2 frontVec = new Vector2(rb2D.position.x, rb2D.position.y);
-        Debug.DrawRay(frontVec, Vector3.left, Color.yellow);
-        RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.left, 100, LayerMask.GetMask("Player"));
-        if (rayHit.collider != null)
+        if(sr.flipX)
         {
-            animator.SetTrigger("Attack");
+            Vector2 frontVec = new Vector2(rb2D.position.x, rb2D.position.y);
+            Debug.DrawRay(frontVec, Vector3.left, Color.yellow);
+            RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.left, 300, LayerMask.GetMask("Player"));
+            if (rayHit.collider != null)
+            {
+                animator.SetTrigger("Attack");
+
+            }
+            else if (rayHit.collider == null)
+            {
+                animator.SetTrigger("Idle");
+
+            }
 
         }
-        else if (rayHit.collider == null)
+        else if(!sr.flipX)
         {
-            animator.SetTrigger("Idle");
+            Vector2 frontVec = new Vector2(rb2D.position.x, rb2D.position.y);
+            Debug.DrawRay(frontVec, Vector3.right, Color.yellow);
+            RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.right, 300, LayerMask.GetMask("Player"));
+            if (rayHit.collider != null)
+            {
+                animator.SetTrigger("Attack");
+
+            }
+            else if (rayHit.collider == null)
+            {
+                animator.SetTrigger("Idle");
+
+            }
 
         }
+
+
 
         MonsterDeath();
 

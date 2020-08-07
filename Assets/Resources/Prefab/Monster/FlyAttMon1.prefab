@@ -12,7 +12,7 @@ GameObject:
   m_Layer: 20
   m_Name: genPoint
   m_TagString: Untagged
-  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2265833862379388881}
   m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.267, y: -0.019, z: 0}
+  m_LocalPosition: {x: -0.039, y: -0.02, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2265833863884510379}
@@ -89,7 +89,7 @@ Transform:
   m_GameObject: {fileID: 2265833863884510376}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 20.282, y: 1.369, z: 0}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2265833862379388882}
   - {fileID: 2265833863811467332}
@@ -134,11 +134,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 3474317602018386267, guid: 53526842945d06c468c1237f8edf553c,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.5, y: 1.5}
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerDamage: 1
-  monsterHP: 0
+  monsterHP: 3
   monsterMaxHP: 0
   monsterAtt: 0
   monsterAttSpeed: 0
@@ -208,6 +208,7 @@ MonoBehaviour:
   genPoint: {fileID: 2265833862379388882}
   moveVelocity: {x: 0, y: 0, z: 0}
   rayDir: {x: 0, y: 0, z: 0}
+  sr: {fileID: 0}
 --- !u!50 &2265833863884510381
 Rigidbody2D:
   serializedVersion: 4
@@ -216,7 +217,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2265833863884510376}
-  m_BodyType: 2
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0

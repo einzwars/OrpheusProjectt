@@ -71,7 +71,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3431755852521293936}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.403, y: -0.034, z: 0}
+  m_LocalPosition: {x: -0.142, y: -0.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3431755853692848315}
@@ -203,7 +203,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!70 &3431755853692848313
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -262,3 +262,4 @@ MonoBehaviour:
   genPoint: {fileID: 3431755852521293943}
   moveVelocity: {x: 0, y: 0, z: 0}
   rayDir: {x: 0, y: 0, z: 0}
+  sr: {fileID: 0}
