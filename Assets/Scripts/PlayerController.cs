@@ -29,8 +29,24 @@ public class PlayerController : MonoBehaviour
     // 플레이어 조작 트리거
     public bool inputLeft = false;
     public bool inputRight = false;
-    public bool inputJump = false;    
-    bool isUnBeatTime;
+    public bool inputJump = false;
+
+    // 아이템 변경 필드
+    public GameObject fireballPrefab;
+    public GameObject blueballPrefab;
+    public GameObject notePrefab;
+    public GameObject threeBallPrefab;
+    public GameObject pomulPrefab;
+    public bool fireballAtk;
+    public bool blueballAtk;
+    public bool basicAtk;
+    public bool threeBall;
+    public bool pomul;
+    int RedPotion = 50;
+    int BluePotion = 30;
+    // 탄창 UI
+    int LeftBullet;
+    Text LeftBulletText;
 
     // 플레이어 스탯
     public int life;
@@ -38,7 +54,7 @@ public class PlayerController : MonoBehaviour
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
-    bool isDelay = false;
+    bool isDelay = false;    
     Vector3 savePoint;  // 플레이어 세이브포인트 위치 저장
 
     // 맵 상호작용 필드
@@ -58,7 +74,6 @@ public class PlayerController : MonoBehaviour
     BoxCollider2D[] playerCollider;
     public SpriteRenderer sr;
     public Animator anim;
-    public ItemManager itemManager;
 
     void Start()
     {
@@ -66,12 +81,11 @@ public class PlayerController : MonoBehaviour
         playerCollider = GetComponents<BoxCollider2D>();
         sr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
-        itemManager = GameObject.Find("ItemManager").GetComponent<ItemManager>();
+        LeftBulletText = GameObject.Find("LeftBullet").GetComponent<Text>();
         savePoint = new Vector3(1, -8.04f, 1);
-        stageManager = GameObject.Find("StageManager").GetComponent<StageManager>();
 
-        MoveManager moveBtn = GameObject.Find("MoveManager").GetComponent<MoveManager>();
-        moveBtn.Init();
+        MoveManager ui = GameObject.Find("MoveManager").GetComponent<MoveManager>();
+        ui.Init();
     }
 
     void Update()
@@ -99,9 +113,19 @@ public class PlayerController : MonoBehaviour
         }
         else if(dashCountDown){
             dashTimer += Time.deltaTime;
-        }       
+        }
+        
+        this.LeftBulletText.text = "남은 탄창: "+this.LeftBullet.ToString();
+        if (LeftBullet == 0)
+        {
+            fireballAtk = false;
+            blueballAtk = false;
+            threeBall = false;
+            pomul = false;
+            basicAtk = true;
+        }
 
-        if(transform.position.y < -10){
+        if(transform.position.y < -10)  {
             life = 0;
             gameDirector.PlayerReposition();
         }
@@ -200,39 +224,59 @@ public class PlayerController : MonoBehaviour
     }
 
     public void Attack(){   // 테스트용 공격 메소드
-        if(itemManager.pomul == true && !isDelay){
+        if(fireballAtk == true && !isDelay){
             anim.SetTrigger("Attack");
             isDelay = true;
             if(!sr.flipX)
-                Instantiate(itemManager.pomulPrefab as GameObject, new Vector3(transform.position.x+1, transform.position.y+0.5f, transform.position.z), Quaternion.Euler(0, 0, 30));
+                Instantiate(fireballPrefab as GameObject, new Vector3(transform.position.x+1, transform.position.y+1, transform.position.z), transform.rotation);
             else if(sr.flipX)
-                Instantiate(itemManager.pomulPrefab as GameObject, new Vector3(transform.position.x-1, transform.position.y+0.5f, transform.position.z), Quaternion.Euler(0, 0, -30));
-            itemManager.ConsumeBullet();
+                Instantiate(fireballPrefab as GameObject, new Vector3(transform.position.x-1, transform.position.y+1, transform.position.z), transform.rotation);
+            ConsumeBullet();
             StartCoroutine(AttackDelay());
         }
-        else if(itemManager.threeBall == true && !isDelay){
+        else if(blueballAtk == true && !isDelay){
+            anim.SetTrigger("Attack");
+            isDelay = true;
+            if(!sr.flipX)
+                Instantiate(blueballPrefab as GameObject, new Vector3(transform.position.x+1, transform.position.y+1, transform.position.z), transform.rotation);
+            else if(sr.flipX)
+                Instantiate(blueballPrefab as GameObject, new Vector3(transform.position.x-1, transform.position.y+1, transform.position.z), transform.rotation);
+            ConsumeBullet();
+            StartCoroutine(AttackDelay());
+        }
+        else if(pomul == true && !isDelay){
+            anim.SetTrigger("Attack");
+            isDelay = true;
+            if(!sr.flipX)
+                Instantiate(pomulPrefab as GameObject, new Vector3(transform.position.x+1, transform.position.y+1, transform.position.z), Quaternion.Euler(0, 0, 30));
+            else if(sr.flipX)
+                Instantiate(pomulPrefab as GameObject, new Vector3(transform.position.x-1, transform.position.y+1, transform.position.z), Quaternion.Euler(0, 0, -30));
+            ConsumeBullet();
+            StartCoroutine(AttackDelay());
+        }
+        else if(threeBall == true && !isDelay){
             anim.SetTrigger("Attack");
             isDelay = true;
             if(!sr.flipX){
-                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x+1, transform.position.y+0.5f, transform.position.z), Quaternion.Euler(0, 0, -10));
-                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x+1, transform.position.y+0.5f, transform.position.z), Quaternion.Euler(0, 0, 0));
-                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x+1, transform.position.y+0.5f, transform.position.z), Quaternion.Euler(0, 0, 10));
+                Instantiate(threeBallPrefab as GameObject, new Vector3(transform.position.x+1, transform.position.y+1, transform.position.z), Quaternion.Euler(0, 0, -10));
+                Instantiate(threeBallPrefab as GameObject, new Vector3(transform.position.x+1, transform.position.y+1, transform.position.z), Quaternion.Euler(0, 0, 0));
+                Instantiate(threeBallPrefab as GameObject, new Vector3(transform.position.x+1, transform.position.y+1, transform.position.z), Quaternion.Euler(0, 0, 10));
             }
             else if(sr.flipX){
-                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x-1, transform.position.y+0.5f, transform.position.z), Quaternion.Euler(0, 0, -10));
-                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x-1, transform.position.y+0.5f, transform.position.z), Quaternion.Euler(0, 0, 0));
-                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x-1, transform.position.y+0.5f, transform.position.z), Quaternion.Euler(0, 0, 10));
+                Instantiate(threeBallPrefab as GameObject, new Vector3(transform.position.x-1, transform.position.y+1, transform.position.z), Quaternion.Euler(0, 0, -10));
+                Instantiate(threeBallPrefab as GameObject, new Vector3(transform.position.x-1, transform.position.y+1, transform.position.z), Quaternion.Euler(0, 0, 0));
+                Instantiate(threeBallPrefab as GameObject, new Vector3(transform.position.x-1, transform.position.y+1, transform.position.z), Quaternion.Euler(0, 0, 10));
             }
-            itemManager.ConsumeBullet();
+            ConsumeBullet();
             StartCoroutine(AttackDelay());
         }
-        else if(itemManager.basicAtk == true && !isDelay){
+        else if(basicAtk == true && !isDelay){
             anim.SetTrigger("Attack");
             isDelay = true;
             if(!sr.flipX)
-                Instantiate(itemManager.notePrefab as GameObject, new Vector3(transform.position.x+1, transform.position.y+0.5f, transform.position.z), transform.rotation);
+                Instantiate(notePrefab as GameObject, new Vector3(transform.position.x+1, transform.position.y+1, transform.position.z), transform.rotation);
             else if(sr.flipX)
-                Instantiate(itemManager.notePrefab as GameObject, new Vector3(transform.position.x-1, transform.position.y+0.5f, transform.position.z), transform.rotation);
+                Instantiate(notePrefab as GameObject, new Vector3(transform.position.x-1, transform.position.y+1, transform.position.z), transform.rotation);
             StartCoroutine(AttackDelay());
         }
     }
@@ -248,7 +292,13 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector3(savePoint.x, savePoint.y, savePoint.z);
             life = maxLife;
         }
-    }    
+    }
+
+    public void ConsumeBullet() {
+            if (LeftBullet > 0) { // 남은 총알이 0보다 많을 때만 탄창이 줄어듬
+            this.LeftBullet -= 1;
+        }
+    }
 
     bool IsPlayingAnim(string animName){
         if(anim.GetCurrentAnimatorStateInfo(0).IsName(animName)){
@@ -304,52 +354,49 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-
-    IEnumerator UnBeatTime(){
-        int countTime = 0;
-        while(countTime < 10){
-            if(countTime%2 == 0)
-                sr.color = new Color32(255, 255, 255, 90);
-            else
-                sr.color = new Color32(255, 255, 255, 180);
-            
-            yield return new WaitForSeconds(0.2f);
-
-            countTime++;
-        }
-
-        sr.color = new Color32(255, 255, 255, 255);
-        isUnBeatTime = false;
-
-        yield return null;
-    }
-
     private void OnTriggerEnter2D(Collider2D collision){
-        Debug.Log(collision);
         if(collision.gameObject.tag == "Background" || collision.gameObject.tag == "Platform")
             dashChance = true;
-        if(collision.gameObject.tag == "Check"){
+        if(collision.gameObject.tag == "SavePoint"){
             savePoint = transform.position;
             Debug.Log("세이브!");
         }
-        if(collision.gameObject.tag == "Monster" && !collision.isTrigger){
-            Vector2 attackedVelocity = Vector2.zero;
-            if(collision.gameObject.transform.position.x > transform.position.x)
-                attackedVelocity = new Vector2(-3f, 3f);
-            else
-                attackedVelocity = new Vector2(3f, 3f);
-            
-            rb.AddForce(attackedVelocity, ForceMode2D.Impulse);
-
-            life--;
-
-            if(life > 1){
-                isUnBeatTime = true;
-                StartCoroutine("UnBeatTime");
-            }
+        if (collision.gameObject.name == "Item1") {// 태그에 맞는 아이템과 충돌시 삭제
+            Destroy(collision.gameObject);
+            LeftBullet = RedPotion;
+            fireballAtk = true; // 조건 충족시 여러 방법의 공격중 이것만 활성화
+            blueballAtk = false;
+            threeBall = false;
+            pomul = false;
+            basicAtk = false;
         }
-
-        itemManager.ItemApply(collision);
+        if(collision.gameObject.name == "Item2") {
+            Destroy(collision.gameObject);
+            LeftBullet = BluePotion;
+            blueballAtk = true;
+            fireballAtk = false;
+            threeBall = false;
+            pomul = false;
+            basicAtk = false;
+        }
+        if(collision.gameObject.name == "threeballItem"){
+            Destroy(collision.gameObject);
+            LeftBullet = BluePotion;
+            blueballAtk = false;
+            fireballAtk = false;
+            threeBall = true;
+            pomul = false;
+            basicAtk = false;
+        }
+        if(collision.gameObject.name == "pomulItem"){
+            Destroy(collision.gameObject);
+            LeftBullet = BluePotion;
+            blueballAtk = false;
+            fireballAtk = false;
+            threeBall = false;
+            pomul = true;
+            basicAtk = false;
+        }
 
         takeObject = collision.gameObject;
         hitObject = collision.gameObject.tag;
