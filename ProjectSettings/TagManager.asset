@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Monster
+  - Attack
+  - Trigger
+  - SavePoint
+  - blueball
+  - redball
+  - MonHitBoxCollider
+  - Ground
+  - MonAtt
+  - MonMoveRange
+  - Death
+  - JumpPad
+  - SpeedUp
+  - Fall
+  - Check
+  - Quarter
+  - SpeedDown
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - NoCollision
+  - 
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Monster
+  - MonAtt
+  - 
+  - 
+  - 
+  - MonHitBoxCollider
+  - 
+  - MonMoveRange
+  - MonAttGenPoint
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
