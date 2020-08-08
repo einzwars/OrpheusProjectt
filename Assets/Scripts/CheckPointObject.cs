@@ -6,15 +6,14 @@ public class CheckPointObject : MonoBehaviour
 {
     StageManager stageManager;
     Animator checkAni;
+    public static int checkNum;
 
     void Start()
     {
         stageManager = GameObject.Find("StageManager").GetComponent<StageManager>();
         checkAni = gameObject.GetComponent<Animator>();
     }
-    void Update()
-    {
-    }
+   
     public void AniIn()
     {
         checkAni.SetTrigger("CheckTrigger");

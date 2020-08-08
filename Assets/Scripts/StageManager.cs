@@ -26,7 +26,6 @@ public class StageManager : MonoBehaviour
         nextObject = GameObject.Find("NextStage").GetComponent<NextObject>();
         jumpPadObject = GameObject.Find("JumpPad").GetComponent<JumpPadObject>();
         fallObject = GameObject.Find("FallObject").GetComponent<FallObject>();
-        checkPointObject = GameObject.Find("CheckPoint").GetComponent<CheckPointObject>();
         waitObject = GameObject.Find("Sign").GetComponent<WaitObject>();
     }
     private void Update()
@@ -89,13 +88,15 @@ public class StageManager : MonoBehaviour
         }
         if (player.hitObject == "Check")
         {
+            checkPointObject = GameObject.Find("CheckPoint"+CheckPointObject.checkNum.ToString()).GetComponent<CheckPointObject>();
             checkPointObject.AniIn();
         }
         if (player.hitObject == "Wait")
         {
-            if(player.name == "FirstSign")
-            Debug.Log("진입");
-            waitIn = true;
+            if(player.name == "FirstSign"){
+                Debug.Log("진입");
+                waitIn = true;
+            }
         }
         if (player.hitObject == "WaitOut")
         {

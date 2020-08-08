@@ -11,10 +11,9 @@ GameObject:
   - component: {fileID: 2191017673390890770}
   - component: {fileID: 5942373276794108899}
   - component: {fileID: 5740506868294254435}
-  - component: {fileID: 5740506868294254432}
   - component: {fileID: 5740506868294254434}
   m_Layer: 0
-  m_Name: QuarterJewel
+  m_Name: QuarterItemPrefab
   m_TagString: Quarter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -118,19 +117,6 @@ PolygonCollider2D:
       - {x: 0.1171875, y: -0.0078125}
       - {x: 0.1171875, y: 0.0546875}
       - {x: 0.0703125, y: 0.1015625}
---- !u!114 &5740506868294254432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3986613477572177976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac697331f441e80448d80ff1c44b6a86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stageManager: {fileID: 0}
 --- !u!95 &5740506868294254434
 Animator:
   serializedVersion: 3

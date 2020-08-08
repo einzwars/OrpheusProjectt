@@ -77,6 +77,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(rb.velocity.y);
         PlayerInput();  // 이동
         GroundCheck();
         PlayerAnim();
@@ -327,7 +328,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision){
         Debug.Log(collision);
-        if(collision.gameObject.tag == "Background" || collision.gameObject.tag == "Platform")
+        if(collision.gameObject.tag == "Background")
             dashChance = true;
         if(collision.gameObject.tag == "Check"){
             savePoint = transform.position;
@@ -371,11 +372,6 @@ public class PlayerController : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
-        // if(collision.gameObject.tag == "Attack"){
-        //     life -= 1;
-        //     Debug.Log("플레이어 피격!");
-        // }
-
         takeObject = collision.gameObject;
         hitObject = collision.gameObject.tag;
         enemyPosition = collision.transform.position;        

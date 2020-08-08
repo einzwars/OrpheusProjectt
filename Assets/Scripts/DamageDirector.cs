@@ -18,8 +18,8 @@ public class DamageDirector : MonoBehaviour
             stageManager.player.life = 0;
             // gameObject.layer = 9;  // 무적 스크립트
             stageManager.player.sr.color = new Color(1, 1, 1, 0.4f);   // 플레이어 스프라이트를 어둡게 변경
-            int dirc = stageManager.player.transform.position.x - targetPos.x > 0 ? 1 : -1;      // 맞고 멀리 날아감
-            stageManager.player.rb.AddForce(new Vector2(dirc, 1) * 7, ForceMode2D.Impulse);
+            // int dirc = stageManager.player.transform.position.x - targetPos.x > 0 ? 1 : -1;      // 맞고 멀리 날아감
+            // stageManager.player.rb.AddForce(new Vector2(dirc, 1) * 7, ForceMode2D.Impulse);
             Invoke("OffDameged", 3);
         }
         if (stageManager.player.hitObject == "Death")
@@ -27,8 +27,8 @@ public class DamageDirector : MonoBehaviour
             stageManager.player.life = 0;
             // gameObject.layer = 9;  // 무적 스크립트
             stageManager.player.sr.color = new Color(1, 1, 1, 0.4f);   // 플레이어 스프라이트를 어둡게 변경
-            int dirc = stageManager.player.transform.position.x - targetPos.x > 0 ? 1 : -1;      // 맞고 멀리 날아감
-            stageManager.player.rb.AddForce(new Vector2(dirc, 1) * 7, ForceMode2D.Impulse);
+            // int dirc = stageManager.player.transform.position.x - targetPos.x > 0 ? 1 : -1;      // 맞고 멀리 날아감
+            // stageManager.player.rb.AddForce(new Vector2(dirc, 1) * 7, ForceMode2D.Impulse);
             Invoke("OffDameged", 3);
         }
     }
