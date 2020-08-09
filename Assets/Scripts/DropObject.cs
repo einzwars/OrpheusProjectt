@@ -33,7 +33,7 @@ public class DropObject : MonoBehaviour
         float nowPositionY = gameObject.transform.position.y;
         if (stageManager.playerPos.position.x < (centerPositionX + reactionLeachX) && stageManager.playerPos.position.x > (centerPositionX - reactionLeachX))
         {
-            if (stageManager.playerPos.position.y < (centerPositionY + reactionLeachY) && stageManager.playerPos.position.y > (centerPositionY - reactionLeachY))
+            if (stageManager.playerPos.position.y < (centerPositionY) && stageManager.playerPos.position.y > (centerPositionY - reactionLeachY))
             {
                 gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;                
                 gameObject.GetComponent<Rigidbody2D>().gravityScale = gravitySpeed;

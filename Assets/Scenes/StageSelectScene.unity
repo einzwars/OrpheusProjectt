@@ -3356,3 +3356,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 418b36c72ab490a44976cba539078609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxItem: 5
+  stageOneItems:
+  - {fileID: 1574317303}
+  - {fileID: 2066997852}
+  - {fileID: 812557210}
+  - {fileID: 1052343150}
+  - {fileID: 310124233}
+  stageTwoItems:
+  - {fileID: 1060632792}
+  - {fileID: 1918026771}
+  - {fileID: 1436626458}
+  - {fileID: 602682905}
+  - {fileID: 655762282}
+  stageThreeItems:
+  - {fileID: 2069692627}
+  - {fileID: 1877799059}
+  - {fileID: 72249350}
+  - {fileID: 685851165}
+  - {fileID: 1681163209}
+  stageFourItems:
+  - {fileID: 321994679}
+  - {fileID: 576870270}
+  - {fileID: 1411143295}
+  - {fileID: 21868969}
+  - {fileID: 32626984}
+  stageFiveItems:
+  - {fileID: 624477535}
+  - {fileID: 1820452598}
+  - {fileID: 181762875}
+  - {fileID: 1946521167}
+  - {fileID: 1395957937}
+  fullQuarter: {fileID: -4060332198805541664, guid: 09d36f560010bde42bb6643632df9339,
+    type: 3}
+  emptyQuarter: {fileID: -7914258920492070198, guid: 09d36f560010bde42bb6643632df9339,
+    type: 3}

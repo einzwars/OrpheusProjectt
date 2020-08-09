@@ -202,7 +202,7 @@ MonoBehaviour:
   goalPosition: 0
   moveLeach: 1
   reactionLeach: 5
-  movingSpeed: 0.02
+  movingSpeed: 0.01
 --- !u!19719996 &7367093394131350366
 TilemapCollider2D:
   m_ObjectHideFlags: 0

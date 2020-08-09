@@ -12,11 +12,12 @@ public class PlayerController : MonoBehaviour
     public bool isGround;
     public float moveDir;
     public float jumpPower;
+    public int jumpCount = 2;
+    public bool isGrounded = false;
     public float AttackSlideRate;
     public float slideRate;
     private float refVelocity = 0.0f;
     float delayTime = 1.0f;
-    bool doubleJump = true;
     public Transform dir;
     
     // 대시
@@ -29,7 +30,7 @@ public class PlayerController : MonoBehaviour
     // 플레이어 조작 트리거
     public bool inputLeft = false;
     public bool inputRight = false;
-    public bool inputJump = false;    
+    public bool inputJump = false;
     bool isUnBeatTime;
 
     // 플레이어 스탯
@@ -49,6 +50,7 @@ public class PlayerController : MonoBehaviour
     public Vector3 playerPos;            // 플레이어 포지션 대입
     public Collider2D playerCol; // Collider2D 컴포넌트를 참조하기 위한 변수
     public string hitObject;  // 플레이어가 맞닿은 오브젝트
+    public string collisionName;
     public Vector2 enemyPosition;
 
 
@@ -70,6 +72,7 @@ public class PlayerController : MonoBehaviour
         anim = gameObject.GetComponent<Animator>();
         itemManager = GameObject.Find("ItemManager").GetComponent<ItemManager>();
         stageManager = GameObject.Find("StageManager").GetComponent<StageManager>();
+        jumpCount = 0;
 
         MoveManager moveBtn = GameObject.Find("MoveManager").GetComponent<MoveManager>();
         moveBtn.Init();
@@ -173,18 +176,13 @@ public class PlayerController : MonoBehaviour
     }
 
     public void Jump(){    // 점프 메소드
-        if(rb.velocity.y == 0){
-            // rb.AddForce(transform.up*jumpPower, ForceMode2D.Impulse);
-            rb.velocity = new Vector2(rb.velocity.x, jumpPower);
-            MyAnimSetTrigger("Jump");
-            doubleJump = true; 
-        }
-        else if(doubleJump && rb.velocity.y!=0){
-            Debug.Log("이단점프!");
-            // rb.AddForce(transform.up*jumpPower, ForceMode2D.Impulse);
-            rb.velocity = new Vector2(rb.velocity.x, jumpPower);
-            MyAnimSetTrigger("Jump");
-            doubleJump = false;
+        if(isGrounded){
+            if(jumpCount>0){
+                // rb.AddForce(transform.up*jumpPower, ForceMode2D.Impulse);
+                rb.velocity = new Vector2(rb.velocity.x, jumpPower);
+                MyAnimSetTrigger("Jump");
+                jumpCount--;
+            }
         }
     }
 
@@ -328,8 +326,6 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision){
         Debug.Log(collision);
-        if(collision.gameObject.tag == "Background")
-            dashChance = true;
         if(collision.gameObject.tag == "Check"){
             savePoint = transform.position;
             Debug.Log("세이브!");
@@ -353,6 +349,7 @@ public class PlayerController : MonoBehaviour
 
         itemManager.ItemApply(collision);
 
+        collisionName = collision.name;
         takeObject = collision.gameObject;
         hitObject = collision.gameObject.tag;
         enemyPosition = collision.transform.position;
@@ -372,6 +369,7 @@ public class PlayerController : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
+        collisionName = collision.gameObject.name;
         takeObject = collision.gameObject;
         hitObject = collision.gameObject.tag;
         enemyPosition = collision.transform.position;        

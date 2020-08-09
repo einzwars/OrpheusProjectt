@@ -88,15 +88,14 @@ public class StageManager : MonoBehaviour
         }
         if (player.hitObject == "Check")
         {
-            checkPointObject = GameObject.Find("CheckPoint"+CheckPointObject.checkNum.ToString()).GetComponent<CheckPointObject>();
+            checkPointObject = GameObject.Find(player.collisionName).GetComponent<CheckPointObject>();
             checkPointObject.AniIn();
+            Invoke("SaveAni", 0.5f);
         }
         if (player.hitObject == "Wait")
         {
-            if(player.name == "FirstSign"){
                 Debug.Log("진입");
                 waitIn = true;
-            }
         }
         if (player.hitObject == "WaitOut")
         {
@@ -121,5 +120,9 @@ public class StageManager : MonoBehaviour
             Debug.Log("인 진입");
             darkSmogObject.OutsideCace();
         }
+    }
+
+    void SaveAni(){
+        checkPointObject.SaveSuccess();
     }
 }

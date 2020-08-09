@@ -204,7 +204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveLeach: 5.5
   reactionLeach: 5
-  movingSpeed: 0.02
+  movingSpeed: 0.01
 --- !u!19719996 &7574900667151016988
 TilemapCollider2D:
   m_ObjectHideFlags: 0

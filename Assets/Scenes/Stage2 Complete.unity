@@ -222,6 +222,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -291,6 +296,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -542,6 +552,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &10421050 stripped
@@ -662,6 +677,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPad (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -774,6 +794,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (161)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -920,6 +945,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -990,6 +1020,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -1003,7 +1038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 47085234}
   - component: {fileID: 47085235}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: StartPositionObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1198,6 +1233,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!1001 &55011438
@@ -1266,6 +1306,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -1433,6 +1478,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -1507,6 +1557,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -1583,6 +1638,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -1703,6 +1763,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -1778,6 +1843,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -1863,6 +1933,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -2463,6 +2538,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &103224756 stripped
@@ -2543,6 +2623,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -2713,6 +2798,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -3069,6 +3159,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -3143,6 +3238,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -3443,6 +3543,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &124078189 stripped
@@ -3518,6 +3623,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -3587,6 +3697,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -3772,6 +3887,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &138380368 stripped
@@ -3847,6 +3967,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -3921,6 +4046,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -4063,6 +4193,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (185)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -4133,52 +4268,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
---- !u!1 &153026056
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 153026057}
-  - component: {fileID: 153026058}
-  m_Layer: 0
-  m_Name: MoveManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &153026057
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 153026056}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 837619749}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &153026058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 153026056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18a36fe7c3c0f354aa99795a5397e20f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &158511935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4245,6 +4342,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -4316,6 +4418,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (140)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -4385,6 +4492,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -4496,6 +4608,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (146)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -4565,6 +4682,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -4722,6 +4844,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPad (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -4839,6 +4966,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -5018,6 +5150,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPad (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -5142,6 +5279,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -5291,6 +5433,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -5360,6 +5507,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (134)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -5580,6 +5732,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &236677100 stripped
@@ -5782,6 +5939,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &251549425 stripped
@@ -5871,6 +6033,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -6142,6 +6309,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!1001 &279882179
@@ -6210,6 +6382,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -6281,6 +6458,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (135)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -6307,6 +6489,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RightBoostTile
+      objectReference: {fileID: 0}
+    - target: {fileID: 7983152163629233432, guid: 611ed9cebeec53d409bbc2c412f4918c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7983152163629233433, guid: 611ed9cebeec53d409bbc2c412f4918c,
         type: 3}
@@ -8607,6 +8794,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MovingTile(UD) (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -9083,6 +9275,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &311282720 stripped
@@ -9186,6 +9383,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (172)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -9255,6 +9457,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (153)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -9426,6 +9633,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -9653,6 +9865,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPad (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -9766,6 +9983,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (162)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -9835,6 +10057,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (148)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -10055,6 +10282,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPad (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -10110,7 +10342,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 380078877}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: MovingTile(UD)Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10342,6 +10574,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &383441104 stripped
@@ -10423,6 +10660,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!1001 &399800541
@@ -10491,6 +10733,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -10568,6 +10815,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (147)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -10638,6 +10890,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -10707,6 +10964,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (180)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -10782,6 +11044,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -10895,6 +11162,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (133)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -11086,6 +11358,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -11162,6 +11439,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sign (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6133801443571059783, guid: a7c589caa90c3384b85cb6ca7223940d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 9068395503788755988, guid: a7c589caa90c3384b85cb6ca7223940d,
         type: 3}
@@ -11293,6 +11575,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -11362,6 +11649,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (159)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -11433,6 +11725,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -11502,6 +11799,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -11692,6 +11994,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -11762,6 +12069,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -11831,6 +12143,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -11906,6 +12223,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -12025,6 +12347,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPad (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -12142,6 +12469,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -12274,6 +12606,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -12343,6 +12680,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (124)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -12414,6 +12756,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -12483,6 +12830,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (158)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -12762,6 +13114,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &516388737 stripped
@@ -12837,6 +13194,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -12911,6 +13273,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -13084,6 +13451,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!1001 &537446833
@@ -13136,7 +13508,7 @@ PrefabInstance:
     - target: {fileID: 6095753154932866705, guid: e4084a066e53b084d8d0cc9b702d153f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6095753154932866705, guid: e4084a066e53b084d8d0cc9b702d153f,
         type: 3}
@@ -13175,7 +13547,7 @@ GameObject:
   - component: {fileID: 538225780}
   - component: {fileID: 538225779}
   - component: {fileID: 538225778}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51336,6 +51708,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -51410,6 +51787,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3943100331096510707, guid: c4fd331088ca6c74098c807ebcb0d3e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3943100331096510708, guid: c4fd331088ca6c74098c807ebcb0d3e8,
         type: 3}
@@ -51688,7 +52070,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &554649367
 GameObject:
@@ -51835,6 +52217,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -51910,6 +52297,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -52021,6 +52413,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (175)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -52097,6 +52494,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sign (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6133801443571059783, guid: a7c589caa90c3384b85cb6ca7223940d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 9068395503788755988, guid: a7c589caa90c3384b85cb6ca7223940d,
         type: 3}
@@ -52228,6 +52630,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (171)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -52240,7 +52647,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 589845461}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52295,7 +52702,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &592113118
 RectTransform:
   m_ObjectHideFlags: 0
@@ -52358,7 +52765,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 837619750}
+      - m_Target: {fileID: 0}
         m_MethodName: Dash
         m_Mode: 1
         m_Arguments:
@@ -52501,6 +52908,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (143)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -52631,6 +53043,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPad (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -52743,6 +53160,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -52929,6 +53351,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &608652298 stripped
@@ -52946,7 +53373,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 608833338}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: NextStageObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53046,6 +53473,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7763780822752696420, guid: 2ab5d976cc36121439ada40ab8104e22,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ab5d976cc36121439ada40ab8104e22, type: 3}
 --- !u!4 &615884313 stripped
@@ -53121,6 +53553,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -53191,6 +53628,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (182)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -53260,6 +53702,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -53342,6 +53789,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -53411,6 +53863,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -53487,6 +53944,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -53578,6 +54040,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -53952,6 +54419,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!4 &673870434 stripped
@@ -54033,6 +54505,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -54103,6 +54580,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!1001 &675401457
@@ -54171,6 +54653,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -54242,6 +54729,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -54311,6 +54803,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (89)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -54382,6 +54879,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!1001 &684234900
@@ -54450,6 +54952,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (110)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -54520,6 +55027,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -54602,6 +55114,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -54903,6 +55420,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &716588342 stripped
@@ -55013,6 +55535,83 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ffbf1930ad483042a2f27688896f02c, type: 3}
+--- !u!114 &722894019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086319356422635280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4917102cbcc86ec4cbe4751b8917540a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 400
+  maxSpeed: 6
+  isGround: 0
+  moveDir: 0
+  jumpPower: 4
+  jumpCount: 2
+  isGrounded: 0
+  AttackSlideRate: 0.35
+  slideRate: 0.25
+  dir: {fileID: 1145438464}
+  dashForce: 500
+  inputLeft: 0
+  inputRight: 0
+  inputJump: 0
+  life: 5
+  maxLife: 5
+  hearts:
+  - {fileID: 1051747845}
+  - {fileID: 1481851983}
+  - {fileID: 24107813}
+  - {fileID: 50589564}
+  - {fileID: 802879528}
+  fullHeart: {fileID: 4606908045521496030, guid: b8f03519ed646374a950e4f091f5ef7e,
+    type: 3}
+  emptyHeart: {fileID: -4195582761621981391, guid: b8f03519ed646374a950e4f091f5ef7e,
+    type: 3}
+  takeObject: {fileID: 0}
+  gameDirector: {fileID: 79223311}
+  stageManager: {fileID: 554524180}
+  damageDirector: {fileID: 2056430022}
+  playerPos: {x: 0, y: 0, z: 0}
+  playerCol: {fileID: 0}
+  hitObject: 
+  collisionName: 
+  enemyPosition: {x: 0, y: 0}
+  rb: {fileID: 0}
+  sr: {fileID: 0}
+  anim: {fileID: 0}
+  itemManager: {fileID: 192412693}
+--- !u!61 &722894022
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086319356422635280}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.96}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 0.96, y: 0.96}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.65}
+  m_EdgeRadius: 0
 --- !u!1001 &723045718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55080,6 +55679,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -55104,6 +55708,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384498045486522057, guid: 7e0c755befccf0b48b424cd29990a445,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1384498045486522058, guid: 7e0c755befccf0b48b424cd29990a445,
         type: 3}
@@ -55364,6 +55973,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -55466,6 +56080,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -55816,6 +56435,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (157)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -55931,6 +56555,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (165)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -56123,6 +56752,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &770413366 stripped
@@ -56212,6 +56846,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -56483,6 +57122,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -56553,6 +57197,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -56622,6 +57271,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (126)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -56697,6 +57351,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -56816,6 +57475,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckPoint (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7907188552304845318, guid: 9a374cc16c7c8a24aac6b2b9fa843657,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a374cc16c7c8a24aac6b2b9fa843657, type: 3}
 --- !u!4 &787820090 stripped
@@ -56902,7 +57566,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 800049617}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: DeathTrapObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57283,6 +57947,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (189)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -57443,6 +58112,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -57502,6 +58176,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LeftBoostTile
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282884131594221050, guid: 37ba2d94d5f90634fa9c4ffe521091e4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7282884131594221052, guid: 37ba2d94d5f90634fa9c4ffe521091e4,
         type: 3}
@@ -57822,6 +58501,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -57903,6 +58587,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -58063,6 +58752,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (155)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -58110,7 +58804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 832106684}
   - component: {fileID: 832106685}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: FallObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58241,6 +58935,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!4 &836966930 stripped
@@ -58249,273 +58948,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1655466192}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &837619746
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1348028437630848378, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_TagString
-      value: Attacked
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -8.69
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062457, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 7170320364799215241, guid: 7e3a1040af743d345ad36b17c2de7aa8,
-        type: 3}
-    - target: {fileID: 2086319357994062457, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062458, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: d7d31855da35e4e4e9c4fb013c8cfb78, type: 2}
-    - target: {fileID: 2086319357994062463, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062463, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086319357994062463, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714144672190730436, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714144672190730436, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714144672190730436, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714144672190730436, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714144672190730436, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714144672190730436, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4157676407074861932, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4157676407074861932, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4157676407074861932, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4157676407074861932, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4157676407074861932, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4157676407074861932, guid: d4a8730807396d947953a8ea093035e1,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d4a8730807396d947953a8ea093035e1, type: 3}
---- !u!1 &837619747 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2086319357994062463, guid: d4a8730807396d947953a8ea093035e1,
-    type: 3}
-  m_PrefabInstance: {fileID: 837619746}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &837619748 stripped
-BoxCollider2D:
-  m_CorrespondingSourceObject: {fileID: 2714144672190730436, guid: d4a8730807396d947953a8ea093035e1,
-    type: 3}
-  m_PrefabInstance: {fileID: 837619746}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &837619749 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2086319357994062456, guid: d4a8730807396d947953a8ea093035e1,
-    type: 3}
-  m_PrefabInstance: {fileID: 837619746}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &837619750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837619747}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4917102cbcc86ec4cbe4751b8917540a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 1000
-  maxSpeed: 5
-  isGround: 0
-  moveDir: 0
-  jumpPower: 4
-  AttackSlideRate: 0.25
-  slideRate: 0.35
-  dir: {fileID: 1067723721}
-  dashForce: 500
-  inputLeft: 0
-  inputRight: 0
-  inputJump: 0
-  life: 5
-  maxLife: 5
-  hearts:
-  - {fileID: 1051747845}
-  - {fileID: 1481851983}
-  - {fileID: 24107813}
-  - {fileID: 50589564}
-  - {fileID: 802879528}
-  fullHeart: {fileID: 2499697481795459068, guid: a5d78e731a37442429d1cac4f98ea6fc,
-    type: 3}
-  emptyHeart: {fileID: 3540306615278901103, guid: a5d78e731a37442429d1cac4f98ea6fc,
-    type: 3}
-  takeObject: {fileID: 0}
-  gameDirector: {fileID: 79223311}
-  stageManager: {fileID: 554524180}
-  damageDirector: {fileID: 2056430022}
-  playerPos: {x: 0, y: 0, z: 0}
-  playerCol: {fileID: 837619748}
-  hitObject: 
-  enemyPosition: {x: 0, y: 0}
-  rb: {fileID: 0}
-  sr: {fileID: 0}
-  anim: {fileID: 0}
-  itemManager: {fileID: 0}
---- !u!61 &837619751
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837619747}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.93}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 2, y: 2}
-    newSize: {x: 0.96, y: 0.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1.8}
-  m_EdgeRadius: 0
 --- !u!1001 &841198547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58582,6 +59014,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(LR) (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7367093394131350309, guid: 4d94a45a0247c244fa6b623d56ab4d41,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7367093394131350360, guid: 4d94a45a0247c244fa6b623d56ab4d41,
         type: 3}
@@ -58800,6 +59237,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPad (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -58855,7 +59297,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 851470805}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: RightBoostObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58948,6 +59390,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -59062,6 +59509,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -59131,6 +59583,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -59218,6 +59675,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(LR)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7367093394131350309, guid: 4d94a45a0247c244fa6b623d56ab4d41,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7367093394131350360, guid: 4d94a45a0247c244fa6b623d56ab4d41,
         type: 3}
@@ -59369,6 +59831,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4015180117551323242, guid: b8eaea7924061124c94f956a90cf7c62,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4015180117551323243, guid: b8eaea7924061124c94f956a90cf7c62,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -59493,6 +59960,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (178)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -59563,6 +60035,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (163)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -59632,6 +60109,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (177)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -59772,7 +60254,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 153026058}
+        - m_Target: {fileID: 0}
           m_MethodName: RightDown
           m_Mode: 1
           m_Arguments:
@@ -59787,7 +60269,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 153026058}
+        - m_Target: {fileID: 0}
           m_MethodName: RightUp
           m_Mode: 1
           m_Arguments:
@@ -60014,6 +60496,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &883653418 stripped
@@ -60103,6 +60590,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -60445,6 +60937,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!1 &890374686
@@ -60456,7 +60953,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 890374687}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: CheckPointObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60556,6 +61053,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -60625,6 +61127,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (154)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -60710,6 +61217,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -61051,6 +61563,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPad (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -61106,7 +61623,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 906089519}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: WaitObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61292,6 +61809,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPad (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -61435,7 +61957,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &921573052 stripped
 Transform:
@@ -61550,6 +62072,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!4 &949823547 stripped
@@ -61631,6 +62158,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -61707,6 +62239,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!1001 &967566188
@@ -61775,6 +62312,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (184)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -61961,6 +62503,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &969827660 stripped
@@ -62036,6 +62583,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (120)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -62110,6 +62662,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -62230,6 +62787,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sign (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6133801443571059783, guid: a7c589caa90c3384b85cb6ca7223940d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 9068395503788755988, guid: a7c589caa90c3384b85cb6ca7223940d,
         type: 3}
@@ -62361,6 +62923,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -62435,6 +63002,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3943100331096510707, guid: c4fd331088ca6c74098c807ebcb0d3e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3943100331096510708, guid: c4fd331088ca6c74098c807ebcb0d3e8,
         type: 3}
@@ -62817,6 +63389,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -62984,6 +63561,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -63060,6 +63642,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!1001 &1015669339
@@ -63128,6 +63715,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (112)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -63246,6 +63838,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (169)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -63321,6 +63918,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckPoint (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7907188552304845318, guid: 9a374cc16c7c8a24aac6b2b9fa843657,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a374cc16c7c8a24aac6b2b9fa843657, type: 3}
 --- !u!4 &1039514493 stripped
@@ -63338,7 +63940,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1039965046}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: MovingTile(LR)Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63513,7 +64115,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 153026058}
+        - m_Target: {fileID: 0}
           m_MethodName: LeftDown
           m_Mode: 1
           m_Arguments:
@@ -63528,7 +64130,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 153026058}
+        - m_Target: {fileID: 0}
           m_MethodName: LeftUp
           m_Mode: 1
           m_Arguments:
@@ -63611,6 +64213,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(LR) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7367093394131350309, guid: 4d94a45a0247c244fa6b623d56ab4d41,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7367093394131350360, guid: 4d94a45a0247c244fa6b623d56ab4d41,
         type: 3}
@@ -63812,6 +64419,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (128)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -63962,6 +64574,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPad (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -64099,39 +64716,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (117)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
---- !u!1 &1067723720
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1067723721}
-  m_Layer: 0
-  m_Name: dir
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1067723721
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1067723720}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.93, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 837619749}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1068291713 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
@@ -64226,6 +64818,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -64412,6 +65009,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &1070995526 stripped
@@ -64507,6 +65109,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -64772,6 +65379,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -64854,6 +65466,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (160)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -64929,6 +65546,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -65048,6 +65670,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -65409,6 +66036,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPad (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -65522,6 +66154,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -65598,6 +66235,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (173)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -65667,6 +66309,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -65743,6 +66390,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckPoint
       objectReference: {fileID: 0}
+    - target: {fileID: 7907188552304845318, guid: 9a374cc16c7c8a24aac6b2b9fa843657,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a374cc16c7c8a24aac6b2b9fa843657, type: 3}
 --- !u!1 &1144626402
@@ -65781,7 +66433,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -98, y: 130.00002}
+  m_AnchoredPosition: {x: -151, y: 52}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1144626404
@@ -65827,7 +66479,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 153026058}
+      - m_Target: {fileID: 0}
         m_MethodName: JumpBtnDown
         m_Mode: 1
         m_Arguments:
@@ -65955,9 +66607,85 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (170)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
+--- !u!1 &1145438463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1145438464}
+  - component: {fileID: 1145438465}
+  - component: {fileID: 1145438466}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1145438464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145438463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.93, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2086319356422635287}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1145438465
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145438463}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.85}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.1}
+  m_EdgeRadius: 0
+--- !u!114 &1145438466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145438463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 072f1746da438ef48963020e4da61b41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1001 &1146463801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66024,6 +66752,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -66100,6 +66833,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (144)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -66181,6 +66919,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -66295,6 +67038,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -66364,6 +67112,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -66526,6 +67279,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -66601,6 +67359,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -66684,6 +67447,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -66754,6 +67522,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -66823,6 +67596,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -66897,6 +67675,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350387019876052059, guid: ddeca30b22e41ad4fb70e3165cc86f81,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddeca30b22e41ad4fb70e3165cc86f81, type: 3}
@@ -66981,6 +67764,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -67523,6 +68311,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &1200502087 stripped
@@ -67597,6 +68390,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -67690,6 +68488,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -67804,6 +68607,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!1001 &1218515487
@@ -67872,6 +68680,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (186)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -67959,6 +68772,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -68073,6 +68891,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!4 &1225324240 stripped
@@ -68147,6 +68970,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -68421,6 +69249,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &1238432740 stripped
@@ -68495,6 +69328,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -68579,6 +69417,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -69089,6 +69932,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &1248802074 stripped
@@ -69198,6 +70046,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -69267,6 +70120,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -69338,6 +70196,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -69407,6 +70270,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -69484,6 +70352,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -69553,6 +70426,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -69630,6 +70508,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (150)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -69706,6 +70589,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -69775,6 +70663,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -69857,6 +70750,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -70108,6 +71006,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &1299970189 stripped
@@ -70189,6 +71092,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (188)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -70265,6 +71173,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -70334,6 +71247,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (156)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -70405,6 +71323,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -70474,6 +71397,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (179)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -70660,6 +71588,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &1341395958 stripped
@@ -70741,6 +71674,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (142)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -70811,6 +71749,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -70880,6 +71823,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -70981,6 +71929,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -71056,6 +72009,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(LR) (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7367093394131350309, guid: 4d94a45a0247c244fa6b623d56ab4d41,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7367093394131350360, guid: 4d94a45a0247c244fa6b623d56ab4d41,
         type: 3}
@@ -71336,6 +72294,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -71405,6 +72368,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -71476,6 +72444,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (164)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -71545,6 +72518,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -71680,6 +72658,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!4 &1413049523 stripped
@@ -71755,6 +72738,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (167)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -71824,6 +72812,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -71975,6 +72968,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPad (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -72092,6 +73090,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -72275,6 +73278,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (137)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -72344,6 +73352,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -72420,6 +73433,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -72502,6 +73520,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (168)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -72571,6 +73594,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -72642,6 +73670,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -72712,6 +73745,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (183)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -72730,7 +73768,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1457775030}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: DropDeathTrapObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72866,6 +73904,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPad (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -72985,9 +74028,57 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (149)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
+--- !u!1 &1469305732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1469305733}
+  - component: {fileID: 1469305734}
+  m_Layer: 0
+  m_Name: MoveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1469305733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469305732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2086319356422635287}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1469305734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469305732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a36fe7c3c0f354aa99795a5397e20f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1471362394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73069,6 +74160,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -73419,6 +74515,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -73589,6 +74690,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sign (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6133801443571059783, guid: a7c589caa90c3384b85cb6ca7223940d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 9068395503788755988, guid: a7c589caa90c3384b85cb6ca7223940d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -73719,6 +74825,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -73795,6 +74906,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!1 &1507257415
@@ -73806,7 +74922,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1507257416}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CaveObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73896,6 +75012,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -73965,6 +75086,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -74040,6 +75166,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -74154,6 +75285,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -74228,6 +75364,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -74370,6 +75511,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (129)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -74451,6 +75597,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (176)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -74702,6 +75853,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &1541091550 stripped
@@ -74809,6 +75965,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -74937,6 +76098,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -75254,6 +76420,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: QuarterJewel
       objectReference: {fileID: 0}
+    - target: {fileID: 8717046111659298655, guid: badff48141c9ced4286c36cc42325fe5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: badff48141c9ced4286c36cc42325fe5, type: 3}
 --- !u!4 &1565668008 stripped
@@ -75374,6 +76545,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (166)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -75450,6 +76626,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!1001 &1572984668
@@ -75524,6 +76705,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPad (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -75581,7 +76767,7 @@ GameObject:
   - component: {fileID: 1575742572}
   - component: {fileID: 1575742574}
   - component: {fileID: 1575742573}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: WaitText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75816,6 +77002,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8755350060371075279, guid: 3f956eb8d4f44b54e80f7d38955abb77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f956eb8d4f44b54e80f7d38955abb77, type: 3}
 --- !u!1001 &1584624373
@@ -75999,6 +77190,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FallTile (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -76195,6 +77391,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FallTile (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -76451,6 +77652,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &1592583394 stripped
@@ -76685,6 +77891,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!4 &1599852117 stripped
@@ -76776,6 +77987,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -76890,6 +78106,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -76905,7 +78126,7 @@ GameObject:
   - component: {fileID: 1623326954}
   - component: {fileID: 1623326953}
   - component: {fileID: 1623326952}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: UsingText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77352,6 +78573,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &1631327616 stripped
@@ -77431,6 +78657,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -77551,6 +78782,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -77659,6 +78895,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -77779,6 +79020,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -77853,6 +79099,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -77978,6 +79229,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(LR) (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7367093394131350309, guid: 4d94a45a0247c244fa6b623d56ab4d41,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7367093394131350360, guid: 4d94a45a0247c244fa6b623d56ab4d41,
         type: 3}
@@ -78179,6 +79435,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (141)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -78378,6 +79639,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpPad (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -78490,6 +79756,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (145)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -78675,6 +79946,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -78759,6 +80035,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -79129,6 +80410,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -79509,6 +80795,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &1704253971 stripped
@@ -79584,6 +80875,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (174)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -79654,6 +80950,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (152)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -79723,6 +81024,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (121)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -79795,6 +81101,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sign
+      objectReference: {fileID: 0}
+    - target: {fileID: 6133801443571059783, guid: a7c589caa90c3384b85cb6ca7223940d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 9068395503788755988, guid: a7c589caa90c3384b85cb6ca7223940d,
         type: 3}
@@ -79924,6 +81235,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CheckPoint (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7907188552304845318, guid: 9a374cc16c7c8a24aac6b2b9fa843657,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a374cc16c7c8a24aac6b2b9fa843657, type: 3}
@@ -80115,6 +81431,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!1001 &1726477510
@@ -80183,6 +81504,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (138)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -80254,6 +81580,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (139)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -80323,6 +81654,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -80394,6 +81730,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -80463,6 +81804,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -80534,6 +81880,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -80546,7 +81897,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1758297978}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: QuarterObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80637,6 +81988,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -80706,6 +82062,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: QuarterJewel (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8717046111659298655, guid: badff48141c9ced4286c36cc42325fe5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: badff48141c9ced4286c36cc42325fe5, type: 3}
@@ -80799,7 +82160,7 @@ PrefabInstance:
     - target: {fileID: 7367093394131350308, guid: 4d94a45a0247c244fa6b623d56ab4d41,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7367093394131350308, guid: 4d94a45a0247c244fa6b623d56ab4d41,
         type: 3}
@@ -80820,6 +82181,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(LR) (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7367093394131350309, guid: 4d94a45a0247c244fa6b623d56ab4d41,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7367093394131350360, guid: 4d94a45a0247c244fa6b623d56ab4d41,
         type: 3}
@@ -81105,6 +82471,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckPoint (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7907188552304845318, guid: 9a374cc16c7c8a24aac6b2b9fa843657,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a374cc16c7c8a24aac6b2b9fa843657, type: 3}
 --- !u!4 &1762942922 stripped
@@ -81207,6 +82578,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -81347,6 +82723,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -81417,6 +82798,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -81463,7 +82849,7 @@ Transform:
   - {fileID: 538225775}
   - {fileID: 589845461}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1792221576
 PrefabInstance:
@@ -81536,6 +82922,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CheckPoint (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7907188552304845318, guid: 9a374cc16c7c8a24aac6b2b9fa843657,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a374cc16c7c8a24aac6b2b9fa843657, type: 3}
@@ -81644,7 +83035,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1796934290}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: GateObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81747,6 +83138,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (181)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -81921,6 +83317,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (187)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -81991,6 +83392,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: QuarterJewel (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8717046111659298655, guid: badff48141c9ced4286c36cc42325fe5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: badff48141c9ced4286c36cc42325fe5, type: 3}
 --- !u!4 &1817752921 stripped
@@ -82047,7 +83453,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1819629294}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: RollingStoneObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82138,6 +83544,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -82157,6 +83568,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114759266457985932, guid: 86afe427e8b0755418646ac961af814e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 9114759266457985933, guid: 86afe427e8b0755418646ac961af814e,
         type: 3}
@@ -82263,6 +83679,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9114759267441923362, guid: 86afe427e8b0755418646ac961af814e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afe427e8b0755418646ac961af814e, type: 3}
 --- !u!1001 &1827706568
@@ -82331,6 +83752,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -82425,6 +83851,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -82444,6 +83875,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6095753154932866704, guid: e4084a066e53b084d8d0cc9b702d153f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6095753154932866705, guid: e4084a066e53b084d8d0cc9b702d153f,
         type: 3}
@@ -82548,7 +83984,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -151, y: 52}
+  m_AnchoredPosition: {x: -64, y: 52}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1880697168
@@ -82594,7 +84030,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 837619750}
+      - m_Target: {fileID: 0}
         m_MethodName: Attack
         m_Mode: 1
         m_Arguments:
@@ -82709,6 +84145,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!1001 &1886169273
@@ -82777,6 +84218,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -82947,6 +84393,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -83016,6 +84467,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -83161,6 +84617,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -83318,6 +84779,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -83387,6 +84853,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (104)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -83666,6 +85137,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &1968223083 stripped
@@ -83747,6 +85223,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -83759,7 +85240,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1978523292}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: JumpObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84067,6 +85548,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &1979300833 stripped
@@ -84142,6 +85628,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -84211,6 +85702,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -84293,6 +85789,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -84426,7 +85927,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2017416308}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: LeftBoostObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84543,6 +86044,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (151)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -84625,6 +86131,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -84699,6 +86210,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JumpPad (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
@@ -84833,7 +86349,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2058048070
 PrefabInstance:
@@ -84861,6 +86377,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384498045486522057, guid: 7e0c755befccf0b48b424cd29990a445,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1384498045486522058, guid: 7e0c755befccf0b48b424cd29990a445,
         type: 3}
@@ -85004,6 +86525,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (132)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -85110,6 +86636,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
 --- !u!4 &2096713709 stripped
@@ -85197,6 +86728,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -85272,6 +86808,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -85568,6 +87109,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
 --- !u!4 &2131402310 stripped
@@ -85649,6 +87195,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
@@ -85718,6 +87269,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeathTrap (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -85808,3 +87364,212 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ffbf1930ad483042a2f27688896f02c, type: 3}
+--- !u!1 &2086319356422635280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2086319356422635287}
+  - component: {fileID: 2086319356422635286}
+  - component: {fileID: 2086319356422635285}
+  - component: {fileID: 2086319356422635284}
+  - component: {fileID: 2714144670533090731}
+  - component: {fileID: 4157676405425856003}
+  - component: {fileID: 722894022}
+  - component: {fileID: 722894019}
+  - component: {fileID: 2086319356422635281}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &2086319356422635281
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086319356422635280}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 1.9}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 0.96, y: 0.96}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.1}
+  m_EdgeRadius: 0
+--- !u!50 &2086319356422635284
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086319356422635280}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!95 &2086319356422635285
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086319356422635280}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d7d31855da35e4e4e9c4fb013c8cfb78, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!212 &2086319356422635286
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086319356422635280}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7170320364799215241, guid: 7e3a1040af743d345ad36b17c2de7aa8,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.96, y: 0.96}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &2086319356422635287
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086319356422635280}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.97, y: -2.93, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_Children:
+  - {fileID: 1469305733}
+  - {fileID: 1145438464}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2714144670533090731
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086319356422635280}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.5, y: 1}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 0.96, y: 0.96}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 1.5}
+  m_EdgeRadius: 0
+--- !u!61 &4157676405425856003
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086319356422635280}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.5, y: 1}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 0.96, y: 0.96}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 1.5}
+  m_EdgeRadius: 0

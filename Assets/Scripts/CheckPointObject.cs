@@ -6,7 +6,7 @@ public class CheckPointObject : MonoBehaviour
 {
     StageManager stageManager;
     Animator checkAni;
-    public static int checkNum;
+    public int checkNum;
 
     void Start()
     {
@@ -17,5 +17,9 @@ public class CheckPointObject : MonoBehaviour
     public void AniIn()
     {
         checkAni.SetTrigger("CheckTrigger");
+    }
+
+    public void SaveSuccess(){
+        checkAni.SetTrigger("SaveTrigger");
     }
 }
