@@ -34,27 +34,27 @@ public class StageManager : MonoBehaviour
         
         if (player.hitObject == "RightBoost" && player.moveDir > 0)
         {
-            player.maxSpeed = 6.0f;
+            player.maxSpeed = 3.0f;
         }
         if (player.hitObject == "RightBoost" && player.moveDir < 0)
         {
-            player.maxSpeed = 2.0f;
+            player.maxSpeed = 1.0f;
         }
         if (player.hitObject == "RightBoostOut")
         {
-            player.maxSpeed = 4.0f;
+            player.maxSpeed = 2.0f;
         }
         if (player.hitObject == "LeftBoost" && player.moveDir < 0)
         {
-            player.maxSpeed = 6.0f;
+            player.maxSpeed = 3.0f;
         }
         if (player.hitObject == "LeftBoost" && player.moveDir > 0)
         {
-            player.maxSpeed = 2.0f;
+            player.maxSpeed = 1.0f;
         }
         if (player.hitObject == "LeftBoostOut")
         {
-            player.maxSpeed = 4.0f;
+            player.maxSpeed = 2.0f;
         }
     }
     public void activeObject()
