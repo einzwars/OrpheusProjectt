@@ -1,25 +1,28 @@
 fileFormatVersion: 2
-guid: c7445c72965e2434691d3c80dafe6bdd
+guid: 36fc6be7511b5f44ebb85ecb18d7b405
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -446198063759132195
-    second: hell-beast-idle_0
+      213: -3858331487878545982
+    second: ghost-idle_0
   - first:
-      213: 1235243342741060904
-    second: hell-beast-idle_1
+      213: -9020526837838253266
+    second: ghost-idle_1
   - first:
-      213: 6008631576532437361
-    second: hell-beast-idle_2
+      213: -8000090020037720741
+    second: ghost-idle_2
   - first:
-      213: 5792058939128127358
-    second: hell-beast-idle_3
+      213: -8128101060005746365
+    second: ghost-idle_3
   - first:
-      213: 4185659681491201354
-    second: hell-beast-idle_4
+      213: -2512726588018041774
+    second: ghost-idle_4
   - first:
-      213: -3981304751274544797
-    second: hell-beast-idle_5
+      213: -6601246393727790213
+    second: ghost-idle_5
+  - first:
+      213: -7920442971677258228
+    second: ghost-idle_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -117,13 +120,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hell-beast-idle_0
+      name: ghost-idle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 55
-        height: 67
+        width: 64
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd97b2e9939cec9f0800000000000000
-      internalID: -446198063759132195
+      spriteID: 2cd7b4f34f3747ac0800000000000000
+      internalID: -3858331487878545982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hell-beast-idle_1
+      name: ghost-idle_1
       rect:
         serializedVersion: 2
-        x: 55
+        x: 64
         y: 0
-        width: 55
-        height: 67
+        width: 64
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82d3f3f8647742110800000000000000
-      internalID: 1235243342741060904
+      spriteID: e23f5cf32a6a0d280800000000000000
+      internalID: -9020526837838253266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hell-beast-idle_2
+      name: ghost-idle_2
       rect:
         serializedVersion: 2
-        x: 110
+        x: 128
         y: 0
-        width: 55
-        height: 67
+        width: 64
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17949617592f26350800000000000000
-      internalID: 6008631576532437361
+      spriteID: b5501885388f9f090800000000000000
+      internalID: -8000090020037720741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hell-beast-idle_3
+      name: ghost-idle_3
       rect:
         serializedVersion: 2
-        x: 165
+        x: 192
         y: 0
-        width: 55
-        height: 67
+        width: 64
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7f9bd0eae6816050800000000000000
-      internalID: 5792058939128127358
+      spriteID: 349a1e3862f233f80800000000000000
+      internalID: -8128101060005746365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hell-beast-idle_4
+      name: ghost-idle_4
       rect:
         serializedVersion: 2
-        x: 220
+        x: 256
         y: 0
-        width: 55
-        height: 67
+        width: 64
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4d25f1cd43761a30800000000000000
-      internalID: 4185659681491201354
+      spriteID: 25c518f2b70012dd0800000000000000
+      internalID: -2512726588018041774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hell-beast-idle_5
+      name: ghost-idle_5
       rect:
         serializedVersion: 2
-        x: 275
+        x: 320
         y: 0
-        width: 55
-        height: 67
+        width: 64
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,8 +239,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 361b4bd2c609fb8c0800000000000000
-      internalID: -3981304751274544797
+      spriteID: b73d60b3169a364a0800000000000000
+      internalID: -6601246393727790213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-idle_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e0071e41fe41290800000000000000
+      internalID: -7920442971677258228
       vertices: []
       indices: 
       edges: []

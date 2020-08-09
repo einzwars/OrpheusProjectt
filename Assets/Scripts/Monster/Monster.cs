@@ -78,12 +78,13 @@ public class Monster : MonoBehaviour
             yield return null;
             if (!canAtt)
             {
-
                 animator.SetTrigger("Idle");
+
 
                 monsterAttTimer -= Time.deltaTime;
                 if (monsterAttTimer <= 0)
                 {
+
                     monsterAttTimer = monsterAttCoolTime;
                     canAtt = true;
                 }
@@ -193,6 +194,35 @@ public class Monster : MonoBehaviour
             canAtt = false;
         }
     }
+
+    public void Fire2()
+    {
+        if (canAtt)
+        {
+
+            if (!sr.flipX)    // true면 원래의 반대방향 보고 있는 것
+            {
+                GameObject MonAtt = Instantiate(Bullet, genPoint.position, transform.rotation);
+
+                MonAtt.GetComponent<Rigidbody2D>().velocity = transform.right * -transform.localScale.x * 10f;
+                MonAtt.transform.localScale = new Vector2(transform.localScale.x, 1f);
+
+                Destroy(MonAtt, 2);
+
+            }
+            else if (sr.flipX)
+            {
+                GameObject MonAtt = Instantiate(Bullet, genPoint.position, transform.rotation);
+
+                MonAtt.GetComponent<Rigidbody2D>().velocity = transform.right * transform.localScale.x * 10f;
+                MonAtt.transform.localScale = new Vector2(transform.localScale.x, 1f);
+                Destroy(MonAtt, 2);
+
+            }
+            canAtt = false;
+        }
+    }
+
 
     //public void Tracing()
     //{
