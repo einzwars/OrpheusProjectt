@@ -134,15 +134,11 @@ public class StageSelectManager : MonoBehaviour
     public void StageOneStart(){
         // 게임 플레이 씬으로 이동
         // 각각에 맞는 스테이지 활성화
-        // 플레이어 위치는 전부 동일
-        player.playerPos = new Vector3(-8.55f, -2.92f, 0);
-        Debug.Log(player.playerPos);
-        SceneManager.LoadScene("Stage1E");
+        SceneManager.LoadScene("Stage1EE");
     }
 
     public void StageTwoStart(){
-        player.playerPos = new Vector3(-8.69f, -4.4f, 0);
-        SceneManager.LoadScene("Stage2 Complete");
+        SceneManager.LoadScene("Stage2E");
     }
 
     public void StageThreeStart(){

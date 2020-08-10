@@ -63,12 +63,12 @@ public class Monster : MonoBehaviour
         while (true)
         {
             yield return null;
-            if (!hitBoxCollider.activeInHierarchy)
-            {
-                yield return new WaitForSeconds(0.5f);
-                hitBoxCollider.SetActive(true);
-                isHit = false;
-            }
+            // if (!hitBoxCollider.activeInHierarchy)
+            // {
+            //     yield return new WaitForSeconds(0.5f);
+            //     hitBoxCollider.SetActive(true);
+            //     isHit = false;
+            // }
         }
     }
     IEnumerator CalcAttDelay()

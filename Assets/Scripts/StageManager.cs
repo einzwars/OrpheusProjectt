@@ -24,7 +24,6 @@ public class StageManager : MonoBehaviour
         playerPos = GameObject.Find("Player").transform;
         damageDirector = GameObject.Find("DamageDirector").GetComponent<DamageDirector>();
         nextObject = GameObject.Find("NextStage").GetComponent<NextObject>();
-        jumpPadObject = GameObject.Find("JumpPad").GetComponent<JumpPadObject>();
         fallObject = GameObject.Find("FallObject").GetComponent<FallObject>();
         waitObject = GameObject.Find("Sign").GetComponent<WaitObject>();
     }
@@ -70,7 +69,8 @@ public class StageManager : MonoBehaviour
         }
         if (player.hitObject == "JumpPad")
         {
-            jumpPadObject.Jump();            
+            jumpPadObject = GameObject.Find(player.collisionName).GetComponent<JumpPadObject>();
+            jumpPadObject.Jump();
         }
         if (player.hitObject == "Peak" || player.hitObject == "Death")
         {

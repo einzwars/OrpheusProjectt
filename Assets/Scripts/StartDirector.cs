@@ -5,21 +5,21 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class SceneDirector : MonoBehaviour
+public class StartDirector : MonoBehaviour
 {
     AudioSource audio;
     public Sprite newSprite;
     public Sprite originalSprite;
     private Button button;
-    GameObject canvas;
+    GameObject startManager;
     GameObject exitPanel;
 
     void Start()
     {
         audio = GetComponent<AudioSource>();
         button = GetComponent<Button>();
-        canvas = GameObject.Find("Canvas");
-        canvas.transform.Find("ExitPanel").gameObject.SetActive(false);
+        startManager = GameObject.Find("StartManager");
+        startManager.transform.Find("ExitPanel").gameObject.SetActive(false);
         // exitPanel.SetActive(false);
     }
 
@@ -33,7 +33,7 @@ public class SceneDirector : MonoBehaviour
 
     public void ExitPanelShow(){         
         Time.timeScale = 0f;
-        canvas.transform.Find("ExitPanel").gameObject.SetActive(true);  // 나가기 패널 호출
+        startManager.transform.Find("ExitPanel").gameObject.SetActive(true);  // 나가기 패널 호출
     }
 
     public void StageSelect(){
@@ -50,7 +50,7 @@ public class SceneDirector : MonoBehaviour
 
     public void ExitNo(){
         Time.timeScale = 1f;
-        canvas.transform.Find("ExitPanel").gameObject.SetActive(false);
+        startManager.transform.Find("ExitPanel").gameObject.SetActive(false);
     }
 
     public void GameMute(){

@@ -145,7 +145,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b411ca3cfb27834bb6cf4671f2ef638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  change: 0
 --- !u!4 &5285127 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7574900667151016986, guid: 07f9c4e85404e1b48b3042063ca6b316,
@@ -750,6 +749,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FallTile (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -2410,6 +2414,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MovingTile(UD) (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -3287,6 +3296,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -3598,6 +3612,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -4763,6 +4782,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -5396,6 +5420,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FallTile (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -7632,6 +7661,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -8129,6 +8163,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -8274,6 +8313,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -11129,6 +11173,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MovingTile(UD) (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -12261,6 +12310,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FallTile (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -13851,6 +13905,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -14316,7 +14375,7 @@ PrefabInstance:
     - target: {fileID: 2139861716163196446, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.109
+      value: 5.251
       objectReference: {fileID: 0}
     - target: {fileID: 2139861716163196446, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
         type: 3}
@@ -14367,6 +14426,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139861716163196446, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
         type: 3}
@@ -16599,6 +16663,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -16963,7 +17032,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b411ca3cfb27834bb6cf4671f2ef638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  change: 0
 --- !u!4 &535556070 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2325354779723599212, guid: 51baa24f239ffe4479b1ca046e9f526b,
@@ -57433,6 +57501,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -58323,6 +58396,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -59724,7 +59802,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b411ca3cfb27834bb6cf4671f2ef638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  change: 0
 --- !u!4 &709814295 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2325354779723599212, guid: 51baa24f239ffe4479b1ca046e9f526b,
@@ -60158,6 +60235,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -60337,7 +60419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 400
-  maxSpeed: 6
+  maxSpeed: 5
   isGround: 0
   moveDir: 0
   jumpPower: 4
@@ -60350,6 +60432,7 @@ MonoBehaviour:
   inputLeft: 0
   inputRight: 0
   inputJump: 0
+  inputAttack: 0
   life: 5
   maxLife: 5
   hearts:
@@ -60388,18 +60471,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.96}
+  m_Offset: {x: -0.03, y: -0.02}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 2, y: 2}
-    newSize: {x: 0.96, y: 0.96}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.48}
+    newSize: {x: 0.32, y: 0.48}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.65}
+  m_Size: {x: 0.25, y: 0.45}
   m_EdgeRadius: 0
 --- !u!1001 &723045718
 PrefabInstance:
@@ -60889,6 +60972,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -61881,6 +61969,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -62026,6 +62119,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -62940,7 +63038,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b411ca3cfb27834bb6cf4671f2ef638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  change: 0
 --- !u!1001 &794995183
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66478,7 +66575,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 173, y: 68}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 85, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &881264620
 MonoBehaviour:
@@ -67058,6 +67155,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -67203,6 +67305,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -67927,6 +68034,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MovingTile(UD) (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -68428,7 +68540,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 906089519}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: WaitObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69621,6 +69733,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FallTile (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -71562,7 +71679,7 @@ Transform:
   - {fileID: 166238811}
   - {fileID: 732875348}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1036295662 stripped
 Transform:
@@ -71814,8 +71931,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 95, y: 68}
-  m_SizeDelta: {x: 70, y: 70}
+  m_AnchoredPosition: {x: 78, y: 68}
+  m_SizeDelta: {x: 85, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1045437611
 MonoBehaviour:
@@ -73042,6 +73159,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -73193,6 +73315,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -73923,6 +74050,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -74902,8 +75034,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -151, y: 52}
-  m_SizeDelta: {x: 70, y: 70}
+  m_AnchoredPosition: {x: -151, y: 68}
+  m_SizeDelta: {x: 85, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1144626404
 MonoBehaviour:
@@ -75129,7 +75261,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.85}
+  m_Offset: {x: -0.03, y: -1.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -75140,7 +75272,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.1}
+  m_Size: {x: 0.13, y: 0.05}
   m_EdgeRadius: 0
 --- !u!114 &1145438466
 MonoBehaviour:
@@ -76259,6 +76391,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MovingTile(UD) (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -76973,6 +77110,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FallTile (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -78229,6 +78371,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -78448,6 +78595,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -79282,6 +79434,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FallTile (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -80807,6 +80964,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -81728,6 +81890,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FallTile (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -84672,6 +84839,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MovingTile(UD) (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -85368,7 +85540,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b411ca3cfb27834bb6cf4671f2ef638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  change: 0
 --- !u!1 &1481851981
 GameObject:
   m_ObjectHideFlags: 0
@@ -86139,129 +86310,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 51baa24f239ffe4479b1ca046e9f526b, type: 3}
---- !u!1001 &1514822859
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1978523292}
-    m_Modifications:
-    - target: {fileID: 2139861716163196444, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
-        type: 3}
-      propertyPath: stageManager
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2139861716163196446, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 2139861716163196446, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 2139861716163196446, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2139861716163196446, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2139861716163196446, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2139861716163196446, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2139861716163196446, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2139861716163196446, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2139861716163196446, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2139861716163196446, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2139861716163196446, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
-        type: 3}
-      propertyPath: m_Name
-      value: JumpPad (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2139861716163196447, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
-  m_SourcePrefab: {fileID: 100100000, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe, type: 3}
---- !u!4 &1514822860 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2139861716163196446, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
-    type: 3}
-  m_PrefabInstance: {fileID: 1514822859}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1514822861 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2139861716163196451, guid: 1d7d73ce1e9c2a84c960fa6b04bf1afe,
-    type: 3}
-  m_PrefabInstance: {fileID: 1514822859}
-  m_PrefabAsset: {fileID: 0}
---- !u!60 &1514822862
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514822861}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.29166666, y: 0.29166666}
-    newSize: {x: 0.28, y: 0.28}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.114583336, y: -0.03125}
-      - {x: -0.125, y: -0.03125}
-      - {x: -0.125, y: -0.083333336}
-      - {x: -0.041666668, y: -0.14583334}
-      - {x: 0.03125, y: -0.14583334}
-      - {x: 0.114583336, y: -0.083333336}
 --- !u!1 &1517490570 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7561304696062200401, guid: 51baa24f239ffe4479b1ca046e9f526b,
@@ -86314,7 +86362,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b411ca3cfb27834bb6cf4671f2ef638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  change: 0
 --- !u!1001 &1525981733
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86898,6 +86945,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -87194,6 +87246,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -88695,6 +88752,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -89186,6 +89248,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -89671,6 +89738,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -89992,7 +90064,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b411ca3cfb27834bb6cf4671f2ef638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  change: 0
 --- !u!4 &1599852117 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7367093394131350308, guid: 4d94a45a0247c244fa6b623d56ab4d41,
@@ -91083,6 +91154,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FallTile (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -92750,6 +92826,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MovingTile(UD) (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -93384,6 +93465,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MovingTile(UD) (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574900667151016987, guid: 07f9c4e85404e1b48b3042063ca6b316,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7574900667151016990, guid: 07f9c4e85404e1b48b3042063ca6b316,
         type: 3}
@@ -94102,6 +94188,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -94340,7 +94431,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b411ca3cfb27834bb6cf4671f2ef638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  change: 0
 --- !u!1001 &1720017176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -95207,6 +95297,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FallTile
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -98051,8 +98146,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -64, y: 52}
-  m_SizeDelta: {x: 70, y: 70}
+  m_AnchoredPosition: {x: -64, y: 68}
+  m_SizeDelta: {x: 85, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1880697168
 MonoBehaviour:
@@ -99543,6 +99638,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -99745,7 +99845,6 @@ Transform:
   - {fileID: 468180117}
   - {fileID: 1643523977}
   - {fileID: 419463222}
-  - {fileID: 1514822860}
   - {fileID: 852610229}
   - {fileID: 467311724}
   - {fileID: 972318388}
@@ -100203,6 +100302,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FallTile (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -101837,7 +101941,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 913637365}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -101872,7 +101976,7 @@ RectTransform:
   - {fileID: 1880697167}
   - {fileID: 426402221}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -102300,6 +102404,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallTile (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6839817893066621853, guid: 2c212d47694472b48ac1e569e935f2f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6839817893066621830, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
     - {fileID: 6839817893066621824, guid: 2c212d47694472b48ac1e569e935f2f9, type: 3}
@@ -102693,8 +102802,6 @@ GameObject:
   - component: {fileID: 2086319356422635286}
   - component: {fileID: 2086319356422635285}
   - component: {fileID: 2086319356422635284}
-  - component: {fileID: 2714144670533090731}
-  - component: {fileID: 4157676405425856003}
   - component: {fileID: 722894022}
   - component: {fileID: 722894019}
   - component: {fileID: 2086319356422635281}
@@ -102718,18 +102825,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1.85}
+  m_Offset: {x: -0.02, y: 0.21}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 2, y: 2}
-    newSize: {x: 0.96, y: 0.96}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.48}
+    newSize: {x: 0.32, y: 0.48}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.1}
+  m_Size: {x: 0.15, y: 0.05}
   m_EdgeRadius: 0
 --- !u!50 &2086319356422635284
 Rigidbody2D:
@@ -102810,13 +102917,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7170320364799215241, guid: 7e3a1040af743d345ad36b17c2de7aa8,
+  m_Sprite: {fileID: 6701335353680715878, guid: 534c99d8b77d02348a6520ad57d85b6c,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.96, y: 0.96}
+  m_Size: {x: 0.32, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -102830,63 +102937,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2086319356422635280}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.6, y: -4.38, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalPosition: {x: -8.6, y: -4.14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1469305733}
   - {fileID: 1145438464}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2714144670533090731
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2086319356422635280}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.5, y: 1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 2, y: 2}
-    newSize: {x: 0.96, y: 0.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.1, y: 1.5}
-  m_EdgeRadius: 0
---- !u!61 &4157676405425856003
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2086319356422635280}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.5, y: 1}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 2, y: 2}
-    newSize: {x: 0.96, y: 0.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.1, y: 1.5}
-  m_EdgeRadius: 0

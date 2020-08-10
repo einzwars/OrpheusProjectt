@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
     public bool inputRight = false;
     public bool inputJump = false;
     bool isUnBeatTime;
+    public bool inputAttack = false;
 
     // 플레이어 스탯
     public int life;
@@ -60,10 +61,11 @@ public class PlayerController : MonoBehaviour
     public SpriteRenderer sr;
     public Animator anim;
     public ItemManager itemManager;
+    public EscapeManager escapeManager;
 
     void Start()
     {
-        playerPos = new Vector3(-8f, -2.92f, 0);
+        StartPosition();
         gameObject.transform.position = playerPos;
         savePoint = playerPos;
         rb = GetComponent<Rigidbody2D>();
@@ -72,6 +74,7 @@ public class PlayerController : MonoBehaviour
         anim = gameObject.GetComponent<Animator>();
         itemManager = GameObject.Find("ItemManager").GetComponent<ItemManager>();
         stageManager = GameObject.Find("StageManager").GetComponent<StageManager>();
+        escapeManager = GameObject.Find("GamePlayUI").transform.Find("ChoiceMenu").gameObject.GetComponent<EscapeManager>();
         jumpCount = 0;
 
         MoveManager moveBtn = GameObject.Find("MoveManager").GetComponent<MoveManager>();
@@ -80,7 +83,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(rb.velocity.y);
         PlayerInput();  // 이동
         GroundCheck();
         PlayerAnim();
@@ -104,11 +106,6 @@ public class PlayerController : MonoBehaviour
         }
         else if(dashCountDown){
             dashTimer += Time.deltaTime;
-        }       
-
-        if(transform.position.y < -10){
-            life = 0;
-            gameDirector.PlayerReposition();
         }
     }
 
@@ -121,6 +118,15 @@ public class PlayerController : MonoBehaviour
             {
                 rb.velocity = new Vector2(moveDir * maxSpeed, rb.velocity.y);
             }
+        }
+    }
+
+    void StartPosition(){
+        if(SceneManager.GetActiveScene().name == "Stage1EE"){
+            playerPos = new Vector3(-8.55f, -2.92f, 0);
+        }
+        else if(SceneManager.GetActiveScene().name == "Stage2E"){
+            playerPos = new Vector3(-8.69f, -4.4f, 0);
         }
     }
 
@@ -200,13 +206,14 @@ public class PlayerController : MonoBehaviour
     }
 
     public void Attack(){   // 테스트용 공격 메소드
+        inputAttack = true;
         if(itemManager.pomul == true && !isDelay){
             anim.SetTrigger("Attack");
             isDelay = true;
             if(!sr.flipX)
-                Instantiate(itemManager.pomulPrefab as GameObject, new Vector3(transform.position.x+1, transform.position.y+0.5f, transform.position.z), Quaternion.Euler(0, 0, 30));
+                Instantiate(itemManager.pomulPrefab as GameObject, new Vector3(transform.position.x+0.3f, transform.position.y, transform.position.z), Quaternion.Euler(0, 0, 30));
             else if(sr.flipX)
-                Instantiate(itemManager.pomulPrefab as GameObject, new Vector3(transform.position.x-1, transform.position.y+0.5f, transform.position.z), Quaternion.Euler(0, 0, -30));
+                Instantiate(itemManager.pomulPrefab as GameObject, new Vector3(transform.position.x-0.4f, transform.position.y, transform.position.z), Quaternion.Euler(0, 0, -30));
             itemManager.ConsumeBullet();
             StartCoroutine(AttackDelay());
         }
@@ -214,14 +221,14 @@ public class PlayerController : MonoBehaviour
             anim.SetTrigger("Attack");
             isDelay = true;
             if(!sr.flipX){
-                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x+1, transform.position.y+0.5f, transform.position.z), Quaternion.Euler(0, 0, -10));
-                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x+1, transform.position.y+0.5f, transform.position.z), Quaternion.Euler(0, 0, 0));
-                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x+1, transform.position.y+0.5f, transform.position.z), Quaternion.Euler(0, 0, 10));
+                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x+0.3f, transform.position.y, transform.position.z), Quaternion.Euler(0, 0, -10));
+                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x+0.3f, transform.position.y, transform.position.z), Quaternion.Euler(0, 0, 0));
+                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x+0.3f, transform.position.y, transform.position.z), Quaternion.Euler(0, 0, 10));
             }
             else if(sr.flipX){
-                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x-1, transform.position.y+0.5f, transform.position.z), Quaternion.Euler(0, 0, -10));
-                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x-1, transform.position.y+0.5f, transform.position.z), Quaternion.Euler(0, 0, 0));
-                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x-1, transform.position.y+0.5f, transform.position.z), Quaternion.Euler(0, 0, 10));
+                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x-0.4f, transform.position.y, transform.position.z), Quaternion.Euler(0, 0, -10));
+                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x-0.4f, transform.position.y, transform.position.z), Quaternion.Euler(0, 0, 0));
+                Instantiate(itemManager.threeBallPrefab as GameObject, new Vector3(transform.position.x-0.4f, transform.position.y, transform.position.z), Quaternion.Euler(0, 0, 10));
             }
             itemManager.ConsumeBullet();
             StartCoroutine(AttackDelay());
@@ -230,9 +237,9 @@ public class PlayerController : MonoBehaviour
             anim.SetTrigger("Attack");
             isDelay = true;
             if(!sr.flipX)
-                Instantiate(itemManager.notePrefab as GameObject, new Vector3(transform.position.x+1, transform.position.y+0.5f, transform.position.z), transform.rotation);
+                Instantiate(itemManager.notePrefab as GameObject, new Vector3(transform.position.x+0.3f, transform.position.y, transform.position.z), transform.rotation);
             else if(sr.flipX)
-                Instantiate(itemManager.notePrefab as GameObject, new Vector3(transform.position.x-1, transform.position.y+0.5f, transform.position.z), transform.rotation);
+                Instantiate(itemManager.notePrefab as GameObject, new Vector3(transform.position.x-0.4f, transform.position.y, transform.position.z), transform.rotation);
             StartCoroutine(AttackDelay());
         }
     }
@@ -244,11 +251,15 @@ public class PlayerController : MonoBehaviour
 
     void Death(){   // 사망 메소드
         if(life <= 0){
-            // 사망 처리
-            transform.position = new Vector3(savePoint.x, savePoint.y, savePoint.z);
-            life = maxLife;
+            // 사망 처리, ChoiceMenu 호출
+            CheckPoint();
         }
-    }    
+    }
+
+    public void CheckPoint(){
+        transform.position = new Vector3(savePoint.x, savePoint.y, savePoint.z);
+        life = maxLife;
+    }
 
     bool IsPlayingAnim(string animName){
         if(anim.GetCurrentAnimatorStateInfo(0).IsName(animName)){
