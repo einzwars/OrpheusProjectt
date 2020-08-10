@@ -3826,6 +3826,8 @@ MonoBehaviour:
   isGround: 0
   moveDir: 0
   jumpPower: 5
+  jumpCount: 2
+  isGrounded: 0
   AttackSlideRate: 0.25
   slideRate: 0.35
   dir: {fileID: 2085668680}
@@ -3833,21 +3835,6 @@ MonoBehaviour:
   inputLeft: 0
   inputRight: 0
   inputJump: 0
-  fireballPrefab: {fileID: 7679241366489747042, guid: a35fcec1ceee6234393bd0ba536958f9,
-    type: 3}
-  blueballPrefab: {fileID: 1942256237751133771, guid: 3f018fa2cb02b2442911cd9385cb0998,
-    type: 3}
-  notePrefab: {fileID: 6712877314508088658, guid: a50e729755b6e4b4db53daf0a76c3bb5,
-    type: 3}
-  threeBallPrefab: {fileID: 7679241366489747042, guid: a35fcec1ceee6234393bd0ba536958f9,
-    type: 3}
-  pomulPrefab: {fileID: 1942256237751133771, guid: 3f018fa2cb02b2442911cd9385cb0998,
-    type: 3}
-  fireballAtk: 0
-  blueballAtk: 0
-  basicAtk: 0
-  threeBall: 0
-  pomul: 0
   life: 5
   maxLife: 5
   hearts:
@@ -3864,14 +3851,15 @@ MonoBehaviour:
   gameDirector: {fileID: 166961086}
   stageManager: {fileID: 1711259695}
   damageDirector: {fileID: 1832827264}
-  playerPos: {fileID: 1731640706}
+  playerPos: {x: 0, y: 0, z: 0}
   playerCol: {fileID: 1731640705}
   hitObject: 
-  quarterPoint: 0
+  collisionName: 
   enemyPosition: {x: 0, y: 0}
   rb: {fileID: 0}
   sr: {fileID: 0}
   anim: {fileID: 0}
+  itemManager: {fileID: 0}
 --- !u!61 &1731640708
 BoxCollider2D:
   m_ObjectHideFlags: 0
