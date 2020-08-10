@@ -26,6 +26,7 @@ TagManager:
   - Cave
   - RightBoost
   - LeftBoost
+  - Cloud
   layers:
   - Default
   - TransparentFX

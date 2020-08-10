@@ -119,6 +119,11 @@ public class StageManager : MonoBehaviour
         {
             Debug.Log("인 진입");
             darkSmogObject.OutsideCace();
+        }        
+        if (player.hitObject == "Cloud")
+        {
+            Debug.Log("인 진입");
+            player.life = 0;            
         }
     }
 }
