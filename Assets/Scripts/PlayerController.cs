@@ -105,11 +105,6 @@ public class PlayerController : MonoBehaviour
         else if(dashCountDown){
             dashTimer += Time.deltaTime;
         }       
-
-        if(transform.position.y < -10){
-            life = 0;
-            gameDirector.PlayerReposition();
-        }
     }
 
     private void FixedUpdate() {
