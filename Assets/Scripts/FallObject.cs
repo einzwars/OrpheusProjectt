@@ -7,11 +7,13 @@ public class FallObject : MonoBehaviour
     StageManager stageManager;
     GameObject target;
     public float timer = 0.0f;       // 낙하 시간 계산용 변수    
+    Vector3 objPos;
 
     // Update is called once per frame
     void Start()
     {
         stageManager = GameObject.Find("StageManager").GetComponent<StageManager>();
+        objPos = this.gameObject.transform.position;
     }
 
     void Update()
@@ -21,7 +23,7 @@ public class FallObject : MonoBehaviour
         {
             timer += Time.deltaTime;
         }
-        if (timer > 1)                                          // 타이머 변수가 0.6 이상 도달했을 때
+        if (timer > 0.5)                                          // 타이머 변수가 0.6 이상 도달했을 때
         {
             target.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;   // 리지드바디의 바디 타입을 다이나믹으로 변경            
             Destroy(target, 0.5f);                                                      // 1초 뒤 해당 게임 오브젝트를 파괴

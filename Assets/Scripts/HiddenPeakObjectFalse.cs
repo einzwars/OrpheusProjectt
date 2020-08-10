@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HiddenPeakObject : MonoBehaviour
-{    
+public class HiddenPeakObjectFalse : MonoBehaviour
+{
     // 해당 스크립트는 적용할 오브젝트에 넣으면 된다
 
     float timer = 0.0f;       // 돌출 시간 계산용 변수
@@ -22,8 +22,8 @@ public class HiddenPeakObject : MonoBehaviour
     {
         centerPositionX = gameObject.transform.position.x;
         centerPositionY = gameObject.transform.position.y;
-        goalPositionX = centerPositionX + moveLeach;
-        goalPositionY = centerPositionY + moveLeach;
+        goalPositionX = centerPositionX - moveLeach;
+        goalPositionY = centerPositionY - moveLeach;
     }
 
     // Update is called once per frame
@@ -32,44 +32,26 @@ public class HiddenPeakObject : MonoBehaviour
         nowPositionX = gameObject.transform.position.x;
         nowPositionY = gameObject.transform.position.y;
         timer += Time.deltaTime;
-        if(timer > 3)
+        if (timer > 3)
         {
-            if(!change)
+            if (!change)
             {
-                if (nowPositionY > goalPositionY)
+                if (nowPositionY < goalPositionY)
                 {
                     change = true;
                     timer = 0.0f;
                 }
-                gameObject.transform.Translate(0, 0.005f, 0);
+                gameObject.transform.Translate(0, -0.005f, 0);
             }
             if (change)
             {
-                if (nowPositionY < centerPositionY)
+                if (nowPositionY > centerPositionY)
                 {
                     change = false;
                     timer = 0.0f;
                 }
-                gameObject.transform.Translate(0, -0.005f, 0);
+                gameObject.transform.Translate(0, 0.005f, 0);
             }
         }
-    }
-    void Up()
-    {
-        if (nowPositionY > goalPositionY)
-        {
-            change = true;
-            timer = 0.0f;
-        }
-        gameObject.transform.Translate(0, 0.01f, 0);
-    }
-    void Down()
-    {
-        if (nowPositionY > goalPositionY)
-        {
-            change = true;
-            timer = 0.0f;
-        }
-        gameObject.transform.Translate(0, 0.01f, 0);
     }
 }

@@ -13,7 +13,7 @@ public class MovingPadObject : MonoBehaviour
     public float goalPosition;
     public float moveLeach = 5;
     public float reactionLeach = 5;
-    public float movingSpeed = 0.01f;    
+    public float movingSpeed = 0.1f;    
 
     // Start is called before the first frame update
     void Start()

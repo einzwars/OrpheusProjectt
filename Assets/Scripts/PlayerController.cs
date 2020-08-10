@@ -243,7 +243,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void Death(){   // 사망 메소드
-        if(life == 0){
+        if(life <= 0){
             // 사망 처리
             transform.position = new Vector3(savePoint.x, savePoint.y, savePoint.z);
             life = maxLife;
@@ -285,7 +285,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void GroundCheck(){
-        if(Physics2D.BoxCast(playerCollider[2].bounds.center, playerCollider[2].size, 0, Vector2.down, 0.01f)){
+        if(Physics2D.BoxCast(playerCollider[1].bounds.center, playerCollider[1].size, 0, Vector2.down, 0.01f)){
             isGround = true;
             anim.ResetTrigger("Idle");
         }
@@ -327,7 +327,7 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision){
         Debug.Log(collision);
         if(collision.gameObject.tag == "Check"){
-            savePoint = transform.position;
+            savePoint = collision.transform.position;
             Debug.Log("세이브!");
         }
         if(collision.gameObject.tag == "Monster" && !collision.isTrigger){
@@ -365,7 +365,11 @@ public class PlayerController : MonoBehaviour
     }      
 
     private void OnCollisionStay2D(Collision2D collision) {
+        hitObject = collision.gameObject.tag;
         dashChance = true;
+        if(hitObject == "Fall"){
+            stageManager.activeObject();
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {

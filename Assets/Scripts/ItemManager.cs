@@ -14,6 +14,7 @@ public class ItemManager : MonoBehaviour
     public bool basicAtk;
     public bool threeBall;
     public bool pomul;
+    
     // 탄창 UI
     int tripleMagazine = 50;
     int pomulMagazine = 30;
