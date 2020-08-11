@@ -27,8 +27,7 @@ public class DropObject : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        //stageManager.player.rb.gravityScale = 2;
+    {        
         float nowPositionX = gameObject.transform.position.x;
         float nowPositionY = gameObject.transform.position.y;
         if (stageManager.playerPos.position.x < (centerPositionX + reactionLeachX) && stageManager.playerPos.position.x > (centerPositionX - reactionLeachX))
