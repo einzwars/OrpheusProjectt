@@ -33,7 +33,7 @@ public class MovingPadObject : MonoBehaviour
         {
             if (change == false)
             {
-                gameObject.transform.Translate(movingSpeed, 0, 0);                
+                gameObject.transform.Translate(movingSpeed, 0, 0); 
                 if(playerIn == true)
                 {                    
                     player.gameObject.transform.Translate(movingSpeed, 0, 0);

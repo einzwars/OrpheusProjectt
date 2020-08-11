@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class RollingRockObject : MonoBehaviour
-{
+{    
     Rigidbody2D rigid2D;  // Rigidbody2D 컴포넌트를 참조하기 위한 변수 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +37,6 @@ public class RollingRockObject : MonoBehaviour
                 Debug.Log("90 진입");
                 rigid2D.AddForce(transform.right * -1);
             }
-        }
+        }        
     }
 }

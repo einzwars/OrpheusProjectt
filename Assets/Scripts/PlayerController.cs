@@ -79,8 +79,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void Update()
-    {
-        Debug.Log(rb.velocity.y);
+    {        
         PlayerInput();  // 이동
         GroundCheck();
         PlayerAnim();
