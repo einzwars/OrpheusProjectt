@@ -122,7 +122,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void StartPosition(){
-        if(SceneManager.GetActiveScene().name == "Stage1EE"){
+        if(SceneManager.GetActiveScene().name == "workplace"){
             playerPos = new Vector3(-8.55f, -2.92f, 0);
         }
         else if(SceneManager.GetActiveScene().name == "Stage2E"){
