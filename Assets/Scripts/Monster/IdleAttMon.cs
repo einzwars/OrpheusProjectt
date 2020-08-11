@@ -11,18 +11,7 @@ public class IdleAttMon : Monster
             monsterAttTimer = 1.0f; // 쿨타임 계산
 
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.transform.CompareTag("Attack"))
-        {
-            TakeDamage();
-            animator.SetTrigger("Hit");
-            hitAniPlay = true;
-        }
-    }
-
-
+    
     // Update is called once per frame
     void FixedUpdate()
     {

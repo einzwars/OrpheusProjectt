@@ -12,7 +12,7 @@ public class JumpPadObject : MonoBehaviour
     void Start()
     {
         stageManager = GameObject.Find("StageManager").GetComponent<StageManager>();
-        jumpPadAni = gameObject.GetComponent<Animator>();
+        jumpPadAni = this.gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -28,15 +28,11 @@ public class JumpPadObject : MonoBehaviour
     {
         if(!jumpIn)
         {
-            jumpPadAni.ResetTrigger("JumpIn");
+            // jumpPadAni.ResetTrigger("JumpIn");
             jumpPadAni.SetTrigger("JumpIn");
             stageManager.player.rb.AddForce(transform.up * 300);
             stageManager.player.rb.velocity = new Vector2(0, 0);
             jumpIn = true;
         }
     }
-
-
-
-
 }

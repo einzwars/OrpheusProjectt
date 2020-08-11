@@ -10,26 +10,38 @@ public class InteractionController : MonoBehaviour
     [SerializeField] GameObject buttonLeft;
     [SerializeField] GameObject buttonRight;
     [SerializeField] GameObject buttonJump;
+    [SerializeField] GameObject buttonAttack;
+
 
     GameObject checkObj;
     bool isContact = false;
     public static bool isInteract = false;
     bool startScene = false;
 
+    GameObject dialogueManager;
     DialogueManager theDM;
     
     void Start()
     {
         player = GameObject.Find("Player");
-        theDM = FindObjectOfType<DialogueManager>();
+        dialogueManager = GameObject.Find("DialogueManager");
+        theDM = dialogueManager.GetComponent<DialogueManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(!isInteract)
+        
+        
+    }
+    
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Interaction"))      // 대사 상호작용하는 오브젝트 태그
         {
-            if (Input.GetMouseButtonDown(0))
+            isContact = true;
+            checkObj = collision.gameObject;
+            if(!isInteract)
             {
                 if (isContact)
                 {
@@ -37,23 +49,13 @@ public class InteractionController : MonoBehaviour
                     isInteract = true;
                 }
             }
-            
         }
-        
     }
-    
-    void OnTriggerStay2D(Collider2D collision)
+
+    void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Object"))      // 대사 상호작용하는 오브젝트 태그
-        {
-            isContact = true;
-            checkObj = collision.gameObject;
-        }
-        else
-        {
-            isContact = false;
-            checkObj = null;
-        }
+        isContact = false;
+        // checkNPC = null;
     }
 
     public void SettingUI(bool p_flag)

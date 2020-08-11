@@ -36,7 +36,7 @@ public class DialogueManager : MonoBehaviour
         {
             if (isNext)
             {
-                if (Input.GetKeyDown(KeyCode.Space))
+                if (Input.GetMouseButtonDown(0))
                 {
                     isNext = false;
                     talkText.text = "";
@@ -50,7 +50,7 @@ public class DialogueManager : MonoBehaviour
                         if (++lineCount < dialogues.Length)
                         {
                             // theCam.CameraTargetting(dialogues[lineCount].tf_Target);
-                            StartCoroutine(TypeWritter());
+                            // StartCoroutine(TypeWritter());
                         }
                         else
                         {
@@ -66,7 +66,7 @@ public class DialogueManager : MonoBehaviour
     
     IEnumerator TypeWritter()
     {
-        talkPanel.SetActive(true);
+        // talkPanel.SetActive(true);
 
         string text_dialogue = dialogues[lineCount].contexts[contextCount];
 
@@ -102,7 +102,7 @@ public class DialogueManager : MonoBehaviour
         lineCount = 0;
         dialogues = null;
         isNext = false;
-        theIC.SettingUI(true);
+        // theIC.SettingUI(true);
         talkPanel.SetActive(false);
 
     }

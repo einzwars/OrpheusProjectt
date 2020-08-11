@@ -27,7 +27,7 @@ public class RaberObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X))
+        if (player.inputAttack)
         {
             if (stageManager.playerPos.position.x < (centerPositionX + reactionLeach) && stageManager.playerPos.position.x > (centerPositionX - reactionLeach))
             {
@@ -35,11 +35,13 @@ public class RaberObject : MonoBehaviour
                 {
                     if(raberList[raberIndex] == false)
                     {                        
+                        player.inputAttack = false;
                         raberList[raberIndex] = true;
                         spriteRenderer.sprite = Resources.Load("StageObject/crank-down", typeof(Sprite)) as Sprite;
                     }
                     else if (raberList[raberIndex] == true)
                     {                        
+                        player.inputAttack = false;                        
                         raberList[raberIndex] = false;
                         spriteRenderer.sprite = Resources.Load("StageObject/crank-up", typeof(Sprite)) as Sprite;
                     }

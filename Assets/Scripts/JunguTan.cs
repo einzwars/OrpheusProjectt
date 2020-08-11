@@ -36,11 +36,14 @@ public class JunguTan : MonoBehaviour
     {
         Destroyball();
     }
+    private void OnCollisionEnter2D(Collision2D collision){
+        Destroyball();
+    }
 
-            void Destroyball()
-        { 
-            Destroy(gameObject);
-        }
+    void Destroyball()
+    { 
+        Destroy(gameObject);
+    }
 
  }
 

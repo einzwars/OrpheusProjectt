@@ -63,12 +63,12 @@ public class Monster : MonoBehaviour
         while (true)
         {
             yield return null;
-            if (!hitBoxCollider.activeInHierarchy)
-            {
-                yield return new WaitForSeconds(0.5f);
-                hitBoxCollider.SetActive(true);
-                isHit = false;
-            }
+            // if (!hitBoxCollider.activeInHierarchy)
+            // {
+            //     yield return new WaitForSeconds(0.5f);
+            //     hitBoxCollider.SetActive(true);
+            //     isHit = false;
+            // }
         }
     }
     IEnumerator CalcAttDelay()
@@ -139,10 +139,11 @@ public class Monster : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.transform.CompareTag("Attack"))
         {
+            Debug.Log("몬스터 맞음!");
             TakeDamage();
             animator.SetTrigger("Hit");
             hitAniPlay = true;

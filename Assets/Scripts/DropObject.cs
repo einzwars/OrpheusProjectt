@@ -38,9 +38,12 @@ public class DropObject : MonoBehaviour
                 gameObject.GetComponent<Rigidbody2D>().gravityScale = gravitySpeed;
             }
         }
-        if (nowPositionY < (nowPositionY - 10))
+        if (nowPositionY < (centerPositionY - 10))
         {
-            Destroy(gameObject);
+            gameObject.GetComponent<PolygonCollider2D>().enabled = false;
+            gameObject.GetComponent<Renderer>().enabled = false;           
+            gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY;
+            gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
         }
     }
 }

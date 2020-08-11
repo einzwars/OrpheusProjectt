@@ -29,21 +29,10 @@ public class FlyingMon : Monster
             up = true;
 
         }
-        Debug.Log(up);
+        // Debug.Log(up);
         StartCoroutine("Flying");
 
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.transform.CompareTag("Attack"))
-        {
-            TakeDamage();
-            animator.SetTrigger("Hit");
-            hitAniPlay = true;
-        }
-    }
-
 
     // Update is called once per frame
     void FixedUpdate()
