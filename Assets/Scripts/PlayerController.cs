@@ -62,6 +62,7 @@ public class PlayerController : MonoBehaviour
     public Animator anim;
     public ItemManager itemManager;
     public EscapeManager escapeManager;
+    public bool checkTrigger;
 
     void Start()
     {
@@ -259,6 +260,12 @@ public class PlayerController : MonoBehaviour
     public void CheckPoint(){
         transform.position = new Vector3(savePoint.x, savePoint.y, savePoint.z);
         life = maxLife;
+        checkTrigger = true;
+        Invoke("CheckTriggerFalse", 1);
+    }
+
+    public void CheckTriggerFalse(){
+        checkTrigger = false;
     }
 
     bool IsPlayingAnim(string animName){
@@ -336,7 +343,7 @@ public class PlayerController : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision){
-        Debug.Log(collision);
+        // Debug.Log(collision);
         if(collision.gameObject.tag == "Check"){
             savePoint = collision.transform.position;
             Debug.Log("세이브!");

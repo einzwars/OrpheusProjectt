@@ -29,7 +29,7 @@ public class FlyingMon : Monster
             up = true;
 
         }
-        Debug.Log(up);
+        // Debug.Log(up);
         StartCoroutine("Flying");
 
     }

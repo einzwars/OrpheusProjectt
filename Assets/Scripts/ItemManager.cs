@@ -36,6 +36,7 @@ public class ItemManager : MonoBehaviour
             threeBall = false;
             pomul = false;
             basicAtk = true;
+            this.bulletImage.sprite = Resources.Load("Item/NormalAttack", typeof(Sprite)) as Sprite;
         }
     }
 
@@ -46,35 +47,24 @@ public class ItemManager : MonoBehaviour
     }
 
     public void ItemApply(Collider2D collision){
-        if (collision.gameObject.name == "GatlingItem") {   // 연사 아이템
-            Destroy(collision.gameObject);
-            // LeftBullet = gatlingMagazine;
-            threeBall = false;
-            pomul = false;
-            basicAtk = false;
-        }
-        if(collision.gameObject.name == "GuideItem") {  // 유도 아이템
-            Destroy(collision.gameObject);
-            // LeftBullet = guideMagazine;
-            threeBall = false;
-            pomul = false;
-            basicAtk = false;
-        }
-        if(collision.gameObject.name == "TripleItem"){  // 삼연발 아이템
-            Destroy(collision.gameObject);
-            LeftBullet = tripleMagazine;
-            threeBall = true;
-            pomul = false;
-            basicAtk = false;
-            this.bulletImage.sprite = Resources.Load("Item/TripleItem", typeof(Sprite)) as Sprite;
-        }
-        if(collision.gameObject.name == "PomulItem"){   // 곡사 아이템
-            Destroy(collision.gameObject);
-            LeftBullet = pomulMagazine;
-            threeBall = false;
-            pomul = true;
-            basicAtk = false;
-            this.bulletImage.sprite = Resources.Load("Item/PomulItem", typeof(Sprite)) as Sprite;
+        if(collision.gameObject.tag == "Item"){
+            int randNum = Random.Range(1, 3);
+            if(randNum == 1){  // 삼연발 아이템
+                Destroy(collision.gameObject);
+                LeftBullet = tripleMagazine;
+                threeBall = true;
+                pomul = false;
+                basicAtk = false;
+                this.bulletImage.sprite = Resources.Load("Item/TripleItem", typeof(Sprite)) as Sprite;
+            }
+            else if(randNum == 2){   // 곡사 아이템
+                Destroy(collision.gameObject);
+                LeftBullet = pomulMagazine;
+                threeBall = false;
+                pomul = true;
+                basicAtk = false;
+                this.bulletImage.sprite = Resources.Load("Item/PomulItem", typeof(Sprite)) as Sprite;
+            }
         }
     }
 }

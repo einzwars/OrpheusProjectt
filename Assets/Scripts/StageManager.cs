@@ -57,7 +57,7 @@ public class StageManager : MonoBehaviour
     }
     public void activeObject()
     {
-        Debug.Log(player.hitObject);
+        // Debug.Log(player.hitObject);
         if(player.hitObject == "Next")
         {
             nextObject.NextStage();
@@ -82,7 +82,7 @@ public class StageManager : MonoBehaviour
         }
         if (player.hitObject == "FallOut")
         {
-            Debug.Log("아웃 진입");
+            // Debug.Log("아웃 진입");
             fallObject.timer = 0;
             fallPadTimerOn = false;
         }
@@ -94,8 +94,8 @@ public class StageManager : MonoBehaviour
         }
         if (player.hitObject == "Wait")
         {
-                Debug.Log("진입");
-                waitIn = true;
+            // Debug.Log("진입");
+            waitIn = true;
         }
         if (player.hitObject == "WaitOut")
         {
@@ -112,12 +112,12 @@ public class StageManager : MonoBehaviour
         }
         if (player.hitObject == "Cave")
         {
-            Debug.Log("인 진입");
+            // Debug.Log("인 진입");
             darkSmogObject.InsideCace();
         }
         if (player.hitObject == "CaveOut")
         {
-            Debug.Log("인 진입");
+            // Debug.Log("인 진입");
             darkSmogObject.OutsideCace();
         }
     }

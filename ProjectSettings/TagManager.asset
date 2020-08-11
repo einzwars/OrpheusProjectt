@@ -23,8 +23,8 @@ TagManager:
   - Cave
   - RightBoost
   - LeftBoost
-  - redball
-  - blueball
+  - Interaction
+  - Item
   layers:
   - Default
   - TransparentFX
@@ -37,7 +37,7 @@ TagManager:
   - NoCollision
   - Ground
   - Player
-  - 
+  - Interaction
   - 
   - 
   - 
