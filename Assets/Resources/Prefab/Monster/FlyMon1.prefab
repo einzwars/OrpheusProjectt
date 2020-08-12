@@ -62,7 +62,7 @@ GameObject:
   - component: {fileID: 7629934247725586977}
   - component: {fileID: 7629934247725586976}
   m_Layer: 20
-  m_Name: FlyMon
+  m_Name: FlyMon1
   m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerDamage: 1
-  monsterHP: 0
+  monsterHP: 3
   monsterMaxHP: 0
   monsterAtt: 0
   monsterAttSpeed: 0
@@ -175,6 +175,7 @@ MonoBehaviour:
   genPoint: {fileID: 0}
   moveVelocity: {x: 0, y: 0, z: 0}
   rayDir: {x: 0, y: 0, z: 0}
+  sr: {fileID: 0}
 --- !u!95 &7629934247725586982
 Animator:
   serializedVersion: 3

@@ -4,41 +4,26 @@ using UnityEngine;
 
 public class RollingRockSpan : MonoBehaviour
 {
-    StageManager stageManager;    
+    StageManager stageManager;
     public int stoneSponIndex;
-    public bool[] stoneList;
-    public GameObject stoneObject;
-    public GameObject stone;
-
+    public GameObject[] stoneList;     
     
     void Start()
     {
         stageManager = GameObject.Find("StageManager").GetComponent<StageManager>();
-        stoneObject = GameObject.Find("RollingStoneObject");
     }
 
-
     public void RockSpan()
-    {
-        stoneList[stoneSponIndex] = true;
+    {       
+        stoneList[stoneSponIndex].SetActive(true);
     }
     public void RockDestroy()
     {
-        stoneList[stoneSponIndex] = false;
+        stoneList[stoneSponIndex].SetActive(false);
     }
     private void Update()
     {
-        stone = stoneObject.transform.Find("RollingStone" + stoneSponIndex).gameObject;
         
-        if (stoneList[stoneSponIndex] == true)
-        {            
-            stone.gameObject.SetActive(true);
-        }
-
-        if (stoneList[stoneSponIndex] == false)
-        {
-            stone.gameObject.SetActive(false);
-        }
     }
 
 }

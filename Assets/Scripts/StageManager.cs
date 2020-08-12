@@ -104,6 +104,7 @@ public class StageManager : MonoBehaviour
         }
         if (player.hitObject == "RockIn")
         {
+            rollingRockSpan = GameObject.Find(player.collisionName).GetComponent<RollingRockSpan>();
             rollingRockSpan.RockSpan();
         }
         if (player.hitObject == "RockOut")

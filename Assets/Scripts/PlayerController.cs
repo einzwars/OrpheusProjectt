@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
     public Sprite fullHeart;
     public Sprite emptyHeart;
     bool isDelay = false;
-    Vector3 savePoint;  // 플레이어 세이브포인트 위치 저장
+    public Vector3 savePoint;  // 플레이어 세이브포인트 위치 저장
 
     // 맵 상호작용 필드
     public GameObject takeObject;          // 플레이어와 맞닿은 대상 대입
@@ -63,6 +63,7 @@ public class PlayerController : MonoBehaviour
     public ItemManager itemManager;
     public EscapeManager escapeManager;
     public bool checkTrigger;
+    public string playerInThis;
 
     void Start()
     {
@@ -123,11 +124,21 @@ public class PlayerController : MonoBehaviour
     }
 
     void StartPosition(){
-        if(SceneManager.GetActiveScene().name == "workplace"){
+        playerInThis = SceneManager.GetActiveScene().name;
+        if(playerInThis == "Stage1"){
             playerPos = new Vector3(-8.55f, -2.92f, 0);
         }
-        else if(SceneManager.GetActiveScene().name == "Stage2E"){
+        else if(playerInThis == "Stage2"){
             playerPos = new Vector3(-8.69f, -4.4f, 0);
+        }
+        else if(playerInThis == "Stage3"){
+            playerPos = new Vector3(-7.52f, -1.53f, 0);
+        }
+        else if(playerInThis == "Stage4"){
+            playerPos = new Vector3(5.45f, -12.34f, 0);
+        }
+        else if(playerInThis == "Stage5E"){
+            playerPos = new Vector3(33.08f, -3.783f, 0);
         }
     }
 
@@ -364,6 +375,9 @@ public class PlayerController : MonoBehaviour
                 StartCoroutine("UnBeatTime");
             }
         }
+        if(collision.gameObject.tag == "cloud"){
+            life = 0;
+        }
 
         itemManager.ItemApply(collision);
 
@@ -395,7 +409,10 @@ public class PlayerController : MonoBehaviour
         takeObject = collision.gameObject;
         hitObject = collision.gameObject.tag;
         enemyPosition = collision.transform.position;        
-        stageManager.activeObject();  
+        stageManager.activeObject();
+        if(collision.gameObject.tag == "Rock"){
+            life = 0;
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)        // 플레이어와 접촉이 떨어졌을 시

@@ -198,7 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerDamage: 1
-  monsterHP: 0
+  monsterHP: 3
   monsterMaxHP: 0
   monsterAtt: 0
   monsterAttSpeed: 0

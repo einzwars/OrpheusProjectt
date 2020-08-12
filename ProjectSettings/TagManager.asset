@@ -25,6 +25,8 @@ TagManager:
   - LeftBoost
   - Interaction
   - Item
+  - Cloud
+  - Rock
   layers:
   - Default
   - TransparentFX
@@ -37,7 +39,7 @@ TagManager:
   - NoCollision
   - Ground
   - Player
-  - Interaction
+  - 
   - 
   - 
   - 
@@ -64,4 +66,13 @@ TagManager:
     locked: 0
   - name: dec
     uniqueID: 364708941
+    locked: 0
+  - name: -1
+    uniqueID: 2961458469
+    locked: 0
+  - name: map
+    uniqueID: 1030474013
+    locked: 0
+  - name: mon
+    uniqueID: 3160135247
     locked: 0
