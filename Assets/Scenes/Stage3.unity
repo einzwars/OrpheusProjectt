@@ -17124,6 +17124,7 @@ MonoBehaviour:
     type: 3}
   emptyHeart: {fileID: -90346984291073618, guid: a76b3ceaa44c1fd4ba76789acba4de1d,
     type: 3}
+  savePoint: {x: 0, y: 0, z: 0}
   takeObject: {fileID: 0}
   gameDirector: {fileID: 1196035939}
   stageManager: {fileID: 1252482730}
@@ -71650,7 +71651,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1112642658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.602129, y: -2.5341272, z: -11.581553}
+  m_LocalPosition: {x: 22.602129, y: -2.5341272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1291010714}

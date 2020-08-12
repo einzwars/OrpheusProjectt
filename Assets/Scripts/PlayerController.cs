@@ -413,6 +413,22 @@ public class PlayerController : MonoBehaviour
         if(collision.gameObject.tag == "Rock"){
             life = 0;
         }
+        if(collision.gameObject.tag == "Monster"){
+            Vector2 attackedVelocity = Vector2.zero;
+            if(collision.gameObject.transform.position.x > transform.position.x)
+                attackedVelocity = new Vector2(-3f, 3f);
+            else
+                attackedVelocity = new Vector2(3f, 3f);
+            
+            rb.AddForce(attackedVelocity, ForceMode2D.Impulse);
+
+            life--;
+
+            if(life > 1){
+                isUnBeatTime = true;
+                StartCoroutine("UnBeatTime");
+            }
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)        // 플레이어와 접촉이 떨어졌을 시

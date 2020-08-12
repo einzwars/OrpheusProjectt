@@ -1598,7 +1598,7 @@ PrefabInstance:
     - target: {fileID: 5216070337193707795, guid: 51138019faa3e6e488865066c42fd89f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 54.46875
+      value: 108.9375
       objectReference: {fileID: 0}
     - target: {fileID: 5216070337193707795, guid: 51138019faa3e6e488865066c42fd89f,
         type: 3}
@@ -9347,7 +9347,7 @@ PrefabInstance:
     - target: {fileID: 5216070337193707795, guid: 51138019faa3e6e488865066c42fd89f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 54.46875
+      value: 108.9375
       objectReference: {fileID: 0}
     - target: {fileID: 5216070337193707795, guid: 51138019faa3e6e488865066c42fd89f,
         type: 3}
@@ -44548,6 +44548,7 @@ MonoBehaviour:
     type: 3}
   emptyHeart: {fileID: -90346984291073618, guid: a76b3ceaa44c1fd4ba76789acba4de1d,
     type: 3}
+  savePoint: {x: 0, y: 0, z: 0}
   takeObject: {fileID: 0}
   gameDirector: {fileID: 46504048}
   stageManager: {fileID: 734677216}
@@ -72811,7 +72812,7 @@ PrefabInstance:
     - target: {fileID: 5216070337193707795, guid: 51138019faa3e6e488865066c42fd89f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 54.46875
+      value: 108.9375
       objectReference: {fileID: 0}
     - target: {fileID: 5216070337193707795, guid: 51138019faa3e6e488865066c42fd89f,
         type: 3}

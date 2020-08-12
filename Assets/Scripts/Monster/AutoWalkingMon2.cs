@@ -15,6 +15,8 @@ public class AutoWalkingMon2 : Monster
     // Update is called once per frame
     void FixedUpdate()
     {
+                animator.SetTrigger("Walk");
+
         if (Physics2D.OverlapCircle(wallCheck[0].position, 0.1f, layerMask) && moveVelocity == Vector3.right)
         {
             moveVelocity = Vector3.left;
