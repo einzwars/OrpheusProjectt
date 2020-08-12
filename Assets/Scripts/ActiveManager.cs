@@ -28,7 +28,6 @@ public class ActiveManager : MonoBehaviour
                 this.gameObject.GetComponent<Renderer>().enabled = true;
             }                
             else if(this.gameObject.tag == "Death"){
-                Debug.Log("떨어지는 함정 재배치!");
                 this.gameObject.GetComponent<PolygonCollider2D>().enabled = true;
                 this.gameObject.GetComponent<Renderer>().enabled = true;           
                 this.gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionX;

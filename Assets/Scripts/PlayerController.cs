@@ -125,16 +125,16 @@ public class PlayerController : MonoBehaviour
 
     void StartPosition(){
         playerInThis = SceneManager.GetActiveScene().name;
-        if(playerInThis == "Stage1"){
+        if(playerInThis == "Stage1 Scenario"){
             playerPos = new Vector3(-8.55f, -2.92f, 0);
         }
-        else if(playerInThis == "Stage2"){
+        else if(playerInThis == "Stage2 Scenario"){
             playerPos = new Vector3(-8.69f, -4.4f, 0);
         }
-        else if(playerInThis == "Stage3"){
-            playerPos = new Vector3(-7.52f, -1.53f, 0);
+        else if(playerInThis == "Stage3 Scenario"){
+            playerPos = new Vector3(-7.52f, 1.53f, 0);
         }
-        else if(playerInThis == "Stage4"){
+        else if(playerInThis == "Stage4 Scenario"){
             playerPos = new Vector3(5.45f, -12.34f, 0);
         }
         else if(playerInThis == "Stage5E"){

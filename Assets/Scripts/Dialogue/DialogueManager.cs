@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -50,7 +51,7 @@ public class DialogueManager : MonoBehaviour
                         if (++lineCount < dialogues.Length)
                         {
                             // theCam.CameraTargetting(dialogues[lineCount].tf_Target);
-                            // StartCoroutine(TypeWritter());
+                            StartCoroutine(TypeWritter());
                         }
                         else
                         {
@@ -102,9 +103,12 @@ public class DialogueManager : MonoBehaviour
         lineCount = 0;
         dialogues = null;
         isNext = false;
-        // theIC.SettingUI(true);
+        theIC.SettingUI(true);
         talkPanel.SetActive(false);
-
+        if (theIC.checkObj.name == "Letter")
+        {
+            SceneManager.LoadScene("StageSelectScene");
+        }
     }
     
 }

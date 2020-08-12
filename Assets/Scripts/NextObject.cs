@@ -14,7 +14,7 @@ public class NextObject : MonoBehaviour
         player = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
-    public void NextStage()  // 1번 분기일 때 스테이지를 이동하는 변수
+    public void NextStage()
     {
         SceneManager.LoadScene("StageSelectScene");
     }

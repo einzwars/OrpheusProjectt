@@ -13,7 +13,7 @@ public class InteractionController : MonoBehaviour
     [SerializeField] GameObject buttonAttack;
 
 
-    GameObject checkObj;
+    public GameObject checkObj;
     bool isContact = false;
     public static bool isInteract = false;
     bool startScene = false;
@@ -28,13 +28,6 @@ public class InteractionController : MonoBehaviour
         theDM = dialogueManager.GetComponent<DialogueManager>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-        
-    }
-    
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Interaction"))      // 대사 상호작용하는 오브젝트 태그
@@ -55,7 +48,7 @@ public class InteractionController : MonoBehaviour
     void OnTriggerExit2D(Collider2D collision)
     {
         isContact = false;
-        // checkNPC = null;
+        // checkObj = null;
     }
 
     public void SettingUI(bool p_flag)
@@ -63,6 +56,7 @@ public class InteractionController : MonoBehaviour
         buttonLeft.SetActive(p_flag);
         buttonRight.SetActive(p_flag);
         buttonJump.SetActive(p_flag);
+        buttonAttack.SetActive(p_flag);
         isInteract = !p_flag;
     }
 }

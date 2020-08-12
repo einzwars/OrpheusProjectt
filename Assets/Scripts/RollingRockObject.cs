@@ -19,7 +19,7 @@ public class RollingRockObject : MonoBehaviour
         float nowRotationZ = transform.rotation.eulerAngles.z;
         if(right)
         {
-            if (rigid2D.velocity.y < 0)
+            if (rigid2D.velocity.y < 10)
             {
                 if (225 <= nowRotationZ && nowRotationZ < 315)
                 {
@@ -45,7 +45,7 @@ public class RollingRockObject : MonoBehaviour
         }
         if (!right)
         {
-            if (rigid2D.velocity.y < 0)
+            if (rigid2D.velocity.y < 10)
             {
                 if (225 <= nowRotationZ && nowRotationZ < 315)
                 {

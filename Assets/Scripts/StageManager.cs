@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StageManager : MonoBehaviour
 {
@@ -23,9 +24,13 @@ public class StageManager : MonoBehaviour
         player = GameObject.Find("Player").GetComponent<PlayerController>();
         playerPos = GameObject.Find("Player").transform;
         damageDirector = GameObject.Find("DamageDirector").GetComponent<DamageDirector>();
-        nextObject = GameObject.Find("NextStage").GetComponent<NextObject>();
+        if(SceneManager.GetActiveScene().name == "Stage2 Scenario")
+            nextObject = GameObject.Find("Letter").GetComponent<NextObject>();
+        else
+            nextObject = GameObject.Find("NextStage").GetComponent<NextObject>();
         fallObject = GameObject.Find("FallObject").GetComponent<FallObject>();
-        waitObject = GameObject.Find("Sign").GetComponent<WaitObject>();
+        if(SceneManager.GetActiveScene().name != "Stage3 Scenario")
+            waitObject = GameObject.Find("Sign").GetComponent<WaitObject>();
     }
     private void Update()
     {   

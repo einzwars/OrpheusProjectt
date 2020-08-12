@@ -30,14 +30,16 @@ public class ItemManager : MonoBehaviour
 
     void Update()
     {
-        this.LeftBulletText.text = this.LeftBullet.ToString();
         if (LeftBullet == 0)
         {
             threeBall = false;
             pomul = false;
             basicAtk = true;
             this.bulletImage.sprite = Resources.Load("Item/NormalAttack", typeof(Sprite)) as Sprite;
+            this.LeftBulletText.text = "∞";
         }
+        else
+            this.LeftBulletText.text = this.LeftBullet.ToString();
     }
 
     public void ConsumeBullet() {
