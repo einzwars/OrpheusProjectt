@@ -23,10 +23,14 @@ TagManager:
   - Cave
   - RightBoost
   - LeftBoost
+<<<<<<< HEAD
   - Interaction
   - Item
   - Cloud
   - Rock
+=======
+  - Cloud
+>>>>>>> 1b5a4d81d0f767aaa93b9c33daa2202415f51b0f
   layers:
   - Default
   - TransparentFX

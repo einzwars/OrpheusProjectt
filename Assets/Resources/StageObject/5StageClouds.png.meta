@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 3d406547a751a0c48a64bec6cbd417e7
+=======
+guid: 5f45a4e378a34f54fb6246bc9578bc42
+>>>>>>> 1b5a4d81d0f767aaa93b9c33daa2202415f51b0f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,6 +105,7 @@ TextureImporter:
     outline: []
     physicsShape:
     - - {x: -37, y: 57}
+<<<<<<< HEAD
       - {x: -55, y: 49}
       - {x: -64, y: 30}
       - {x: -64, y: -42}
@@ -114,6 +119,22 @@ TextureImporter:
       - {x: 52, y: 12}
       - {x: 46, y: 26}
       - {x: 34, y: 44}
+=======
+      - {x: -52, y: 51}
+      - {x: -57, y: 45}
+      - {x: -64, y: 29}
+      - {x: -64, y: -26}
+      - {x: -63, y: -42}
+      - {x: -53, y: -49}
+      - {x: -23, y: -57}
+      - {x: 20, y: -62}
+      - {x: 41, y: -49}
+      - {x: 59, y: -27}
+      - {x: 59, y: -12}
+      - {x: 52, y: 13}
+      - {x: 43, y: 30}
+      - {x: 33, y: 45}
+>>>>>>> 1b5a4d81d0f767aaa93b9c33daa2202415f51b0f
       - {x: 27, y: 50}
       - {x: 10, y: 55}
     bones: []
