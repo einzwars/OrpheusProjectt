@@ -7,8 +7,8 @@ public class IdleAttMon : Monster
     // Start is called before the first frame update
     void Start()
     {
-            monsterAttCoolTime = 1.0f; // 쿨타임
-            monsterAttTimer = 1.0f; // 쿨타임 계산
+            monsterAttCoolTime = 0.5f; // 쿨타임
+            monsterAttTimer = 0.5f; // 쿨타임 계산
 
     }
     
@@ -19,7 +19,7 @@ public class IdleAttMon : Monster
         {
             Vector2 frontVec = new Vector2(rb2D.position.x, rb2D.position.y);
             Debug.DrawRay(frontVec, Vector3.left, Color.yellow);
-            RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.left, 300, LayerMask.GetMask("Player"));
+            RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.left, 2, LayerMask.GetMask("Player"));
             if (rayHit.collider != null)
             {
                 animator.SetTrigger("Attack");
@@ -36,7 +36,7 @@ public class IdleAttMon : Monster
         {
             Vector2 frontVec = new Vector2(rb2D.position.x, rb2D.position.y);
             Debug.DrawRay(frontVec, Vector3.right, Color.yellow);
-            RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.right, 300, LayerMask.GetMask("Player"));
+            RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.right, 2, LayerMask.GetMask("Player"));
             if (rayHit.collider != null)
             {
                 animator.SetTrigger("Attack");

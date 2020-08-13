@@ -62,6 +62,7 @@ public class PlayerController : MonoBehaviour
     public Animator anim;
     public ItemManager itemManager;
     public EscapeManager escapeManager;
+    ProductionManager productionManager;
     public bool checkTrigger;
     public string playerInThis;
 
@@ -77,6 +78,7 @@ public class PlayerController : MonoBehaviour
         itemManager = GameObject.Find("ItemManager").GetComponent<ItemManager>();
         stageManager = GameObject.Find("StageManager").GetComponent<StageManager>();
         escapeManager = GameObject.Find("GamePlayUI").transform.Find("ChoiceMenu").gameObject.GetComponent<EscapeManager>();
+        productionManager = GameObject.Find("DialogueManager").GetComponent<ProductionManager>();
         jumpCount = 0;
 
         MoveManager moveBtn = GameObject.Find("MoveManager").GetComponent<MoveManager>();
@@ -112,14 +114,12 @@ public class PlayerController : MonoBehaviour
     }
 
     private void FixedUpdate() {
-        if(!IsPlayingAnim("Attack")){
-            if(PlayerFlip() || Mathf.Abs(moveDir * rb.velocity.x) < maxSpeed){
-                rb.AddForce(new Vector2(moveDir * Time.fixedDeltaTime * moveSpeed, 0));
-            }
-            else
-            {
-                rb.velocity = new Vector2(moveDir * maxSpeed, rb.velocity.y);
-            }
+        if(PlayerFlip() || Mathf.Abs(moveDir * rb.velocity.x) < maxSpeed){
+            rb.AddForce(new Vector2(moveDir * Time.fixedDeltaTime * moveSpeed, 0));
+        }
+        else
+        {
+            rb.velocity = new Vector2(moveDir * maxSpeed, rb.velocity.y);
         }
     }
 
@@ -137,7 +137,7 @@ public class PlayerController : MonoBehaviour
         else if(playerInThis == "Stage4 Scenario"){
             playerPos = new Vector3(5.45f, -12.34f, 0);
         }
-        else if(playerInThis == "Stage5E"){
+        else if(playerInThis == "Stage5 Scenario"){
             playerPos = new Vector3(33.08f, -3.783f, 0);
         }
     }
@@ -341,13 +341,14 @@ public class PlayerController : MonoBehaviour
                 sr.color = new Color32(255, 255, 255, 90);
             else
                 sr.color = new Color32(255, 255, 255, 180);
-            
+            gameObject.layer = LayerMask.NameToLayer("Monster");
             yield return new WaitForSeconds(0.2f);
 
             countTime++;
         }
 
         sr.color = new Color32(255, 255, 255, 255);
+        gameObject.layer = LayerMask.NameToLayer("Player");
         isUnBeatTime = false;
 
         yield return null;
@@ -375,11 +376,13 @@ public class PlayerController : MonoBehaviour
                 StartCoroutine("UnBeatTime");
             }
         }
-        if(collision.gameObject.tag == "cloud"){
+        if(collision.gameObject.tag == "Cloud" || collision.gameObject.tag == "Rock"){
             life = 0;
         }
 
         itemManager.ItemApply(collision);
+        if(playerInThis == "Stage4 Scenario")
+            productionManager.ScenarioProduction(collision);
 
         collisionName = collision.name;
         takeObject = collision.gameObject;

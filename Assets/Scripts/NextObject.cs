@@ -5,9 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class NextObject : MonoBehaviour
 {
-    public int loadSceneNum;
     PlayerController player;
-    Transform startPosition;
 
     private void Start()
     {
@@ -16,6 +14,25 @@ public class NextObject : MonoBehaviour
 
     public void NextStage()
     {
-        SceneManager.LoadScene("StageSelectScene");
+        if(this.gameObject.name == "Ending"){
+            DataController.Instance.gameData.stageFiveClear = true;
+            SceneManager.LoadScene("EndingScene");
+        }
+        else if(this.gameObject.name == "Stage1 Clear"){
+            DataController.Instance.gameData.stageOneClear = true;
+            SceneManager.LoadScene("StageSelectScene");
+        }
+        else if(this.gameObject.name == "Stage2 Clear"){
+            DataController.Instance.gameData.stageTwoClear = true;
+            SceneManager.LoadScene("StageSelectScene");
+        }
+        else if(this.gameObject.name == "Stage3 Clear"){
+            DataController.Instance.gameData.stageThreeClear = true;
+            SceneManager.LoadScene("StageSelectScene");
+        }
+        else if(this.gameObject.name == "Stage4 Clear"){
+            DataController.Instance.gameData.stageFourClear = true;
+            SceneManager.LoadScene("StageSelectScene");
+        }
     }
 }

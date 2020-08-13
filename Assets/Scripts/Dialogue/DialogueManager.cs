@@ -23,11 +23,17 @@ public class DialogueManager : MonoBehaviour
 
     int lineCount = 0; // 대화 카운트
     int contextCount = 0; // 대사 카운트
+    GameObject player;
+    CloudObject cloudObject;
 
     void Start()
     {
+        player = GameObject.Find("Player");
         theIC = FindObjectOfType<InteractionController>();
         // theCam = FindObjectOfType<CameraController>();
+        if(SceneManager.GetActiveScene().name == "Stage5 Scenario"){
+            cloudObject = GameObject.Find("5StageClouds").GetComponent<CloudObject>();
+        }
     }
 
     void Update()
@@ -105,10 +111,28 @@ public class DialogueManager : MonoBehaviour
         isNext = false;
         theIC.SettingUI(true);
         talkPanel.SetActive(false);
+        Production();
+    }
+
+    void Production(){
         if (theIC.checkObj.name == "Letter")
         {
             SceneManager.LoadScene("StageSelectScene");
         }
+        if(theIC.checkObj.name == "MeetHellkeeper"){
+            Destroy(GameObject.Find("HellKeeper(Clone)"));
+        }
+        if(theIC.checkObj.name == "MeetHades"){
+            GameObject.Find("HadesDdiyong").transform.position = player.transform.position;
+        }
+        if(theIC.checkObj.name == "HadesDdiyong"){
+            GameObject.Find("KimDdiyong").transform.position = player.transform.position;
+        }
+        if(theIC.checkObj.name == "KimDdiyong"){
+            GameObject.Find("SadSong").transform.position = player.transform.position;
+        }
+        if(theIC.checkObj.name == "Cloud"){
+            cloudObject.CloudStart();
+        }
     }
-    
 }

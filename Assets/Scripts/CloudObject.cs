@@ -7,6 +7,7 @@ public class CloudObject : MonoBehaviour
     public float setPosition = 10f;
     StageManager stageManager;
     Transform cloudPos;
+    public bool cloudStart;
 
     void Start()
     {
@@ -16,10 +17,16 @@ public class CloudObject : MonoBehaviour
 
     void Update()
     {
-        gameObject.transform.Translate(movingSpeed, 0, 0);
-        if (stageManager.player.checkTrigger == true)
-        {
-            this.gameObject.transform.position = new Vector3(stageManager.player.savePoint.x + setPosition, cloudPos.position.y, cloudPos.position.z);
+        if(cloudStart){
+            gameObject.transform.Translate(movingSpeed, 0, 0);
+            if (stageManager.player.checkTrigger == true)
+            {
+                this.gameObject.transform.position = new Vector3(stageManager.player.savePoint.x + setPosition, cloudPos.position.y, cloudPos.position.z);
+            }
         }
+    }
+
+    public void CloudStart(){
+        cloudStart = true;
     }
 }

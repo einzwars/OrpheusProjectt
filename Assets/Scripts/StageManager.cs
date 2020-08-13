@@ -26,8 +26,14 @@ public class StageManager : MonoBehaviour
         damageDirector = GameObject.Find("DamageDirector").GetComponent<DamageDirector>();
         if(SceneManager.GetActiveScene().name == "Stage2 Scenario")
             nextObject = GameObject.Find("Letter").GetComponent<NextObject>();
-        else
-            nextObject = GameObject.Find("NextStage").GetComponent<NextObject>();
+        else if(SceneManager.GetActiveScene().name == "Stage5 Scenario")
+            nextObject = GameObject.Find("Ending").GetComponent<NextObject>();
+        else if(SceneManager.GetActiveScene().name == "Stage1 Scenario")
+            nextObject = GameObject.Find("Stage1 Clear").GetComponent<NextObject>();
+        else if(SceneManager.GetActiveScene().name == "Stage3 Scenario")
+            nextObject = GameObject.Find("Stage1 Clear").GetComponent<NextObject>();
+        else if(SceneManager.GetActiveScene().name == "Stage4 Scenario")
+            nextObject = GameObject.Find("Stage1 Clear").GetComponent<NextObject>();
         fallObject = GameObject.Find("FallObject").GetComponent<FallObject>();
         if(SceneManager.GetActiveScene().name != "Stage3 Scenario")
             waitObject = GameObject.Find("Sign").GetComponent<WaitObject>();

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -7586436865825670942}
   m_Layer: 10
   m_Name: RollingStone
-  m_TagString: Untagged
+  m_TagString: Rock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
