@@ -4,33 +4,23 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - MonHitBoxCollider
   - Monster
   - Attack
-  - Trigger
-  - SavePoint
-  - MonHitBoxCollider
-  - MonAtt
-  - MonMoveRange
-  - Death
-  - JumpPad
-  - Fall
-  - Check
   - Quarter
+  - Death
+  - RightBoost
+  - Item
+  - LeftBoost
+  - Fall
+  - Next
   - Wait
   - RockIn
   - RockOut
-  - Next
+  - Check
+  - JumpPad
+  - MonMoveRange
   - Cave
-  - RightBoost
-  - LeftBoost
-<<<<<<< HEAD
-  - Interaction
-  - Item
-  - Cloud
-  - Rock
-=======
-  - Cloud
->>>>>>> 1b5a4d81d0f767aaa93b9c33daa2202415f51b0f
   layers:
   - Default
   - TransparentFX
@@ -40,9 +30,6 @@ TagManager:
   - UI
   - 
   - 
-  - NoCollision
-  - Ground
-  - Player
   - 
   - 
   - 
@@ -52,14 +39,17 @@ TagManager:
   - 
   - 
   - 
-  - Monster
-  - MonAtt
   - 
   - 
   - 
-  - MonHitBoxCollider
   - 
-  - MonMoveRange
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -67,16 +57,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: dec
-    uniqueID: 364708941
-    locked: 0
-  - name: -1
-    uniqueID: 2961458469
-    locked: 0
-  - name: map
-    uniqueID: 1030474013
-    locked: 0
-  - name: mon
-    uniqueID: 3160135247
     locked: 0
