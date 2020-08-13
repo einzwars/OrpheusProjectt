@@ -134,22 +134,22 @@ public class StageSelectManager : MonoBehaviour
     public void StageOneStart(){
         // 게임 플레이 씬으로 이동
         // 각각에 맞는 스테이지 활성화
-        SceneManager.LoadScene("Stage1");
+        SceneManager.LoadScene("Stage1 Scenario");
     }
 
     public void StageTwoStart(){
-        SceneManager.LoadScene("Stage2");
+        SceneManager.LoadScene("Stage2 Scenario");
     }
 
     public void StageThreeStart(){
-        SceneManager.LoadScene("Stage3");        
+        SceneManager.LoadScene("Stage3 Scenario");        
     }
 
     public void StageFourStart(){
-        SceneManager.LoadScene("Stage4");        
+        SceneManager.LoadScene("Stage4 Scenario");        
     }
 
     public void StageFiveStart(){
-        SceneManager.LoadScene("Stage5E");        
+        SceneManager.LoadScene("Stage5 Scenario");        
     }
 }

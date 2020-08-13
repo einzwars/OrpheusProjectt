@@ -8,7 +8,8 @@ public class DialogueManager : MonoBehaviour
 {
     public GameObject talkPanel;
     public Text nameText;
-    public Text talkText;
+    public Text talkText;    
+    public FadeController fader;
 
     Dialogue[] dialogues;
 
@@ -25,16 +26,20 @@ public class DialogueManager : MonoBehaviour
     int contextCount = 0; // 대사 카운트
     GameObject player;
     CloudObject cloudObject;
+    float timer = 0;
+    bool emovetrigger;
 
     void Start()
     {
         player = GameObject.Find("Player");
+        fader = GameObject.Find("FadeController").GetComponent<FadeController>();
         theIC = FindObjectOfType<InteractionController>();
         // theCam = FindObjectOfType<CameraController>();
         if(SceneManager.GetActiveScene().name == "Stage5 Scenario"){
             cloudObject = GameObject.Find("5StageClouds").GetComponent<CloudObject>();
         }
     }
+
 
     void Update()
     {
@@ -67,10 +72,26 @@ public class DialogueManager : MonoBehaviour
                 }
             }
         }
-        
-        
+        if(emovetrigger && timer <= 2.5){
+            timer += Time.deltaTime;
+            GameObject emprydike = GameObject.Find("Emprydike");
+            Animator empydikeAnim = GameObject.Find("Emprydike").GetComponent<Animator>();
+            empydikeAnim.SetTrigger("Walk");
+            emprydike.transform.Translate(transform.right * 0.01f);
+        }
+        else if(timer >= 2.5){
+            GameObject emprydike = GameObject.Find("Emprydike");
+            timer = 0;
+            emovetrigger = false;
+            fader.StartFade();
+            Invoke("Prologue4", 1.2f);
+        }
     }
     
+    void Prologue4(){
+        GameObject.Find("Prologue4").transform.position = player.transform.position;
+    }
+
     IEnumerator TypeWritter()
     {
         // talkPanel.SetActive(true);
@@ -134,5 +155,65 @@ public class DialogueManager : MonoBehaviour
         if(theIC.checkObj.name == "Cloud"){
             cloudObject.CloudStart();
         }
+        if(theIC.checkObj.name == "Prologue1"){
+            GameObject.Find("Prologue2").transform.position = player.transform.position;
+        }
+        if(theIC.checkObj.name == "Prologue1"){
+            Destroy(GameObject.Find("Prologue2Image(Clone)"));
+        }
+        if(theIC.checkObj.name == "Prologue2"){
+            GameObject.Find("ScenarioImage").SetActive(false);
+            GameObject.Find("Panel").SetActive(false);
+            GameObject.Find("Prologue3").transform.position = player.transform.position;
+        }
+        if(theIC.checkObj.name == "Prologue3"){
+            emovetrigger = true;
+        }
+        if(theIC.checkObj.name == "Prologue4"){
+            GameObject.Find("Prologue5").transform.position = player.transform.position;
+        }
+        if(theIC.checkObj.name == "Prologue5"){
+            GameObject.Find("Prologue6").transform.position = player.transform.position;
+        }
+        if(theIC.checkObj.name == "Prologue6"){
+            fader.StartFade();
+            Destroy(GameObject.Find("Emprydike"));
+            Destroy(GameObject.Find("WhiteSnake"));     
+            Invoke("Prologue7", 0.5f);
+        }
+        if(theIC.checkObj.name == "Prologue7"){
+            fader.StartFade();
+            Invoke("StageSelect", 1.0f);
+        }
+        if(theIC.checkObj.name == "Ending1"){
+            GameObject.Find("Ending2").transform.position = player.transform.position;
+        }
+        if(theIC.checkObj.name == "Ending2"){
+            GameObject.Find("GamePlayUI").transform.Find("ScenarioImage").gameObject.SetActive(false);
+            GameObject.Find("GamePlayUI").transform.Find("Panel").gameObject.SetActive(false);
+            GameObject.Find("Ending3").transform.position = player.transform.position;
+        }
+        if(theIC.checkObj.name == "Ending3"){
+            GameObject.Find("Ending4").transform.position = player.transform.position;
+        }
+        if(theIC.checkObj.name == "Ending4"){
+            fader.StartFade();
+            Invoke("StageSelect", 1.0f);
+        }
+        if(theIC.checkObj.name == "BadEnding1"){
+            GameObject.Find("BadEnding2").transform.position = player.transform.position;
+        }
+        if(theIC.checkObj.name == "BadEnding2"){
+            fader.StartFade();
+            Invoke("StageSelect", 1.0f);
+        }
+    }
+
+    void StageSelect(){
+        SceneManager.LoadScene("StageSelectScene");
+    }
+
+    void Prologue7(){
+        GameObject.Find("Prologue7").transform.position = player.transform.position;
     }
 }

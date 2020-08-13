@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 // 캐릭터의 위치를 참조해서 카메라의 위치를 갱신해준다
 // https://www.youtube.com/watch?v=nhmc1z9yh0c 해당 페이지 참조
 

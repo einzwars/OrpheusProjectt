@@ -381,8 +381,6 @@ public class PlayerController : MonoBehaviour
         }
 
         itemManager.ItemApply(collision);
-        if(playerInThis == "Stage4 Scenario")
-            productionManager.ScenarioProduction(collision);
 
         collisionName = collision.name;
         takeObject = collision.gameObject;

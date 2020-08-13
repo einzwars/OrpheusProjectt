@@ -19,11 +19,9 @@ public class RollingRockSpan : MonoBehaviour
     }
     public void RockDestroy()
     {
-        stoneList[stoneSponIndex].SetActive(false);
-    }
-    private void Update()
-    {
-        
+        stoneList[stoneSponIndex].GetComponent<CircleCollider2D>().enabled = false;
+        stoneList[stoneSponIndex].GetComponent<Renderer>().enabled = false;
+        stoneList[stoneSponIndex].GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
     }
 
 }

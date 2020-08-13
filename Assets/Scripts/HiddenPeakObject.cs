@@ -8,6 +8,7 @@ public class HiddenPeakObject : MonoBehaviour
 
     float timer = 0.0f;       // 돌출 시간 계산용 변수
     public bool change;
+    public bool first;
     float centerPositionX;
     float centerPositionY;
     float goalPositionX;
@@ -32,44 +33,68 @@ public class HiddenPeakObject : MonoBehaviour
         nowPositionX = gameObject.transform.position.x;
         nowPositionY = gameObject.transform.position.y;
         timer += Time.deltaTime;
-        if(timer > 3)
+        if(first)
         {
-            if(!change)
+            if (!change)
             {
-                if (nowPositionY > goalPositionY)
+                if (timer > 5)//올리기
                 {
-                    change = true;
-                    timer = 0.0f;
+                    if (nowPositionY > goalPositionY)
+                    {
+                        change = true;
+                        timer = 0.0f;
+                    }
+                    gameObject.transform.Translate(0, 0.005f, 0);
                 }
-                gameObject.transform.Translate(0, 0.005f, 0);
             }
             if (change)
             {
-                if (nowPositionY < centerPositionY)
+                if (timer > 3)//내리기
                 {
-                    change = false;
-                    timer = 0.0f;
+                    if (nowPositionY < centerPositionY)
+                    {
+                        if (timer > 5)
+                        {
+                            change = false;
+                            timer = 0.0f;
+                        }
+                        gameObject.transform.Translate(0, 0.005f, 0);
+                    }
+                    gameObject.transform.Translate(0, -0.005f, 0);
                 }
-                gameObject.transform.Translate(0, -0.005f, 0);
+            }
+
+        }
+        if (!first)
+        {
+            if (change)
+            {
+                if (timer > 5)//올리기
+                {
+                    if (nowPositionY > goalPositionY)
+                    {
+                        change = false;
+                        timer = 0.0f;
+                    }
+                    gameObject.transform.Translate(0, 0.005f, 0);
+                }
+            }
+            if (!change)
+            {
+                if (timer > 3)//내리기
+                {
+                    if (nowPositionY < centerPositionY)
+                    {
+                        if (timer > 5)
+                        {
+                            change = true;
+                            timer = 0.0f;
+                        }
+                        gameObject.transform.Translate(0, 0.005f, 0);
+                    }
+                    gameObject.transform.Translate(0, -0.005f, 0);
+                }
             }
         }
-    }
-    void Up()
-    {
-        if (nowPositionY > goalPositionY)
-        {
-            change = true;
-            timer = 0.0f;
-        }
-        gameObject.transform.Translate(0, 0.01f, 0);
-    }
-    void Down()
-    {
-        if (nowPositionY > goalPositionY)
-        {
-            change = true;
-            timer = 0.0f;
-        }
-        gameObject.transform.Translate(0, 0.01f, 0);
     }
 }

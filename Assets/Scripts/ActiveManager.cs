@@ -32,6 +32,14 @@ public class ActiveManager : MonoBehaviour
                 this.gameObject.GetComponent<Renderer>().enabled = true;           
                 this.gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionX;
             }
+            else if (this.gameObject.tag == "Rock")
+            {
+                this.gameObject.transform.position = new Vector3(posX, posY, 0);
+                this.gameObject.GetComponent<CircleCollider2D>().enabled = true;
+                this.gameObject.GetComponent<Renderer>().enabled = true;
+                this.gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+                this.gameObject.SetActive(false);
+            }
         }
     }
 }

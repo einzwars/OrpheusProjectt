@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InteractionController : MonoBehaviour
 {
@@ -20,10 +21,14 @@ public class InteractionController : MonoBehaviour
 
     GameObject dialogueManager;
     DialogueManager theDM;
+    ProductionManager productionManager;
     
     void Start()
     {
         player = GameObject.Find("Player");
+        productionManager = GameObject.Find("DialogueManager").GetComponent<ProductionManager>();
+        if(SceneManager.GetActiveScene().name == "Prologue")
+            player.transform.position = new Vector3(-7.53f, -4.239f, 0);
         dialogueManager = GameObject.Find("DialogueManager");
         theDM = dialogueManager.GetComponent<DialogueManager>();
     }
@@ -43,6 +48,9 @@ public class InteractionController : MonoBehaviour
                 }
             }
         }
+        
+        if(SceneManager.GetActiveScene().name == "Stage4 Scenario" || SceneManager.GetActiveScene().name == "Prologue" || SceneManager.GetActiveScene().name == "Ending" || SceneManager.GetActiveScene().name == "BadEnding")
+            productionManager.ScenarioProduction(collision);
     }
 
     void OnTriggerExit2D(Collider2D collision)
