@@ -1,0 +1,9 @@
+플레이어 컨트롤러에 세이브 장소를 지정하는 트리거 엔터
+BossIn태그에 반응하는 세이브 저장 if 영역을 만들어야 합니다
+세이브 포인트 함수 사용시에 보스전 진행상황을 초기화해주는 변수를 적용해주어야 합니다
+stageMananger.BossObject.phaseNum[0] = true;
+stageMananger.BossObject.phaseNum[1] = false;
+stageMananger.BossObject.phaseNum[2] = false;
+monsterOn = true;
+itemOn = true;
+monsterDeathCount = 0;

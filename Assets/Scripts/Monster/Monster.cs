@@ -22,7 +22,8 @@ public class Monster : MonoBehaviour
     public bool hitAniPlay;
     public bool isMoving;
     public bool canAtt = true;
-    public bool monsterDirRight = true; // 뭔지 아직 모름
+    public bool monsterDirRight = true; // 뭔지 아직 모름    
+    public bool hadesMonster = false;
 
     public int monsterAttType; // 0 = 근거리, 1 = 원거리
     public int monsterMoveType; // 0 = 땅, 1 = 하늘
@@ -43,7 +44,7 @@ public class Monster : MonoBehaviour
     public Vector3 rayDir; // Ray 쏘는 방향
 
     public SpriteRenderer sr;
-
+    public HadesMonsterDeath hadesMonsterDeath;
 
     protected void Awake()
     {
@@ -163,6 +164,11 @@ public class Monster : MonoBehaviour
     {
         if(monsterHP <= 0 )
         {
+            if(hadesMonster)
+            {
+                hadesMonsterDeath = GetComponent<HadesMonsterDeath>();
+                hadesMonsterDeath.bossObject.monsterDeathCount++;
+            }            
             Destroy(this.gameObject);
             Debug.Log("주금");
         }

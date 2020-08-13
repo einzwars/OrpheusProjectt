@@ -137,6 +137,10 @@ public class PlayerController : MonoBehaviour
         else if(playerInThis == "Stage4 Scenario"){
             playerPos = new Vector3(5.45f, -12.34f, 0);
         }
+        else if (playerInThis == "Stage 4 object update")
+        {
+            playerPos = new Vector3(5.45f, -12.34f, 0);
+        }
         else if(playerInThis == "Stage5E"){
             playerPos = new Vector3(33.08f, -3.783f, 0);
         }

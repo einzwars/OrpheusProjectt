@@ -15,6 +15,7 @@ public class StageManager : MonoBehaviour
     public WaitObject waitObject;    
     public RollingRockSpan rollingRockSpan;
     public DarkSmogObject darkSmogObject;
+    public BossObject bossObject; // 보스 추가용 변수
     public bool checkSave;      // 세이브포인트 진입을 확인하는 변수    
     public bool fallPadTimerOn = false;     // 타이머 발생 여부 계산용 변수
     public bool waitIn = false;     // 표지판 안의 들어갔음을 확인하는 변수
@@ -125,6 +126,14 @@ public class StageManager : MonoBehaviour
         {
             // Debug.Log("인 진입");
             darkSmogObject.OutsideCace();
+        }
+        if (player.hitObject == "BossIn")
+        {
+            player.takeObject.SetActive(false);
+            bossObject.bossIn = true;
+            bossObject.phaseNum[0] = true;
+            bossObject.monsterOn = true;
+            bossObject.itemOn = true;            
         }
     }
 

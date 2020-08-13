@@ -7,6 +7,8 @@ public class IdleAttMon : Monster
     // Start is called before the first frame update
     void Start()
     {
+            monsterHP = 3;
+
             monsterAttCoolTime = 1.0f; // 쿨타임
             monsterAttTimer = 1.0f; // 쿨타임 계산
 

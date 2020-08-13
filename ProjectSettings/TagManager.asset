@@ -27,6 +27,7 @@ TagManager:
   - Item
   - Cloud
   - Rock
+  - BossIn
   layers:
   - Default
   - TransparentFX

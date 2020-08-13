@@ -30,9 +30,7 @@ public class SlideObject : MonoBehaviour
     void Update()
     {
         float nowPositionX = gameObject.transform.position.x;
-        float nowPositionY = gameObject.transform.position.y;
-        Debug.Log(nowPositionX);
-        Debug.Log(nowPositionY);
+        float nowPositionY = gameObject.transform.position.y;        
         if (right == true)
         {
             gameObject.transform.Translate(0, movingSpeed, 0);
