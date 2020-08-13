@@ -15,7 +15,8 @@ public class BossObject : MonoBehaviour
     public int monsterIndex;
     public float monsterCount;
     public float monsterDeathCount;
-    public float[] monsterMaxCountList;    
+    public float[] monsterMaxCountList;
+    public bool[] monsterCheckList;
 
 
     public GameObject items;
@@ -25,8 +26,7 @@ public class BossObject : MonoBehaviour
     public int itemCount;
 
 
-    public bool bossIn;
-    public int phaseIndex;
+    public bool bossIn;    
     public bool[] phaseNum;
 
 
@@ -148,20 +148,22 @@ public class BossObject : MonoBehaviour
              }
              if (skillOn[2])
              {
-                  if (skillCountList[2] < skillThreeMaxCountList[0])
-                  {
-                      GameObject shoot = Instantiate(hadesNotePrefab1) as GameObject;
-                      shoot.transform.position = new Vector3(centerPositionX, centerPositionY + skillPositionYList[2], 0);
-                      shoot.transform.rotation = Quaternion.Euler(0, 0, anglePer * 30);
-                      anglePer++;
-                      skillCountList[2]++;
-                  }
-                  else if (skillCountList[2] == skillThreeMaxCountList[0])
-                  {
-                      skillCountList[2] = 0;
-                      skillOn[2] = false;
-                      anglePer = 1;
-                  }
+
+                if (skillCountList[2] < skillThreeMaxCountList[0])
+                {
+                    GameObject shoot = Instantiate(hadesNotePrefab1) as GameObject;
+                    shoot.transform.position = new Vector3(centerPositionX, centerPositionY + skillPositionYList[2], 0);
+                    shoot.transform.localScale = new Vector3(1, 1, 1);
+                    shoot.transform.rotation = Quaternion.Euler(0, 0, anglePer * 30);
+                    anglePer++;
+                    skillCountList[2]++;
+                }
+                else if (skillCountList[2] == skillThreeMaxCountList[0])
+                {
+                    skillCountList[2] = 0;
+                    skillOn[2] = false;
+                    anglePer = 1;
+                }
              }
             if(monsterOn)
             {
@@ -171,7 +173,8 @@ public class BossObject : MonoBehaviour
                     do
                     {
                         span = (int)Random.Range(0, 16);
-                    } while (span == monsterIndex);
+                    } while (monsterCheckList[span] == true);
+                    monsterCheckList[span] = true;
                     monsterIndex = span;
                     GameObject monster = Instantiate(monsters[monsterIndex]) as GameObject;
                     monster.transform.position = monstersPosition[monsterIndex].transform.position;
@@ -179,13 +182,17 @@ public class BossObject : MonoBehaviour
                 }
                 if (monsterCount == monsterMaxCountList[0])
                 {
-                    monsterMaxCountList[0] = 0;
+                    for (int i = 0; i < 16; i++)
+                    {
+                        monsterCheckList[i] = false;
+                    }
+                    monsterCount = 0;
                     monsterOn = false;
                 }
             }
             if (itemOn)
             {
-                if (monsterCount > monsterMaxCountList[0] / 2 && itemCount < 1)
+                if (monsterDeathCount == monsterMaxCountList[0] / 2 && itemCount < 1)
                 {
                     int span = 0;
                     do
@@ -193,11 +200,11 @@ public class BossObject : MonoBehaviour
                         span = (int)Random.Range(0, 5);
                     } while (span == itemIndex);
                     itemIndex = span;                    
-                    GameObject item = Instantiate(items.gameObject) as GameObject;
+                    GameObject item = Instantiate(items) as GameObject;
                     item.transform.position = itemPosition[itemIndex].transform.position;
                     itemCount++;
                 }
-                if (monsterCount == monsterMaxCountList[0] && itemCount < 2)
+                if (monsterDeathCount == monsterMaxCountList[0] && itemCount < 2)
                 {
                     int span = 0;
                     do
@@ -205,11 +212,11 @@ public class BossObject : MonoBehaviour
                         span = (int)Random.Range(0, 5);
                     } while (span == itemIndex);
                     itemIndex = span;
-                    GameObject item = Instantiate(items.gameObject) as GameObject;
+                    GameObject item = Instantiate(items) as GameObject;
                     item.transform.position = itemPosition[itemIndex].transform.position;
                     itemCount++;
                 }
-                if (monsterCount == monsterMaxCountList[0])
+                if (monsterDeathCount == monsterMaxCountList[0])
                 {
                     itemOn = false;
                     itemCount = 0;
@@ -279,6 +286,7 @@ public class BossObject : MonoBehaviour
                 {
                     GameObject shoot = Instantiate(hadesNotePrefab1) as GameObject;
                     shoot.transform.position = new Vector3(centerPositionX, centerPositionY + skillPositionYList[2], 0);
+                    shoot.transform.localScale = new Vector3(1, 1, 1);
                     shoot.transform.rotation = Quaternion.Euler(0, 0, anglePer * 18);
                     anglePer++;
                     skillCountList[2]++;
@@ -298,7 +306,8 @@ public class BossObject : MonoBehaviour
                     do
                     {
                         span = (int)Random.Range(0, 16);
-                    } while (span == monsterIndex);
+                    } while (monsterCheckList[span] == true) ;
+                    monsterCheckList[span] = true;
                     monsterIndex = span;
                     GameObject monster = Instantiate(monsters[monsterIndex]) as GameObject;
                     monster.transform.position = monstersPosition[monsterIndex].transform.position;
@@ -306,13 +315,17 @@ public class BossObject : MonoBehaviour
                 }
                 if (monsterCount == monsterMaxCountList[1])
                 {
+                    for (int i = 0; i < 16; i++)
+                    {
+                        monsterCheckList[i] = false;
+                    }
                     monsterCount = 0;
                     monsterOn = false;
                 }
             }
             if (itemOn)
             {
-                if (monsterCount > monsterMaxCountList[1] / 2 && itemCount < 1)
+                if (monsterDeathCount == monsterMaxCountList[1] / 2 && itemCount < 1)
                 {
                     int span = 0;
                     do
@@ -324,7 +337,7 @@ public class BossObject : MonoBehaviour
                     item.transform.position = itemPosition[itemIndex].transform.position;
                     itemCount++;
                 }
-                if (monsterCount == monsterMaxCountList[1] && itemCount < 2)
+                if (monsterDeathCount == monsterMaxCountList[1] && itemCount < 2)
                 {
                     int span = 0;
                     do
@@ -336,7 +349,7 @@ public class BossObject : MonoBehaviour
                     item.transform.position = itemPosition[itemIndex].transform.position;
                     itemCount++;
                 }
-                if (monsterCount == monsterMaxCountList[1])
+                if (monsterDeathCount == monsterMaxCountList[1])
                 {
                     itemCount = 0;
                     itemOn = false;
@@ -413,10 +426,10 @@ public class BossObject : MonoBehaviour
             }
             if (skillOn[2])
                 {
-                if (skillCountList[2] < skillThreeMaxCountList[2])
-                {
+                if (skillCountList[2] < skillThreeMaxCountList[2])                {
                     GameObject shoot = Instantiate(hadesNotePrefab1) as GameObject;
                     shoot.transform.position = new Vector3(centerPositionX, centerPositionY + skillPositionYList[2], 0);
+                    shoot.transform.localScale = new Vector3(1, 1, 1);
                     shoot.transform.rotation = Quaternion.Euler(0, 0, anglePer * 12.857f);
                     anglePer++;
                     skillCountList[2]++;
@@ -436,7 +449,8 @@ public class BossObject : MonoBehaviour
                     do
                     {
                         span = (int)Random.Range(0, 16);
-                    } while (span == monsterIndex);
+                    } while (monsterCheckList[span] == true);
+                    monsterCheckList[span] = true;
                     monsterIndex = span;
                     GameObject monster = Instantiate(monsters[monsterIndex]) as GameObject;
                     monster.transform.position = monstersPosition[monsterIndex].transform.position;
@@ -444,13 +458,17 @@ public class BossObject : MonoBehaviour
                 }
                 if (monsterCount == monsterMaxCountList[2])
                 {
+                    for (int i = 0; i < 16; i++)
+                    {
+                        monsterCheckList[i] = false;
+                    }
                     monsterCount = 0;
                     monsterOn = false;
                 }
             }
             if (itemOn)
             {
-                if (monsterCount > monsterMaxCountList[2] / 2 && itemCount < 1)
+                if (monsterDeathCount == monsterMaxCountList[2] / 2 && itemCount < 1)
                 {
                     int span = 0;
                     do
@@ -462,7 +480,7 @@ public class BossObject : MonoBehaviour
                     item.transform.position = itemPosition[itemIndex].transform.position;
                     itemCount++;
                 }
-                if (monsterCount == monsterMaxCountList[2] && itemCount < 2)
+                if (monsterDeathCount == monsterMaxCountList[2] && itemCount < 2)
                 {
                     int span = 0;
                     do
@@ -474,7 +492,7 @@ public class BossObject : MonoBehaviour
                     item.transform.position = itemPosition[itemIndex].transform.position;
                     itemCount++;
                 }
-                if (monsterCount == monsterMaxCountList[2])
+                if (monsterDeathCount == monsterMaxCountList[2])
                 {
                     itemOn = false;
                     itemCount = 0;

@@ -6,7 +6,7 @@ public class HiddenPeakObjectFalse : MonoBehaviour
 {
     // 해당 스크립트는 적용할 오브젝트에 넣으면 된다
 
-    float timer = 0.0f;       // 돌출 시간 계산용 변수
+    float timer = -1.0f;       // 돌출 시간 계산용 변수
     public bool change;
     float centerPositionX;
     float centerPositionY;
@@ -54,4 +54,5 @@ public class HiddenPeakObjectFalse : MonoBehaviour
             }
         }
     }
+
 }

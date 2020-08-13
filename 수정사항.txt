@@ -7,3 +7,6 @@ stageMananger.BossObject.phaseNum[2] = false;
 monsterOn = true;
 itemOn = true;
 monsterDeathCount = 0;
+
+
+
