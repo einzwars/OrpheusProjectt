@@ -149,7 +149,6 @@ MonoBehaviour:
   isMoving: 0
   canAtt: 1
   monsterDirRight: 1
-  hadesMonster: 1
   monsterAttType: 0
   monsterMoveType: 0
   monsterMoveFlag: 0
@@ -166,7 +165,6 @@ MonoBehaviour:
   moveVelocity: {x: 0, y: 0, z: 0}
   rayDir: {x: 0, y: 0, z: 0}
   sr: {fileID: 0}
-  hadesMonsterDeath: {fileID: 0}
 --- !u!50 &5844640680362571111
 Rigidbody2D:
   serializedVersion: 4
@@ -197,17 +195,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 4589879852666173356}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbb6894d5f1bf894ba2510ad5a3bcc3f, type: 3}
+  m_Script: {fileID: 11500000, guid: be39bb175e23275468a60e8a0bed3dbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flyAttMon: {fileID: 0}
-  idleMon: {fileID: 0}
-  idleAttMon: {fileID: 0}
   bossObject: {fileID: 0}
   hadesMonsterNum: 13
-  hadesMonsterType: 0
-  itemCount: 0
-  attCount: 0
 --- !u!1 &6536084556200030654
 GameObject:
   m_ObjectHideFlags: 0

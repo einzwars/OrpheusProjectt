@@ -6,10 +6,8 @@ public class HadesMonsterDeath : MonoBehaviour
 {    
 
     public BossObject bossObject;
-    public int hadesMonsterNum;
-    public int hadesMonsterType;
-    public int itemCount = 0;
-    public int attCount = 0;
+    public int hadesMonsterNum;    
+    
 
     void Start()
     {

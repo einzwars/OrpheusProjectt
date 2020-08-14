@@ -32,7 +32,7 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        fader = GameObject.Find("FadeController").GetComponent<FadeController>();
+        // fader = GameObject.Find("FadeController").GetComponent<FadeController>();
         theIC = FindObjectOfType<InteractionController>();
         // theCam = FindObjectOfType<CameraController>();
         if(SceneManager.GetActiveScene().name == "Stage5 Scenario"){

@@ -15,6 +15,7 @@ public class StageManager : MonoBehaviour
     public WaitObject waitObject;    
     public RollingRockSpan rollingRockSpan;
     public DarkSmogObject darkSmogObject;
+    public BossObject bossObject;
     public bool checkSave;      // 세이브포인트 진입을 확인하는 변수    
     public bool fallPadTimerOn = false;     // 타이머 발생 여부 계산용 변수
     public bool waitIn = false;     // 표지판 안의 들어갔음을 확인하는 변수
@@ -31,9 +32,9 @@ public class StageManager : MonoBehaviour
         else if(SceneManager.GetActiveScene().name == "Stage1 Scenario")
             nextObject = GameObject.Find("Stage1 Clear").GetComponent<NextObject>();
         else if(SceneManager.GetActiveScene().name == "Stage3 Scenario")
-            nextObject = GameObject.Find("Stage1 Clear").GetComponent<NextObject>();
+            nextObject = GameObject.Find("Stage3 Clear").GetComponent<NextObject>();
         else if(SceneManager.GetActiveScene().name == "Stage4 Scenario")
-            nextObject = GameObject.Find("Stage1 Clear").GetComponent<NextObject>();
+            nextObject = GameObject.Find("Stage4 Clear").GetComponent<NextObject>();
         fallObject = GameObject.Find("FallObject").GetComponent<FallObject>();
         if(SceneManager.GetActiveScene().name != "Stage3 Scenario")
             waitObject = GameObject.Find("Sign").GetComponent<WaitObject>();
@@ -68,15 +69,11 @@ public class StageManager : MonoBehaviour
     }
     public void activeObject()
     {
+        Debug.Log(player.hitObject);
         // Debug.Log(player.hitObject);
         if(player.hitObject == "Next")
         {
             nextObject.NextStage();
-        }
-        if (player.hitObject == "Quarter")  // 스테이지별 분기 아이템 태그? 수정 필요
-        {
-            DataController.Instance.gameData.stageOneItemValue += 1;
-            Destroy(player.takeObject);
         }
         if (player.hitObject == "JumpPad")
         {
@@ -131,6 +128,14 @@ public class StageManager : MonoBehaviour
         {
             // Debug.Log("인 진입");
             darkSmogObject.OutsideCace();
+        }
+        if (player.hitObject == "BossIn")
+        {
+            player.takeObject.SetActive(false);
+            bossObject.bossIn = true;
+            bossObject.phaseNum[0] = true;
+            bossObject.monsterOn = true;
+            bossObject.itemOn = true;            
         }
     }
 

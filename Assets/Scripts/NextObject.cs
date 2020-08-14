@@ -22,7 +22,7 @@ public class NextObject : MonoBehaviour
             DataController.Instance.gameData.stageOneClear = true;
             SceneManager.LoadScene("StageSelectScene");
         }
-        else if(this.gameObject.name == "Stage2 Clear"){
+        else if(this.gameObject.name == "Letter"){
             DataController.Instance.gameData.stageTwoClear = true;
             SceneManager.LoadScene("StageSelectScene");
         }
