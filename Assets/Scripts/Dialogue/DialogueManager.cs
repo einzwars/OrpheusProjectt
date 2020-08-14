@@ -32,7 +32,7 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        // fader = GameObject.Find("FadeController").GetComponent<FadeController>();
+        fader = GameObject.Find("FadeController").GetComponent<FadeController>();
         theIC = FindObjectOfType<InteractionController>();
         // theCam = FindObjectOfType<CameraController>();
         if(SceneManager.GetActiveScene().name == "Stage5 Scenario"){
@@ -151,6 +151,14 @@ public class DialogueManager : MonoBehaviour
         }
         if(theIC.checkObj.name == "KimDdiyong"){
             GameObject.Find("SadSong").transform.position = player.transform.position;
+        }
+        if(theIC.checkObj.name == "SadSong"){
+            GameObject.Find("Hades").transform.position = new Vector3(45, -9, 0);
+            BossObject bossObject = GameObject.Find("HadesObject").GetComponent<BossObject>();
+            bossObject.bossIn = true;
+            bossObject.phaseNum[0] = true;
+            bossObject.monsterOn = true;
+            bossObject.itemOn = true;   
         }
         if(theIC.checkObj.name == "Cloud"){
             cloudObject.CloudStart();

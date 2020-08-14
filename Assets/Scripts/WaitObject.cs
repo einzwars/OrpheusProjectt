@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
 
 public class WaitObject : MonoBehaviour
 {
     PlayerController player;
     StageManager stageManager;
     public Text waitText;
+    public Image panel;
     public GameObject usingText;
     public int waitIndex;
     float centerPositionX;
@@ -22,6 +22,7 @@ public class WaitObject : MonoBehaviour
         stageManager = GameObject.Find("StageManager").GetComponent<StageManager>();
         usingText = GameObject.Find("UsingText");
         waitText = usingText.transform.Find("WaitText").GetComponent<Text>();
+        panel = usingText.transform.Find("SignPanel").GetComponent<Image>();
         centerPositionX = gameObject.transform.position.x;
         centerPositionY = gameObject.transform.position.y;
     }
@@ -35,9 +36,9 @@ public class WaitObject : MonoBehaviour
             {
                 if (stageManager.playerPos.position.y < (centerPositionY + reactionLeach) && stageManager.playerPos.position.y > (centerPositionY - reactionLeach))
                 {
-                    waitText.transform.position = new Vector3(centerPositionX, centerPositionY + 0.4f, 0);
                     waitText.text = waitList[waitIndex];
-                    waitText.gameObject.SetActive(true);                    
+                    waitText.gameObject.SetActive(true);  
+                    panel.gameObject.SetActive(true);                  
                 }
             }                
         }

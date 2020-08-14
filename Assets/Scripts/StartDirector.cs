@@ -16,6 +16,7 @@ public class StartDirector : MonoBehaviour
 
     void Start()
     {
+        Screen.SetResolution(1280, 720, true);
         audio = GetComponent<AudioSource>();
         button = GetComponent<Button>();
         startManager = GameObject.Find("StartManager");
@@ -37,7 +38,11 @@ public class StartDirector : MonoBehaviour
     }
 
     public void StageSelect(){
-        SceneManager.LoadScene("StageSelectScene");
+        if(!DataController.Instance.gameData.prologueView){
+            SceneManager.LoadScene("Prologue");
+        }
+        else
+            SceneManager.LoadScene("StageSelectScene");
     }
 
     public void GameQuit(){

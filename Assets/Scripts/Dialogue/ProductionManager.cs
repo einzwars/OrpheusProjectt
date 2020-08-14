@@ -62,14 +62,14 @@ public class ProductionManager : MonoBehaviour
         if(collision.name == "MeetHellkeeper"){
             Instantiate(hellKeeperPrefab as GameObject, new Vector3(16.31f, -9.95f, 0), transform.rotation);
         }
-        if(collision.name == "HadesDdiyong"){
-            Instantiate(exclamationMarkPrefab as GameObject, new Vector3(45f, -8f, 0), transform.rotation);
-            Destroy(GameObject.Find("ExclamationMark(Clone)"), 1.5f);
-        }
-        if(collision.name == "KimDdiyong"){
-            Instantiate(exclamationMarkPrefab as GameObject, new Vector3(45f, -8f, 0), transform.rotation);
-            Destroy(GameObject.Find("ExclamationMark(Clone)"), 1.5f);
-        }
+        // if(collision.name == "HadesDdiyong"){
+        //     Instantiate(exclamationMarkPrefab as GameObject, new Vector3(45f, -8f, 0), transform.rotation);
+        //     Destroy(GameObject.Find("ExclamationMark(Clone)"), 1.5f);
+        // }
+        // if(collision.name == "KimDdiyong"){
+        //     Instantiate(exclamationMarkPrefab as GameObject, new Vector3(45f, -8f, 0), transform.rotation);
+        //     Destroy(GameObject.Find("ExclamationMark(Clone)"), 1.5f);
+        // }
         if(collision.name == "SadSong"){
             //  슬픈 노래 연출
         }
@@ -89,6 +89,7 @@ public class ProductionManager : MonoBehaviour
         }
         if(collision.name == "Prologue7"){
             GameObject.Find("TreeSpirit").GetComponent<Renderer>().enabled = true;
+            DataController.Instance.gameData.prologueView = true;
         }
         if(collision.name == "Ending2"){
             GameObject.Find("GamePlayUI").transform.Find("ScenarioImage").gameObject.SetActive(true);

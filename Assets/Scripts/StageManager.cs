@@ -33,8 +33,6 @@ public class StageManager : MonoBehaviour
             nextObject = GameObject.Find("Stage1 Clear").GetComponent<NextObject>();
         else if(SceneManager.GetActiveScene().name == "Stage3 Scenario")
             nextObject = GameObject.Find("Stage3 Clear").GetComponent<NextObject>();
-        else if(SceneManager.GetActiveScene().name == "Stage4 Scenario")
-            nextObject = GameObject.Find("Stage4 Clear").GetComponent<NextObject>();
         fallObject = GameObject.Find("FallObject").GetComponent<FallObject>();
         if(SceneManager.GetActiveScene().name != "Stage3 Scenario")
             waitObject = GameObject.Find("Sign").GetComponent<WaitObject>();
@@ -108,7 +106,8 @@ public class StageManager : MonoBehaviour
         if (player.hitObject == "WaitOut")
         {
             waitIn = false;
-            waitObject.waitText.gameObject.SetActive(false);
+            waitObject.waitText.gameObject.SetActive(false);   
+            waitObject.panel.gameObject.SetActive(false);         
         }
         if (player.hitObject == "RockIn")
         {

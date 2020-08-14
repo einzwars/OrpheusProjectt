@@ -45,12 +45,20 @@ public class BossObject : MonoBehaviour
     public float[] skillOneMaxCountList;
     public float[] skillTwoMaxCountList;
     public float[] skillThreeMaxCountList;
+    Animator animator;
 
     void Start()
     {
         centerPositionX = gameObject.transform.position.x;
         centerPositionY = gameObject.transform.position.y;
+        animator = GameObject.Find("Hades").GetComponent<Animator>();
         StartCoroutine("SkillCount");        
+    }
+
+    private void Update() {
+        if(animator.GetCurrentAnimatorStateInfo(0).IsName("AttackH") || animator.GetCurrentAnimatorStateInfo(0).IsName("AttackedH")){
+            animator.SetTrigger("Idle");
+        }
     }
 
     IEnumerator SkillCount()
@@ -71,7 +79,8 @@ public class BossObject : MonoBehaviour
             if (skillNum == 2)
             {
                 skillOn[2] = true;
-            }            
+            }  
+            GameObject.Find("Hades").GetComponent<Animator>().SetTrigger("Attack");
             yield return new WaitForSeconds(10f);
         }
         StartCoroutine("SkillCount");
@@ -88,6 +97,7 @@ public class BossObject : MonoBehaviour
                 monsterOn = true;
                 itemOn = true;
                 monsterDeathCount = 0;
+                GameObject.Find("Hades").GetComponent<Animator>().SetTrigger("Attacked");
             }
             if (phaseNum[1] == true && monsterDeathCount >= monsterMaxCountList[1])
             {
@@ -96,11 +106,14 @@ public class BossObject : MonoBehaviour
                 monsterOn = true;
                 itemOn = true;
                 monsterDeathCount = 0;
+                GameObject.Find("Hades").GetComponent<Animator>().SetTrigger("Attacked");
             }
             if (phaseNum[2] == true && monsterDeathCount >= monsterMaxCountList[2])
             {
-                phaseNum[1] = false;
+                phaseNum[2] = false;
                 monsterDeathCount = 0;
+                GameObject.Find("Hades").GetComponent<Animator>().SetTrigger("Attacked");
+                GameObject.Find("KillHades").transform.position = GameObject.Find("Player").transform.position;
             }
         }
     }

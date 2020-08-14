@@ -66,6 +66,14 @@ public class PlayerController : MonoBehaviour
     public bool checkTrigger;
     public string playerInThis;
 
+    // 사운드
+    private AudioSource audio;
+    public AudioClip jumpSound;
+    public AudioClip basicattSound;
+    public AudioClip pomulSound;
+    public AudioClip tripleSound;
+    public AudioClip deathSound;
+
     void Start()
     {
         StartPosition();
@@ -80,6 +88,8 @@ public class PlayerController : MonoBehaviour
         escapeManager = GameObject.Find("GamePlayUI").transform.Find("ChoiceMenu").gameObject.GetComponent<EscapeManager>();
         productionManager = GameObject.Find("DialogueManager").GetComponent<ProductionManager>();
         jumpCount = 0;
+        //사운드
+        this.audio = this.gameObject.AddComponent<AudioSource>();
 
         MoveManager moveBtn = GameObject.Find("MoveManager").GetComponent<MoveManager>();
         moveBtn.Init();
@@ -101,16 +111,14 @@ public class PlayerController : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space))
             Jump();
-        if(Input.GetKeyDown(KeyCode.Z))
-            Dash();
 
-        if(dashCountDown && dashTimer >= dashCooltime){
-            dashTimer = 0;
-            dashCountDown = false;
-        }
-        else if(dashCountDown){
-            dashTimer += Time.deltaTime;
-        }
+        // if(dashCountDown && dashTimer >= dashCooltime){
+        //     dashTimer = 0;
+        //     dashCountDown = false;
+        // }
+        // else if(dashCountDown){
+        //     dashTimer += Time.deltaTime;
+        // }
     }
 
     private void FixedUpdate() {
@@ -196,6 +204,9 @@ public class PlayerController : MonoBehaviour
     public void Jump(){    // 점프 메소드
         if(isGrounded){
             if(jumpCount>0){
+                this.audio.clip = this.jumpSound;
+                this.audio.loop = false;
+                this.audio.Play();
                 // rb.AddForce(transform.up*jumpPower, ForceMode2D.Impulse);
                 rb.velocity = new Vector2(rb.velocity.x, jumpPower);
                 MyAnimSetTrigger("Jump");
@@ -204,18 +215,18 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void Dash(){    // 대쉬 메소드        
-        if(rb.velocity.x>0 && dashChance && !dashCountDown){
-            rb.AddForce(transform.right*dashForce);
-            dashChance = false;
-            dashCountDown = true;
-        }
-        if(rb.velocity.x<0 && dashChance && !dashCountDown){
-            rb.AddForce(transform.right*-dashForce);
-            dashChance = false;
-            dashCountDown = true;
-        }
-    }
+    // public void Dash(){    // 대쉬 메소드        
+    //     if(rb.velocity.x>0 && dashChance && !dashCountDown){
+    //         rb.AddForce(transform.right*dashForce);
+    //         dashChance = false;
+    //         dashCountDown = true;
+    //     }
+    //     if(rb.velocity.x<0 && dashChance && !dashCountDown){
+    //         rb.AddForce(transform.right*-dashForce);
+    //         dashChance = false;
+    //         dashCountDown = true;
+    //     }
+    // }
 
     public void Attack(){   // 테스트용 공격 메소드
         inputAttack = true;
@@ -228,6 +239,9 @@ public class PlayerController : MonoBehaviour
                 Instantiate(itemManager.pomulPrefab as GameObject, new Vector3(transform.position.x-0.4f, transform.position.y, transform.position.z), Quaternion.Euler(0, 0, -30));
             itemManager.ConsumeBullet();
             StartCoroutine(AttackDelay());
+            this.audio.clip = this.pomulSound;
+            this.audio.loop = false;
+            this.audio.Play();
         }
         else if(itemManager.threeBall == true && !isDelay){
             anim.SetTrigger("Attack");
@@ -244,6 +258,9 @@ public class PlayerController : MonoBehaviour
             }
             itemManager.ConsumeBullet();
             StartCoroutine(AttackDelay());
+            this.audio.clip = this.tripleSound;
+            this.audio.loop = false;
+            this.audio.Play();
         }
         else if(itemManager.basicAtk == true && !isDelay){
             anim.SetTrigger("Attack");
@@ -253,6 +270,9 @@ public class PlayerController : MonoBehaviour
             else if(sr.flipX)
                 Instantiate(itemManager.notePrefab as GameObject, new Vector3(transform.position.x-0.4f, transform.position.y, transform.position.z), transform.rotation);
             StartCoroutine(AttackDelay());
+            this.audio.clip = this.basicattSound;
+            this.audio.loop = false;
+            this.audio.Play();
         }
     }
 
@@ -264,6 +284,9 @@ public class PlayerController : MonoBehaviour
     void Death(){   // 사망 메소드
         if(life <= 0){
             // 사망 처리, ChoiceMenu 호출
+            this.audio.clip = this.deathSound;
+            this.audio.loop = false;
+            this.audio.Play();
             CheckPoint();
         }
     }

@@ -29,8 +29,10 @@ public class ActiveManager : MonoBehaviour
             }                
             else if(this.gameObject.tag == "Death"){
                 this.gameObject.GetComponent<PolygonCollider2D>().enabled = true;
-                this.gameObject.GetComponent<Renderer>().enabled = true;           
+                this.gameObject.GetComponent<Renderer>().enabled = true;
+                this.gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY;           
                 this.gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionX;
+                this.gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
             }
             else if (this.gameObject.tag == "Rock")
             {

@@ -15,8 +15,13 @@ public class NextObject : MonoBehaviour
     public void NextStage()
     {
         if(this.gameObject.name == "Ending"){
+            int totalQtItem = DataController.Instance.gameData.stageOneItemValue + DataController.Instance.gameData.stageTwoItemValue + DataController.Instance.gameData.stageThreeItemValue + DataController.Instance.gameData.stageFourItemValue + DataController.Instance.gameData.stageFiveItemValue;
             DataController.Instance.gameData.stageFiveClear = true;
-            SceneManager.LoadScene("EndingScene");
+            if(totalQtItem == 15){
+                SceneManager.LoadScene("Ending");
+            }
+            else
+                SceneManager.LoadScene("BadEnding");
         }
         else if(this.gameObject.name == "Stage1 Clear"){
             DataController.Instance.gameData.stageOneClear = true;

@@ -8,11 +8,6 @@ public class StageSelectManager : MonoBehaviour
 {
 
     PlayerController player;
-
-    void Start() {
-        player = new PlayerController();
-    }
-
     public int maxItem = 5;
 
     public Image[] stageOneItems;
@@ -24,8 +19,13 @@ public class StageSelectManager : MonoBehaviour
     public Sprite fullQuarter;
     public Sprite emptyQuarter;
 
+    void Start() {
+        player = new PlayerController();
+        StagePaneling();
+    }
+
     void Update() {
-        ItemCollectSystem();    
+        ItemCollectSystem();
     }
 
     void ItemCollectSystem(){      // 아이템 수집 시스템
@@ -156,5 +156,22 @@ public class StageSelectManager : MonoBehaviour
     public void StageFiveStart(){
         if(DataController.Instance.gameData.stageFourClear)
             SceneManager.LoadScene("Stage5 Scenario");
+    }
+
+    void StagePaneling(){
+        if(DataController.Instance.gameData.prologueView)
+           GameObject.Find("StageOnePanel").SetActive(false);
+        if(DataController.Instance.gameData.stageOneClear)
+           GameObject.Find("StageTwoPanel").SetActive(false);
+        if(DataController.Instance.gameData.stageTwoClear)
+           GameObject.Find("StageThreePanel").SetActive(false);
+        if(DataController.Instance.gameData.stageThreeClear)
+           GameObject.Find("StageFourPanel").SetActive(false);
+        if(DataController.Instance.gameData.stageFourClear)
+           GameObject.Find("StageFivePanel").SetActive(false);
+    }
+
+    public void WatchPrologue(){
+        SceneManager.LoadScene("Prologue");
     }
 }
