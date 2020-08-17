@@ -65,6 +65,7 @@ public class PlayerController : MonoBehaviour
     ProductionManager productionManager;
     public bool checkTrigger;
     public string playerInThis;
+    BossObject bossObject;
 
     // 사운드
     private AudioSource audio;
@@ -119,6 +120,13 @@ public class PlayerController : MonoBehaviour
         // else if(dashCountDown){
         //     dashTimer += Time.deltaTime;
         // }
+
+        if(playerInThis == "Stage4 Scenario"){
+            bossObject = GameObject.Find("HadesObject").GetComponent<BossObject>();
+            if(bossObject.bossIn){
+                savePoint = new Vector3(33.75f, -12.39f, 0);
+            }
+        }
     }
 
     private void FixedUpdate() {
@@ -277,6 +285,7 @@ public class PlayerController : MonoBehaviour
     }
 
     IEnumerator AttackDelay(){  // 공격 딜레이 코루틴
+        inputAttack = false;
         yield return new WaitForSeconds(delayTime);
         isDelay = false;
     }
@@ -296,6 +305,16 @@ public class PlayerController : MonoBehaviour
         life = maxLife;
         checkTrigger = true;
         Invoke("CheckTriggerFalse", 1);
+        if(playerInThis == "Stage4 Scenario"){
+            if(bossObject.bossIn){
+                bossObject.phaseNum[0] = true;
+                bossObject.phaseNum[1] = false;
+                bossObject.phaseNum[2] = false;
+                bossObject.monsterOn = true;
+                bossObject.itemOn = true;
+                bossObject.monsterDeathCount = 0;
+            }
+        }
     }
 
     public void CheckTriggerFalse(){

@@ -138,6 +138,7 @@ public class DialogueManager : MonoBehaviour
     void Production(){
         if (theIC.checkObj.name == "Letter")
         {
+            DataController.Instance.gameData.stageTwoClear = true;
             SceneManager.LoadScene("StageSelectScene");
         }
         if(theIC.checkObj.name == "MeetHellkeeper"){
@@ -159,6 +160,16 @@ public class DialogueManager : MonoBehaviour
             bossObject.phaseNum[0] = true;
             bossObject.monsterOn = true;
             bossObject.itemOn = true;   
+        }
+        if(theIC.checkObj.name == "KillHades"){
+            GameObject.Find("EmprydikeReborn").transform.position = player.transform.position;
+        }
+        if(theIC.checkObj.name == "EmprydikeReborn"){
+            GameObject.Find("HellCollapse").transform.position = player.transform.position;
+        }
+        if(theIC.checkObj.name == "HellCollapse"){
+            fader.StartFade();
+            Invoke("StageSelect", 1.0f);
         }
         if(theIC.checkObj.name == "Cloud"){
             cloudObject.CloudStart();

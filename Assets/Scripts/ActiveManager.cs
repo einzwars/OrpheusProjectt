@@ -34,6 +34,10 @@ public class ActiveManager : MonoBehaviour
                 this.gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionX;
                 this.gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
             }
+            else if (this.gameObject.tag == "Peak"){
+                this.gameObject.GetComponent<PolygonCollider2D>().enabled = true;
+                this.gameObject.GetComponent<Renderer>().enabled = true;
+            }
             else if (this.gameObject.tag == "Rock")
             {
                 this.gameObject.transform.position = new Vector3(posX, posY, 0);

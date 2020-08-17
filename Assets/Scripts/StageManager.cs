@@ -40,30 +40,6 @@ public class StageManager : MonoBehaviour
     private void Update()
     {   
         
-        if (player.hitObject == "RightBoost" && player.moveDir > 0)
-        {
-            player.maxSpeed = 6.0f;
-        }
-        if (player.hitObject == "RightBoost" && player.moveDir < 0)
-        {
-            player.maxSpeed = 2.0f;
-        }
-        if (player.hitObject == "RightBoostOut")
-        {
-            player.maxSpeed = 4.0f;
-        }
-        if (player.hitObject == "LeftBoost" && player.moveDir < 0)
-        {
-            player.maxSpeed = 6.0f;
-        }
-        if (player.hitObject == "LeftBoost" && player.moveDir > 0)
-        {
-            player.maxSpeed = 2.0f;
-        }
-        if (player.hitObject == "LeftBoostOut")
-        {
-            player.maxSpeed = 4.0f;
-        }
     }
     public void activeObject()
     {
@@ -127,14 +103,6 @@ public class StageManager : MonoBehaviour
         {
             // Debug.Log("인 진입");
             darkSmogObject.OutsideCace();
-        }
-        if (player.hitObject == "BossIn")
-        {
-            player.takeObject.SetActive(false);
-            bossObject.bossIn = true;
-            bossObject.phaseNum[0] = true;
-            bossObject.monsterOn = true;
-            bossObject.itemOn = true;            
         }
     }
 

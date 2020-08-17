@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8182927549938035674}
   - component: {fileID: 8182927549938035669}
   - component: {fileID: 8182927549938035672}
+  - component: {fileID: -8967242309247782308}
   m_Layer: 0
   m_Name: RightBoost 1
   m_TagString: RightBoost
@@ -129,3 +130,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.25}
   m_EdgeRadius: 0
+--- !u!114 &-8967242309247782308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8182927549938035668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b26fedcd2144347b73b3d0ee2e1a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  change: 1

@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 466233175365956496}
   - component: {fileID: 4321563413880763268}
   - component: {fileID: 80060814351939845}
+  - component: {fileID: 5108862337381285986}
   m_Layer: 9
   m_Name: DeathTrapSlide
-  m_TagString: Death
+  m_TagString: Peak
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127,9 +128,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a045e3bc36136c4da67b2fd4706f926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  centerPositionX: 0
+  centerPositionY: 0
+  nowPositionX: 0
+  nowPositionY: 0
   moveLeach: 5
   reactionLeachX: 5
   reactionLeachY: 0.1
   movingSpeed: 0.03
   right: 0
   left: 0
+--- !u!114 &5108862337381285986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7634525430221321286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2694589f07a0ca4bad6ce3e76aee895, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

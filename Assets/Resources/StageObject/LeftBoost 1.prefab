@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5785228665073950894}
   - component: {fileID: 5785228665073950895}
   - component: {fileID: 5785228665073954640}
+  - component: {fileID: -4971521048850448552}
   - component: {fileID: 5785228665073954641}
   m_Layer: 0
   m_Name: LeftBoost 1
@@ -103,6 +104,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-4971521048850448552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5785228665073954642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b26fedcd2144347b73b3d0ee2e1a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  change: 0
 --- !u!61 &5785228665073954641
 BoxCollider2D:
   m_ObjectHideFlags: 0

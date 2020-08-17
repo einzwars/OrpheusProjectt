@@ -41,6 +41,8 @@ public class SoundManager : MonoBehaviour
 
     public void PlayBGM(int sceneNum){
         bgmPlayer.clip = bgmSound[sceneNum-1].clip;
+        bgmPlayer.loop = true;
+        bgmPlayer.volume = 0.7f;
         bgmPlayer.Play(); // 음악 플레이
     }
 }

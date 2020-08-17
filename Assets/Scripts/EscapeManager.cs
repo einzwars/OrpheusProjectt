@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EscapeManager : MonoBehaviour
 {
@@ -46,5 +47,14 @@ public class EscapeManager : MonoBehaviour
     public void ExitPanelShow(){         
         Time.timeScale = 0f;
         gameUI.transform.Find("ExitPanel").gameObject.SetActive(true);
+    }
+
+    public void BackBtn(){
+        if(SceneManager.GetActiveScene().name == "StageSelectScene"){
+            SceneManager.LoadScene("StartScene");
+        }
+        else{
+            SceneManager.LoadScene("StageSelectScene");
+        }
     }
 }

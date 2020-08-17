@@ -27,10 +27,6 @@ public class NextObject : MonoBehaviour
             DataController.Instance.gameData.stageOneClear = true;
             SceneManager.LoadScene("StageSelectScene");
         }
-        else if(this.gameObject.name == "Letter"){
-            DataController.Instance.gameData.stageTwoClear = true;
-            SceneManager.LoadScene("StageSelectScene");
-        }
         else if(this.gameObject.name == "Stage3 Clear"){
             DataController.Instance.gameData.stageThreeClear = true;
             SceneManager.LoadScene("StageSelectScene");
